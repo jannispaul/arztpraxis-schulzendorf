@@ -17,11 +17,14 @@ collections:
 
   - label: Öffnungszeiten
     name: times
-    file: content/times.yml
-    fields:
-      - { name: path, label: Path, default: times }
-      - { name: monday, label: Montag, widget: text }
-      - { name: tuesday, label: Dienstag, widget: text }
-      - { name: wednesday, label: Mittwoch, widget: text }
-      - { name: thursday, label: Donnerstag, widget: text }
-      - { name: friday, label: Freitag, widget: text }
+    files:
+    - label: Öffnungszeiten
+      name: times
+      file: content/times.yml
+      fields:
+        - { name: path, label: Path, default: times }
+        - { name: monday, label: Montag, widget: text }
+        - { name: tuesday, label: Dienstag, widget: text }
+        - { name: wednesday, label: Mittwoch, widget: text }
+        - { name: thursday, label: Donnerstag, widget: text }
+        - { name: friday, label: Freitag, widget: text }
