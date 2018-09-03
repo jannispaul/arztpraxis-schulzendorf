@@ -20,7 +20,7 @@ collections:
     files:
     - label: Öffnungszeiten
       name: times
-      file: site/content/times.yml
+      file: content/times.md
       fields:
         - { name: path, label: Path, default: times }
         - { name: monday, label: Montag, widget: text }
