@@ -23,6 +23,6 @@ collections:
       - { name: path, label: Path, widget: path, default: times }
       - { name: monday, label: Montag, widget: datetime }
       - { name: tuesday, label: Dienstag, widget: text }
-      - { name: wednesday, label: Mittwoch, widget: markdown }
-      - { name: thursday, label: Donnerstag, widget: markdown }
-      - { name: friday, label: Freitag, widget: markdown }
+      - { name: wednesday, label: Mittwoch, widget: list }
+      - { name: thursday, label: Donnerstag, widget: string }
+      - { name: friday, label: Freitag, widget: number }
