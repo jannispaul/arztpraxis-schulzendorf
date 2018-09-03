@@ -11,6 +11,7 @@ collections:
     folder: news
     create: true
     fields:
+      - { name: path, label: Path, widget: path }
       - { name: date, label: Datum, widget: date }
       - { name: body, label: Nachricht, widget: markdown }
 
