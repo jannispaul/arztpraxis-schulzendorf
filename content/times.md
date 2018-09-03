@@ -1,8 +1,9 @@
 ---
 path: times
-monday: "12424"
-tuesday: "325235"
-wednesday: "t423"
-thursday: "124214235235"
-friday: "235"
+monday: '8:30-12.30'
+tuesday: '8:30-12.30'
+wednesday: '8:30-12.30'
+thursday: '8:30-12.30'
+friday: '8:30-12.30'
 ---
+
