@@ -11,6 +11,16 @@ collections:
     folder: news
     create: true
     fields:
-      - { name: path, label: Path }
       - { name: date, label: Datum, widget: date }
       - { name: body, label: Nachricht, widget: markdown }
+
+  - name: times
+    label: Öffnungszeiten
+    folder: times
+    create: true
+    fields:
+      - { name: monday, label: Montag, widget: markdown }
+      - { name: tuesday, label: Dienstag, widget: markdown }
+      - { name: wednesday, label: Mittwoch, widget: markdown }
+      - { name: thursday, label: Donnerstag, widget: markdown }
+      - { name: friday, label: Freitag, widget: markdown }

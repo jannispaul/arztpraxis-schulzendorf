@@ -2,20 +2,10 @@ import React from 'react'
 import { StaticQuery, graphql } from "gatsby"
 
 
-// const News = () => (
-//   <div>
-//     <h1>NEWS:</h1>
-//     <p>Welcome to page 2</p>
-//   </div>
-// )
-
-// export default News
-
-
 export default () => (
   <StaticQuery
     query={graphql`
-      query NewsQuery {
+      query TimesQuery {
         site {
           siteMetadata {
             title
@@ -36,7 +26,7 @@ export default () => (
     `}
     render={data => (
       <div>
-        <h1>Aktuelles</h1>
+        <h1>Öffnungszeiten</h1>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <h3>{node.rawMarkdownBody}</h3>
