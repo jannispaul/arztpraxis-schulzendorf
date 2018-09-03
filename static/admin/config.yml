@@ -11,7 +11,7 @@ collections:
     folder: news
     create: true
     fields:
-      - { name: path, label: Path}
+      - { name: path, label: Path, widget: hidden, default: news } 
       - { name: date, label: Datum, widget: date }
       - { name: body, label: Nachricht, widget: markdown }
 
@@ -20,7 +20,7 @@ collections:
     folder: times
     create: true
     fields:
-      - { name: path, label: Path }
+      - { name: path, label: Path, widget: hidden, default: times }
       - { name: monday, label: Montag, widget: text }
       - { name: tuesday, label: Dienstag, widget: text }
       - { name: wednesday, label: Mittwoch, widget: text }
