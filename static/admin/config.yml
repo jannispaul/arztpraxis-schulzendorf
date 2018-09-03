@@ -28,3 +28,4 @@ collections:
         - { name: wednesday, label: Mittwoch, widget: text }
         - { name: thursday, label: Donnerstag, widget: text }
         - { name: friday, label: Freitag, widget: text }
+        - { name: body, label: Nachricht, widget: markdown }
