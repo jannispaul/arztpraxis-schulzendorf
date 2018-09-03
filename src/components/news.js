@@ -27,6 +27,7 @@ export default () => (
               id
               rawMarkdownBody
               frontmatter {
+                date
                 title
               }
             }
@@ -39,6 +40,7 @@ export default () => (
         <h1>Aktuelles</h1>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
+            <p>{node.date}</p>
             <h3>{node.rawMarkdownBody}</h3>
           </div>
         ))}
