@@ -1,5 +1,5 @@
 ---
 path: news
-date: 2018-09-03T14:03:24.370Z
+date: 2018-09-03T19:39:31.895Z
 ---
-Am Donnerstag bleibt unsere Praxis geschlossen.
+Hallo cool
