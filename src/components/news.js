@@ -1,5 +1,6 @@
 import React from 'react'
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql } from 'gatsby'
+import styles from './news.module.css'
 
 export default () => (
   <StaticQuery
@@ -20,7 +21,7 @@ export default () => (
       }
     `}
     render={data => (
-      <div>
+      <div className={styles.newsContainer}>
         <h1>Aktuelles</h1>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>

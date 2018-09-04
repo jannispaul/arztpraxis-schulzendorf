@@ -1,5 +1,6 @@
 import React from 'react'
-import { StaticQuery, graphql } from "gatsby"
+import { StaticQuery, graphql } from 'gatsby'
+import styles from "./times.module.css"
 
 
 export default () => (
@@ -24,7 +25,7 @@ export default () => (
       }
     `}
     render={data => (
-      <div>
+      <div className={styles.timesContainer}>
         <h1>Öffnungszeiten</h1>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
