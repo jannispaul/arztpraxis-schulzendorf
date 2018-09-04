@@ -33,7 +33,7 @@ export default () => (
             <p>Mittwoch: {node.frontmatter.wednesday}</p>
             <p>Donnerstag: {node.frontmatter.thursday}</p>
             <p>Freitag: {node.frontmatter.friday}</p>
-
+            <br />
             <h3>{node.rawMarkdownBody}</h3>
           </div>
         ))}

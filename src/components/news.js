@@ -27,6 +27,7 @@ export default () => (
             <p>{node.frontmatter.date}</p>
             <p>{node.rawMarkdownBody}</p>
             <br />
+            <br />
             <hr></hr>
           </div>
         ))}
