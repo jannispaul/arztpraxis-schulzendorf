@@ -5,12 +5,7 @@ export default () => (
   <StaticQuery
     query={graphql`
       query NewsQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-        allMarkdownRemark {
+        allMarkdownRemark (filter: {fileAbsolutePath: {regex: "/news/"}}) {
           edges {
             node {
               id

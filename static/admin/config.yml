@@ -11,18 +11,18 @@ collections:
     folder: content/news
     create: true
     fields:
-      - { name: path, label: Path, default: news } 
+      - { name: title, label: Titel, default: News } 
       - { name: date, label: Datum, widget: date }
       - { name: body, label: Nachricht, widget: markdown }
 
-  - label: Öffnungszeiten
-    name: times
+  - name: times
+    label: Öffnungszeiten
     files:
     - label: Öffnungszeiten
       name: times
-      file: content/times.md
+      file: content/times/times.md
       fields:
-        - { name: path, label: Path, default: times }
+        - { name: path, label: Path, widget: string, default: times }
         - { name: monday, label: Montag, widget: text }
         - { name: tuesday, label: Dienstag, widget: text }
         - { name: wednesday, label: Mittwoch, widget: text }

@@ -6,18 +6,17 @@ export default () => (
   <StaticQuery
     query={graphql`
       query TimesQuery {
-        site {
-          siteMetadata {
-            title
-          }
-        }
-        allMarkdownRemark {
+        allMarkdownRemark (filter: {fileAbsolutePath: {regex: "/times/"}}) {
           edges {
             node {
               id
               rawMarkdownBody
               frontmatter {
-                title
+                monday
+                tuesday
+                wednesday
+                thursday
+                friday
               }
             }
           }
@@ -29,6 +28,12 @@ export default () => (
         <h1>Öffnungszeiten</h1>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
+            <p>Montag: {node.frontmatter.monday}</p>
+            <p>Dienstag: {node.frontmatter.tuesday}</p>
+            <p>Mittwoch: {node.frontmatter.wednesday}</p>
+            <p>Donnerstag: {node.frontmatter.thursday}</p>
+            <p>Freitag: {node.frontmatter.friday}</p>
+
             <h3>{node.rawMarkdownBody}</h3>
           </div>
         ))}
