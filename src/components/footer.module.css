@@ -1,0 +1,13 @@
+.nav {
+    border: 1px solid gray;
+    height: 50px;
+    display: grid;
+}
+
+.nav img {
+    max-height: 50px;
+}
+
+.nav a{
+    display: flex;
+}

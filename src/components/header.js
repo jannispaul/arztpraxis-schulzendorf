@@ -1,31 +1,24 @@
 import React from 'react'
 import { Link } from 'gatsby'
+import styles from 'header.module.css'
+import logo from '../images/gatsby-icon.png'
+import Icon from './icon'
+import {ICONS} from '../constants/icons.js'
 
 const Header = ({ siteTitle }) => (
-  <div
-    style={{
-      background: 'rebeccapurple',
-      marginBottom: '1.45rem',
-    }}
-  >
-    <div
-      style={{
-        margin: '0 auto',
-        maxWidth: 960,
-        padding: '1.45rem 1.0875rem',
-      }}
-    >
-      <h1 style={{ margin: 0 }}>
-        <Link
-          to="/"
-          style={{
-            color: 'white',
-            textDecoration: 'none',
-          }}
-        >
-          {siteTitle}
+  <div className={styles.header}>
+    <div className={styles.headerGroup}>
+      <Link to="/" className={styles.logo}>
+        <img src={logo} alt="logo"/>
+        Logo
+      </Link>
+      <div className={styles.links}>
+        <Link to="tel:0">
+          <Icon icon={ICONS.BUBBLE} color="var(--primary-color)"/> 010101010
         </Link>
-      </h1>
+        <Link to="/kontakt">Kontakt</Link>
+        <Link to="/termine">Termine</Link>
+      </div>
     </div>
   </div>
 )

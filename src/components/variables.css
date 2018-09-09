@@ -1,0 +1,20 @@
+body {
+  --primary-color: red;
+  --secondary-color: green;
+  --lightest-color: white;
+  --lighter-color: #fafafa;
+  --medium-color: #888888;
+  --darker-color: #444444;
+  --darkest-color: black;
+
+  --header-height: 70px;
+  --big-space: 4rem;
+  --medium-space: 2rem;
+  --small-space: 1rem;
+
+  --headline1: 3rem;
+  --headline2: 2rem;
+  --base-font-size: 1rem;
+  --smallprint: 0.7rem;
+
+} 
