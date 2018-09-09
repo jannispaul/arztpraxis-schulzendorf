@@ -6,7 +6,7 @@ import Icon from './icon'
 import {ICONS} from '../constants/icons.js'
 
 const Header = ({ siteTitle }) => (
-  <div className={styles.header}>
+  <header className={styles.header}>
     <div className={styles.headerGroup}>
       <Link to="/" className={styles.logo}>
         <img src={logo} alt="logo"/>
@@ -20,7 +20,7 @@ const Header = ({ siteTitle }) => (
         <Link to="/termine">Termine</Link>
       </div>
     </div>
-  </div>
+  </header>
 )
 
 export default Header

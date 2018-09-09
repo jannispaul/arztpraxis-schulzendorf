@@ -1,13 +1,21 @@
-.nav {
-    border: 1px solid gray;
-    height: 50px;
+footer {
+    width: 100%;
     display: grid;
+    background: var(--darker-color);
+    padding: var(--medium-space);
 }
 
-.nav img {
-    max-height: 50px;
+footer a{
+    text-decoration: none;
+    color: var(--lighter-color);
+    padding: 10px;
+    opacity: 0.8;
+    transition: opacity 200ms;
+
 }
 
-.nav a{
-    display: flex;
+footer a:hover{
+    opacity: 1;
+    transition: opacity 200ms;
+
 }

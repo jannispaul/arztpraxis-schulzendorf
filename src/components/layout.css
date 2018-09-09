@@ -12,5 +12,6 @@ html {
 }
 
 .app{
-  margin-top: var(--header-height);
+  margin: var(--header-height) var(--medium-space) 0;
+
 }

@@ -4,17 +4,12 @@ import styles from 'footer.module.css'
 
 
 const Footer = ({ siteTitle }) => (
-  <div className={styles.footer}>
-      <h1>
-        <Link to="/">
-          {siteTitle}
-        </Link>
-      </h1>
+  <footer className={styles.footer}>
       <div>
         <Link to="/impressum">Impressum</Link>
         <Link to="/datenschutz">Datenschutz</Link>
       </div>
-  </div>
+  </footer>
 )
 
 export default Footer
