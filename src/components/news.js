@@ -25,15 +25,14 @@ export default () => (
     render={data => (
       <div className={styles.newsContainer}>
         {data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id}>
-            <div>
-              <Icon icon={ICONS.BUBBLE} color="var(--primary-color)"/>
+          <div key={node.id} className={styles.newsItem}>
+            <div className={styles.icon}>
+              <Icon icon={ICONS.BUBBLE} color="var(--secondary-color)"/>
             </div>
-            <p>{node.frontmatter.date}</p>
-            <p>{node.rawMarkdownBody}</p>
-            <br />
-            <br />
-            <hr></hr>
+            <div>
+              <p className={styles.date}>{node.frontmatter.date}</p>
+              <p>{node.rawMarkdownBody}</p>
+            </div>
           </div>
         ))}
       </div>

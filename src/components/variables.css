@@ -1,6 +1,6 @@
-body {
-  --primary-color: red;
-  --secondary-color: green;
+html {
+  --primary-color: darkblue;
+  --secondary-color: red;
   --lightest-color: white;
   --lighter-color: #fafafa;
   --medium-color: #888888;
@@ -12,9 +12,19 @@ body {
   --medium-space: 2rem;
   --small-space: 1rem;
 
-  --headline1: 3rem;
-  --headline2: 2rem;
-  --base-font-size: 1rem;
-  --smallprint: 0.7rem;
+
+  /* Typography */
+  --font-size: 1.25em;
+  --ratio: 1.25;
+  --line-height: 1.4;
+
+  /* Calculate values */
+  --h4: calc(var(--font-size) * var(--ratio));
+  --h3: calc(var(--h4) * var(--ratio));
+  --h2: calc(var(--h3) * var(--ratio));
+  --h1: calc(var(--h2) * var(--ratio));
+  --small: calc(var(--font-size) / var(--ratio));
+
+
 
 } 

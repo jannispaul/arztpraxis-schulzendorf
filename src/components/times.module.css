@@ -1,5 +1,5 @@
 .timesContainer {
-    color: red;
+    color: var(--primary-color);
     font-family: Arial, Helvetica, sans-serif;
-    border: 1px solid gray;
+    margin: var(--small-space) 0;
 }
