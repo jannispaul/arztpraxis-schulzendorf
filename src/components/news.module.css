@@ -1,8 +1,7 @@
 .newsItem {
     color: var(--lightest-color);
     background: var(--secondary-color);
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 5px;
+    border-radius: 10px;
     max-width: 800px;
     margin: var(--small-space) auto;
     padding: var(--small-space);

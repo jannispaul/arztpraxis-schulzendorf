@@ -31,9 +31,21 @@ h4{
 
 
 .app{
-  margin-top: calc(var(--header-height) + var(--small-space));
-  margin-left: var(--medium-space);
-  margin-right: var(--medium-space);
-
+  margin-bottom: var(--nav-height);
+  overflow: hidden;
 }
 
+.content{
+  margin-left: var(--medium-space);
+  margin-right: var(--medium-space);
+}
+
+@media (min-width: 600px) {
+  .app{
+    margin-top: calc(var(--nav-height) + var(--small-space));
+    margin-bottom: 0;
+
+  }
+  
+
+}

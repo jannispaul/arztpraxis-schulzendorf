@@ -3,9 +3,9 @@ import PropTypes from 'prop-types'
 import Helmet from 'react-helmet'
 import { StaticQuery, graphql } from 'gatsby'
 
-import Header from './header'
+import Nav from './nav'
 import Footer from './footer'
-import './layout.css'
+import styles from './layout.module.css'
 
 const Layout = ({ children }) => (
   <StaticQuery
@@ -29,11 +29,14 @@ const Layout = ({ children }) => (
         >
           <html lang="en" />
         </Helmet>
-        <Header/>
-        <div className="app">
-          {children}
+        <Nav/>
+        <div className={styles.app}>
+          <div className={styles.content}>
+            {children}
+          </div>
+          <Footer></Footer>
         </div>
-        <Footer></Footer>
+
       </>
     )}
   />
