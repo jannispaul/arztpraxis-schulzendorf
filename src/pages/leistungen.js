@@ -3,12 +3,12 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 
-const Kontakt = () => (
+const Leistungen = () => (
   <Layout>
-    <h1>Impressum</h1>
+    <h1>Leistungen</h1>
     <p>Welcome to page 2</p>
     <Link to="/">Go back to the homepage</Link>
   </Layout>
 )
 
-export default Kontakt
+export default Leistungen

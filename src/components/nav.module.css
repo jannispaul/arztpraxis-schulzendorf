@@ -11,21 +11,15 @@ nav {
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
     justify-items: center;
-    padding:0 var(--medium-space);
+    padding:0 var(--space-m);
 }
-ul{
-    list-style: none;
-    display: flex;
-}
+
 .phone{
     display: none;
 }
-.header .links{
-    display: flex;
-}
-a{
+
+nav a{
     margin-top: 5px;
-    /* padding: 10px; */
     text-decoration: none;
     color: var(--primary-color);
 }
@@ -49,13 +43,15 @@ a{
         box-shadow: 0 1px 4px var(--medium-color);
         grid-template-columns:  1fr repeat(3,auto);
         justify-items: start;
-        padding:0 var(--medium-space);
+        padding:0 var(--space-m);
     }
     .phone{
-        display: inline-block;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
     }
-    a:not(:first-child){
-        padding-left: var(--medium-space);
+    nav a:not(:first-child){
+        padding-left: var(--space-m);
     }
 
 }

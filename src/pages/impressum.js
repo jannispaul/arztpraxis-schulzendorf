@@ -8,7 +8,22 @@ const Impressum = () => (
   <Layout>
     <Legalcontainer>
       <h1>Impressum</h1>
-      <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+      <p>
+      Hausarztpraxis Schulzendorf<br />
+      Peggy von Niederhäusern<br />
+      Fachärztin für Allgemeinmedizin<br />
+      Illgenstraße 4<br />
+      15732 Schulzendorf
+      </p>
+      <p></p>
+      <ul>
+        <li>Email: <Link to="mailto:arztpraxis.schulzendorf@t-online.de">arztpraxis.schulzendorf@t-online.de</Link> </li>
+        <li>Telefon: 033762 48550</li>
+        <li>Fax: 033752 48552</li>
+      </ul>
+      <p>
+      
+      </p>
       <Link to="/">Go back to the homepage</Link>
     </Legalcontainer>
   </Layout>

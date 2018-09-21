@@ -10,14 +10,14 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-p,a{
+p,a,li{
   font-size: var(--font-size);
   line-height: var(--line-height);
 }
 
 h1{
   font-size: var(--h1);
-  margin-bottom: var(--medium-space);
+  margin-bottom: var(--space-m);
 }
 h2{
   font-size: var(--h2);
@@ -28,21 +28,24 @@ h3{
 h4{
   font-size: var(--h4);
 }
-
+ul{
+    list-style: none;
+}
 
 .app{
   margin-bottom: var(--nav-height);
   overflow: hidden;
 }
 
+/*App Spacing*/
 .content{
-  margin-left: var(--medium-space);
-  margin-right: var(--medium-space);
+  margin-left: var(--space-m);
+  margin-right: var(--space-m);
 }
 
 @media (min-width: 600px) {
   .app{
-    margin-top: calc(var(--nav-height) + var(--small-space));
+    margin-top: calc(var(--nav-height) + var(--space-s));
     margin-bottom: 0;
 
   }

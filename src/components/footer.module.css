@@ -2,13 +2,13 @@ footer {
     width: 100%;
     display: grid;
     background: var(--darker-color);
-    padding: var(--medium-space);
+    padding: var(--space-m);
 }
 
 footer a{
     text-decoration: none;
     color: var(--lighter-color);
-    padding: 10px;
+
     opacity: 0.8;
     transition: opacity 200ms;
 
@@ -18,4 +18,7 @@ footer a:hover{
     opacity: 1;
     transition: opacity 200ms;
 
+} 
+footer a:not(:first-child){
+    padding-left: var(--space-m);
 }

@@ -3,16 +3,16 @@
     background: var(--secondary-color);
     border-radius: 10px;
     max-width: 800px;
-    margin: var(--small-space) auto;
-    padding: var(--small-space);
+    margin: var(--space-s) auto;
+    padding: var(--space-s);
     display: grid;
-    grid-template-columns: var(--big-space) auto;
-    grid-column-gap: var(--small-space);
+    grid-template-columns: var(--space-l) auto;
+    grid-column-gap: var(--space-s);
     align-items: center;
 }
 .icon{
-    height: var(--big-space);
-    width: var(--big-space);
+    height: var(--space-l);
+    width: var(--space-l);
     display: grid;
     align-items: center;
     background: var(--lightest-color);

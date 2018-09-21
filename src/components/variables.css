@@ -7,23 +7,28 @@ html {
   --darker-color: #444444;
   --darkest-color: black;
 
+
+
+  /* Spacing */
   --nav-height: 70px;
-  --big-space: 4rem;
-  --medium-space: 2rem;
-  --small-space: 1rem;
+  --space-unit: 1.25em; /*Relative to html font-size*/
+  --space-s: calc(1 * var(--space-unit));
+  --space-m: calc(1 * var(--space-unit));
+  --space-l: calc(2 * var(--space-unit));
 
 
   /* Typography */
-  --font-size: 1.25em;
+  --font-size: 1.25rem;
   --ratio: 1.25;
   --line-height: 1.4;
 
   /* Calculate values */
-  --h4: calc(var(--font-size) * var(--ratio));
-  --h3: calc(var(--h4) * var(--ratio));
-  --h2: calc(var(--h3) * var(--ratio));
-  --h1: calc(var(--h2) * var(--ratio));
   --small: calc(var(--font-size) / var(--ratio));
+  --h4: calc(var(--font-size) * var(--ratio));
+  --h3: calc(var(--font-size) * var(--ratio) * var(--ratio));
+  --h2: calc(var(--font-size) * var(--ratio) * var(--ratio) * var(--ratio));
+  --h1: calc(var(--font-size) * var(--ratio) * var(--ratio) * var(--ratio) * var(--ratio));
+
 
 
 
