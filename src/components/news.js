@@ -27,7 +27,7 @@ export default () => (
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id} className={styles.newsItem}>
             <div className={styles.icon}>
-              <Icon icon={ICONS.BUBBLE} color="var(--secondary-color)"/>
+              <Icon icon={ICONS.BUBBLE} color="var(--color-primary)"/>
             </div>
             <div>
               <p className={styles.date}>{node.frontmatter.date}</p>

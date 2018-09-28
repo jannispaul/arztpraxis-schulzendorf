@@ -11,9 +11,9 @@ const Nav = ({ siteTitle }) => (
         <img src={logo} alt="logo"/>
         Logo
       </Link>
-      <Link to="tel:03376248550" className={styles.phone}>
-        <Icon icon={ICONS.BUBBLE} color="var(--primary-color)"/>033762 48550
-      </Link>
+      <a href="tel:03376248550" className={styles.phone}>
+        <Icon icon={ICONS.BUBBLE} color="var(--color-primary)"/>033762 48550
+      </a>
       <Link to="/leistungen">Leistungen</Link>
       <Link to="/termine">Termine</Link>
   </nav>

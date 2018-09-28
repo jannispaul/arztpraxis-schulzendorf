@@ -6,7 +6,7 @@ nav {
     height: var(--nav-height);
     z-index: 100;
     background: white;
-    box-shadow: 0 1px 4px var(--medium-color);
+    box-shadow: 0 1px 4px var(--color-medium);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -21,12 +21,12 @@ nav {
 nav a{
     margin-top: 5px;
     text-decoration: none;
-    color: var(--primary-color);
+    color: var(--color-primary);
 }
 
 .logo{
     display: flex;
-    color: var(--primary-color);
+    color: var(--color-primary);
     text-decoration: none;
     margin-bottom:0;
     align-items: center;
@@ -40,7 +40,7 @@ nav a{
     nav {
         top:0;
         height: var(--nav-height);
-        box-shadow: 0 1px 4px var(--medium-color);
+        box-shadow: 0 1px 4px var(--color-medium);
         grid-template-columns:  1fr repeat(3,auto);
         justify-items: start;
         padding:0 var(--space-m);

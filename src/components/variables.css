@@ -1,11 +1,38 @@
 html {
-  --primary-color: darkblue;
+  /* --primary-color: darkblue;
   --secondary-color: red;
   --lightest-color: white;
   --lighter-color: #fafafa;
   --medium-color: #888888;
   --darker-color: #444444;
-  --darkest-color: black;
+  --darkest-color: black; */
+
+ /* main colors */
+ --color-primary: blue;
+ --color-primary-light: lightblue;
+ --color-primary-dark: darkblue;
+
+ --color-accent: red;
+ --color-accent-light: pink;
+ --color-accent-dark: darkred;
+
+/* shades */
+ --color-black: #1d1d21;
+ --color-darker: #2e2e31;
+ --color-dark: #7b7a7d;
+ --color-medium: #a5a5a6;
+ --color-light: #bbbbbc;
+ --color-lighter: #d1d0d2;
+ --color-white: white;
+
+
+ /* feedback */
+ --color-success: #88c459;
+ --color-error: #f5414f;
+ --color-warning: #ffd137;
+
+
+
 
 
 

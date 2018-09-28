@@ -1,6 +1,6 @@
 .newsItem {
-    color: var(--lightest-color);
-    background: var(--secondary-color);
+    color: var(--color-white);
+    background: var(--color-accent);
     border-radius: 10px;
     max-width: 800px;
     margin: var(--space-s) auto;
@@ -15,7 +15,7 @@
     width: var(--space-l);
     display: grid;
     align-items: center;
-    background: var(--lightest-color);
+    background: var(--color-white);
     border-radius: 5px;
 }
 

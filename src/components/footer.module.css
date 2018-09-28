@@ -1,13 +1,13 @@
 footer {
     width: 100%;
     display: grid;
-    background: var(--darker-color);
+    background: var(--color-darker);
     padding: var(--space-m);
 }
 
 footer a{
     text-decoration: none;
-    color: var(--lighter-color);
+    color: var(--color-lighter);
 
     opacity: 0.8;
     transition: opacity 200ms;
