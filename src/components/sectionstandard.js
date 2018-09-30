@@ -2,15 +2,24 @@ import React from 'react'
 import styles from './sectionstandard.module.css'
 
 
-const Sectionstandard = ({ children }) => (
-  <section className={styles.section}>
-    <div className={styles.imageContainer}></div>
-    <div className={styles.contentContainer}>
-      {children}
-    </div>
+const Sectionstandard = props => {
+  const sectionstyles = {
+    image: {
+      background: props.image,
+    },
+    content: {
+      background:props.backgroundColor,
+    }
+  };
 
+return (
+  <section className={styles.section}>
+    <div style={sectionstyles.image} className={styles.imageContainer}></div>
+    <div style={sectionstyles.content} className={styles.contentContainer}>
+      {props.children}
+    </div>
   </section>
-)
+); 
+}
 
 export default Sectionstandard
-  

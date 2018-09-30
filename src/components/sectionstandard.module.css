@@ -2,9 +2,7 @@
     display: flex;
     flex-wrap: wrap;
 }
-.section *{
-    border: 1px solid green;
-}
+
 .imageContainer{
     flex: 1 1 300px;
     min-height: 300px;

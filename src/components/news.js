@@ -26,12 +26,14 @@ export default () => (
       <div className={styles.newsContainer}>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id} className={styles.newsItem}>
-            <div className={styles.icon}>
-              <Icon icon={ICONS.BUBBLE} color="var(--color-primary)"/>
-            </div>
-            <div>
-              <p className={styles.date}>{node.frontmatter.date}</p>
-              <p>{node.rawMarkdownBody}</p>
+            <div className={styles.content}>
+              <div className={styles.icon}>
+                <Icon icon={ICONS.BUBBLE} color="var(--color-warning)"/>
+              </div>
+              <div>
+                <p className={styles.date}>{node.frontmatter.date}</p>
+                <p>{node.rawMarkdownBody}</p>
+              </div>
             </div>
           </div>
         ))}

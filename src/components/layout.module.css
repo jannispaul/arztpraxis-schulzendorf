@@ -40,7 +40,7 @@ ul{
 
 @media (min-width: 600px) {
   .app{
-    margin-top: calc(var(--nav-height) + var(--space-s));
+    margin-top: calc(var(--nav-height));
     margin-bottom: 0;
 
   }
