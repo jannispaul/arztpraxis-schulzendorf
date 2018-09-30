@@ -31,9 +31,7 @@ const Layout = ({ children }) => (
         </Helmet>
         <Nav/>
         <div className={styles.app}>
-          <div className={styles.content}>
             {children}
-          </div>
           <Footer></Footer>
         </div>
 

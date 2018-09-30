@@ -37,11 +37,6 @@ ul{
   overflow: hidden;
 }
 
-/*App Spacing*/
-.content{
-  margin-left: var(--space-m);
-  margin-right: var(--space-m);
-}
 
 @media (min-width: 600px) {
   .app{

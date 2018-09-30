@@ -1,9 +1,12 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
 import styles from "./times.module.css"
+import SectionStandard from '../components/sectionstandard'
+
 
 
 export default () => (
+  <SectionStandard>
   <StaticQuery
     query={graphql`
       query TimesQuery {
@@ -41,4 +44,5 @@ export default () => (
       </div>
     )}
   />
+  </SectionStandard>
 )
