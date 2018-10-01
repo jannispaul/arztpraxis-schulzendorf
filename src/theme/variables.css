@@ -45,7 +45,7 @@ html {
 
 
   /* Typography */
-  --font-size: 1.25rem;
+  --font-size: 1rem;
   --ratio: 1.25;
   --line-height: 1.4;
 
@@ -56,6 +56,23 @@ html {
   --h2: calc(var(--font-size) * var(--ratio) * var(--ratio) * var(--ratio));
   --h1: calc(var(--font-size) * var(--ratio) * var(--ratio) * var(--ratio) * var(--ratio));
 
+
   /* Timing */
   --time-fast: 0.2s;
 } 
+
+@media  (min-width: 375px) {
+  html{
+  --font-size: 1.25rem;
+  --ratio: 1.25;
+  --line-height: 1.4;
+  }
+}
+
+@media  (min-width: 1800px) {
+  html{
+  --font-size: 1.45rem;
+  --ratio: 1.25;
+  --line-height: 1.4;
+  }
+}

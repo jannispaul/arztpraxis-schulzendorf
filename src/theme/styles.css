@@ -16,6 +16,9 @@ p,a,li,span,td{
   color: var(--color-primary);
   /* opacity: 0.8; */
 }
+p{
+  margin-bottom: var(--space-s);
+}
 a{
   color: var(--color-primary-light);
 }

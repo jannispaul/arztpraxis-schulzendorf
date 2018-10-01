@@ -31,8 +31,8 @@ export default () => (
                 <Icon icon={ICONS.WARNING} color="var(--color-warning)"/>
               </div>
               <div>
-                <p className={styles.date}>{node.frontmatter.date}</p>
-                <p>{node.rawMarkdownBody}</p>
+                <span className={styles.date}>{node.frontmatter.date}</span>
+                <span>{node.rawMarkdownBody}</span>
               </div>
             </div>
           </div>

@@ -15,6 +15,9 @@
     padding: var(--space-s);
 }
 
+.newsItem span{
+    display: block;
+}
 .icon{
     height: var(--space-l);
     width: var(--space-l);
