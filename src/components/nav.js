@@ -14,17 +14,17 @@ const Nav = () => (
       <a href="tel:03376248550" className={styles.desktop}>
         <Icon icon={ICONS.PHONE} color="var(--color-primary)"/>033762 48550
       </a>
-      <Link to="/leistungen" className={styles.desktop} activeClassName="active">Leistungen</Link>
-      <Link to="/termine" className={styles.desktop} activeClassName="active">Termin buchen</Link>
-      <Link to="/" className={styles.mobile} activeClassName="active">
-        <Icon icon={ICONS.PHONE} color="var(--color-primary)"/>
+      <Link to="/leistungen" className={styles.desktop} activeClassName={styles.active}>Leistungen</Link>
+      <Link to="/termine" className={styles.desktop} activeClassName={styles.active}>Termin buchen</Link>
+      <Link to="/" className={styles.mobile} activeClassName={styles.active}>
+        <Icon icon={ICONS.PHONE} />
         <span>Home</span>
       </Link>
-      <Link to="/leistungen" className={styles.mobile} activeClassName="active">
-        <Icon icon={ICONS.PHONE} color="var(--color-primary)"/>
+      <Link to="/leistungen" className={styles.mobile} activeClassName={styles.active}>
+        <Icon icon={ICONS.PHONE} />
         <span>Leistungen</span></Link>
-      <Link to="/termine" className={styles.mobile} activeClassName="active">
-       <Icon icon={ICONS.PHONE} color="var(--color-primary)"/>
+      <Link to="/termine" className={styles.mobile} activeClassName={styles.active}>
+       <Icon icon={ICONS.PHONE} />
        <span>Termine</span></Link>
   </nav>
 )

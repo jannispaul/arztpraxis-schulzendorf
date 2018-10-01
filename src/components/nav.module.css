@@ -24,8 +24,11 @@ nav a{
     width: 100%;
     text-align: center;
     text-decoration: none;
+    color: var(--color-primary-light);
 }
-
+nav svg{
+    fill: var(--color-primary);
+}
 
 nav a svg,
 nav a span{
@@ -38,8 +41,17 @@ nav a span{
 nav svg{
     margin: calc(0.5 * var(--space-s));
 }
-.active {
-    color: red!important;
+.active,
+.active span,
+.active svg{
+    color: var(--color-primary-light);
+    fill: var(--color-primary-light);
+}
+
+nav a:hover svg,
+nav a:hover span {
+    color: var(--color-primary-light);
+    fill: var(--color-primary-light);
 }
 
 /* Desktop Nav */
@@ -75,5 +87,6 @@ nav svg{
         max-height: 30px;
         margin-bottom:0;
     }
+
 
 }
