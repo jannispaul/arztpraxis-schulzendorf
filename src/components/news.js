@@ -28,7 +28,7 @@ export default () => (
           <div key={node.id} className={styles.newsItem}>
             <div className={styles.content}>
               <div className={styles.icon}>
-                <Icon icon={ICONS.BUBBLE} color="var(--color-warning)"/>
+                <Icon icon={ICONS.WARNING} color="var(--color-warning)"/>
               </div>
               <div>
                 <p className={styles.date}>{node.frontmatter.date}</p>

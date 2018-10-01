@@ -40,7 +40,7 @@ nav a{
     nav {
         top:0;
         height: var(--nav-height);
-        box-shadow: 0 1px 4px var(--color-medium);
+        box-shadow: 0 1px 14px var(--color-light);
         grid-template-columns:  1fr repeat(3,auto);
         justify-items: start;
         padding:0 var(--space-m);
