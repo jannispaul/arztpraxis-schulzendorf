@@ -1,6 +1,7 @@
 .section{
     display: flex;
     flex-wrap: wrap;
+    min-height: 400px;
 }
 
 .imageContainer{
@@ -11,8 +12,12 @@
 .contentContainer{
     flex: 3 1 400px;
     padding: var(--space-l) var(--space-m);
+    display: flex;
+
+    /* justify-content: center; */
 }
 .contentContainer > div {
     max-width: 700px;
+    width: 100%;
     margin: auto;
 }

@@ -10,7 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
-p,a,li,span{
+p,a,li,span,td{
   font-size: var(--font-size);
   line-height: var(--line-height);
   color: var(--color-primary);

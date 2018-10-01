@@ -6,7 +6,7 @@ import SectionStandard from '../components/sectionstandard'
 
 
 export default () => (
-  <SectionStandard>
+  <SectionStandard image="var(--color-primary-light)">
   <StaticQuery
     query={graphql`
       query TimesQuery {
@@ -32,12 +32,30 @@ export default () => (
         <h2>Öffnungszeiten</h2>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
-            <p>Montag: {node.frontmatter.monday}</p>
-            <p>Dienstag: {node.frontmatter.tuesday}</p>
-            <p>Mittwoch: {node.frontmatter.wednesday}</p>
-            <p>Donnerstag: {node.frontmatter.thursday}</p>
-            <p>Freitag: {node.frontmatter.friday}</p>
-            <br />
+            <table>
+              <tbody>
+                <tr>
+                  <td>Montag</td>
+                  <td>{node.frontmatter.monday}</td>
+                </tr>
+                <tr>
+                  <td>Dienstag</td>
+                  <td>{node.frontmatter.tuesday}</td>
+                </tr>
+                <tr>
+                  <td>Mittwoch</td>
+                  <td>{node.frontmatter.wednesday}</td>
+                </tr>
+                <tr>
+                  <td>Donnerstag</td>
+                  <td>{node.frontmatter.thursday}</td>
+                </tr>
+                <tr>
+                  <td>Freitag</td>
+                  <td>{node.frontmatter.friday}</td>
+                </tr>
+              </tbody>
+            </table>
             <p>{node.rawMarkdownBody}</p>
           </div>
         ))}

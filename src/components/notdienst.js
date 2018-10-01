@@ -4,7 +4,7 @@ import Buttonprimary from '../components/buttonprimary'
 
 
 const Notdienst = () => (
-  <SectionStandard image="green" backgroundColor="var(--color-lighter)">
+  <SectionStandard image="var(--color-primary)" backgroundColor="var(--color-lighter)">
     <div>
     <h2>Notdienst</h2>
     <p>Falls wir nicht erreichbar sind, wenden Sie sich bei allgemeinmedizinischen Erkrankungen an die hausärztliche Notfallpraxis im Aachenbach Krankenhaus in Königs Wusterhausen.</p>
