@@ -29,7 +29,7 @@ export default () => (
     `}
     render={data => (
       <div className={styles.timesContainer}>
-        <h1>Öffnungszeiten</h1>
+        <h2>Öffnungszeiten</h2>
         {data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <p>Montag: {node.frontmatter.monday}</p>

@@ -9,8 +9,8 @@
     background: gray;
 }
 .contentContainer{
-    flex: 3 1 300px;
-    padding: var(--space-s);
+    flex: 3 1 400px;
+    padding: var(--space-l) var(--space-m);
 }
 .contentContainer > div {
     max-width: 700px;

@@ -8,9 +8,9 @@ html {
   --darkest-color: black; */
 
  /* main colors */
- --color-primary: blue;
- --color-primary-light: lightblue;
- --color-primary-dark: darkblue;
+ --color-primary: #431546;
+ --color-primary-light: #732478;
+ --color-primary-dark: #290D2B;
 
  --color-accent: red;
  --color-accent-light: pink;
@@ -22,14 +22,14 @@ html {
  --color-dark: #7b7a7d;
  --color-medium: #a5a5a6;
  --color-light: #bbbbbc;
- --color-lighter: #fafafa;
+ --color-lighter: #FBF6FF;
  --color-white: white;
 
 
  /* feedback */
- --color-success: #88c459;
- --color-error: #f5414f;
- --color-warning: #ffd137;
+ --color-success: #3CBA5A;
+ --color-error: #F23E3E;
+ --color-warning: #FAD825;
 
 
 
@@ -39,7 +39,7 @@ html {
   /* Spacing */
   --nav-height: 70px;
   --space-unit: 1.25em; /*Relative to html font-size*/
-  --space-s: calc(1 * var(--space-unit));
+  --space-s: calc(.5 * var(--space-unit));
   --space-m: calc(1 * var(--space-unit));
   --space-l: calc(2 * var(--space-unit));
 
@@ -56,7 +56,6 @@ html {
   --h2: calc(var(--font-size) * var(--ratio) * var(--ratio) * var(--ratio));
   --h1: calc(var(--font-size) * var(--ratio) * var(--ratio) * var(--ratio) * var(--ratio));
 
-
-
-
+  /* Timing */
+  --time-fast: 0.2s;
 } 
