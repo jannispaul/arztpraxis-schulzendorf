@@ -15,9 +15,6 @@
     grid-column-gap: var(--space-s);
     align-items: center; */
     display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
     padding: var(--space-s);
 
 }
