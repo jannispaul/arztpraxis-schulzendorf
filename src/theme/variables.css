@@ -8,13 +8,13 @@ html {
   --darkest-color: black; */
 
  /* main colors */
- --color-primary: #431546;
- --color-primary-light: #732478;
- --color-primary-dark: #290D2B;
+ --color-primary: #0A1468;
+ --color-primary-light: #101FA3;
+ --color-primary-dark: #060C3D;
 
- --color-accent: red;
- --color-accent-light: pink;
- --color-accent-dark: darkred;
+ --color-accent: #F1437F;
+ --color-accent-light: #FF6197;
+ --color-accent-dark: #D42662;
 
 /* shades */
  --color-black: #1d1d21;
@@ -22,7 +22,7 @@ html {
  --color-dark: #7b7a7d;
  --color-medium: #a5a5a6;
  --color-light: #bbbbbc;
- --color-lighter: #FBF6FF;
+ --color-lighter: #FAFAFA;
  --color-white: white;
 
 

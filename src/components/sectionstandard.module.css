@@ -5,9 +5,13 @@
 }
 
 .imageContainer{
+    display: flex;
+    justify-content: center;
     flex: 1 1 300px;
     min-height: 300px;
     background: gray;
+    position: relative;
+    overflow: hidden;
 }
 .contentContainer{
     flex: 3 1 400px;
@@ -16,8 +20,28 @@
 
     /* justify-content: center; */
 }
-.contentContainer > div {
+.contentContainerBody {
     max-width: 700px;
     width: 100%;
     margin: auto;
+}
+
+.img{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    min-width: 100%;
+    max-width: 110%;
+    min-height: 300px;
+  }
+
+@media (min-width: 700px) {
+    .img {
+        width: auto;
+        min-width: none;
+        max-width: none;
+        height: 100%;
+
+    }
 }

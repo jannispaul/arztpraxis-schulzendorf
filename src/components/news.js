@@ -28,11 +28,11 @@ export default () => (
           <div key={node.id} className={styles.newsItem}>
             <div className={styles.content}>
               <div className={styles.icon}>
-                <Icon icon={ICONS.WARNING} color="var(--color-warning)"/>
+                <Icon icon={ICONS.WARNING} />
               </div>
               <div>
                 <span className={styles.date}>{node.frontmatter.date}</span>
-                <span>{node.rawMarkdownBody}</span>
+                <span className={styles.newsBody}>{node.rawMarkdownBody}</span>
               </div>
             </div>
           </div>

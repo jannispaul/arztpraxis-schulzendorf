@@ -11,7 +11,7 @@ nav {
     bottom:0;
     z-index: 100;
     background: white;
-    box-shadow: 0 1px 4px var(--color-medium);
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -24,7 +24,7 @@ nav a{
     width: 100%;
     text-align: center;
     text-decoration: none;
-    color: var(--color-primary-light);
+    color: var(--color-primary);
 }
 nav svg{
     fill: var(--color-primary);
@@ -47,7 +47,7 @@ nav svg{
     color: var(--color-primary-light);
     fill: var(--color-primary-light);
 }
-
+nav a:hover,
 nav a:hover svg,
 nav a:hover span {
     color: var(--color-primary-light);
@@ -55,11 +55,11 @@ nav a:hover span {
 }
 
 /* Desktop Nav */
-@media (min-width: 600px) {
+@media (min-width: 700px) {
     nav {
         top:0;
         height: var(--nav-height);
-        box-shadow: 0 1px 14px var(--color-light);
+        box-shadow: 0 1px 14px rgba(0,0,0,0.1);
         grid-template-columns:  1fr repeat(3,auto);
         justify-items: start;
         padding:0 var(--space-m);

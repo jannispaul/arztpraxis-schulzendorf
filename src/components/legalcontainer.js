@@ -3,7 +3,7 @@ import styles from 'legalcontainer.module.css'
 
 
 const Legalcontainer = ({ children }) => (
-  <div className={styles.container}>
+  <div className={styles.contentContainer}>
     {children}
   </div>
 )

@@ -4,12 +4,11 @@
 }
 
 
-@media (min-width: 600px) {
+@media (min-width: 700px) {
   .app{
     margin-top: calc(var(--nav-height));
     margin-bottom: 0;
 
   }
-  
 
 }

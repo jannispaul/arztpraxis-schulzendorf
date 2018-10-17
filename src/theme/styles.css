@@ -22,10 +22,6 @@ p{
 a{
   color: var(--color-primary-light);
 }
-a:hover{
-  color: var(--color-primary-dark);
-  transition: color var(--time-fast);
-}
 
 h1,h2,h3,h4{
   color:var(--color-primary);

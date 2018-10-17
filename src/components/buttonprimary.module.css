@@ -4,18 +4,19 @@
     border: 2px solid var(--color-primary);
     border-radius: 5px;
     color: var(--color-primary);
-    padding: var(--space-s) calc(1.5 * var(--space-s)) calc(var(--space-s) - 1px) calc(1.5 * var(--space-s));
+    padding: var(--space-s) calc(1.5 * var(--space-s)) calc(var(--space-s) - 2px) calc(1.5 * var(--space-s));
     margin-top: var(--space-s);
-    margin-bottom: var(--space-m);
+    margin-bottom: var(--space-s);
     margin-right: var(--space-s);
-    transition: color 0.2s, border 0.ss;
+    transition: color var(--time-fast), background-color var(--time-fast);
 
 
 }
 .button:hover{
-    border: 2px solid var(--color-primary-light);
-    color:var(--color-primary-light);
-    transition: color var(--time-fast), border var(--time-fast);
+    color:var(--color-white);
+    background: var(--color-primary);
+    transition: color var(--time-fast), background-color var(--time-fast);
+
 }
 
 
