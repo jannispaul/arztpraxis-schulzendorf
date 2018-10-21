@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from 'legalcontainer.module.css'
+import styles from './legalcontainer.module.css'
 
 
 const Legalcontainer = ({ children }) => (

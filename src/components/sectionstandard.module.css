@@ -35,6 +35,36 @@
     max-width: 110%;
     min-height: 300px;
   }
+  
+/*Times Section*/
+.timesContainer {
+    color: var(--color-primary);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: var(--space-s) 0;
+}
+table {
+    margin-bottom: var(--space-m);
+    border-spacing: 0;
+}
+
+table td{
+    padding: var(--space-s) var(--space-m);
+    border:none;
+}
+table tbody tr:nth-child(2n + 1) {
+    background: var(--color-lighter);
+}
+table tbody tr td:nth-child(2){
+    text-align: right;
+}
+
+table tbody tr{
+    border: none;
+    border:0;
+}
+
+
+
 
 @media (min-width: 700px) {
     .img {

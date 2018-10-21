@@ -1,7 +1,7 @@
 import React from 'react'
 // import { Link } from 'gatsby'
-import styles from 'hero.module.css'
-import logo from '../images/gatsby-icon.png'
+import styles from './hero.module.css'
+import logo from '../../content/images/gatsby-icon.png'
 
 
 const Hero = () => (

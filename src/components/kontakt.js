@@ -1,14 +1,14 @@
 import React from 'react'
-// import SectionStandard from '../components/sectionstandard'
 import Buttonprimary from '../components/buttonprimary'
-import img from '../images/testimage.png'
+import { StaticQuery, graphql } from 'gatsby'
 import styles from './sectionstandard.module.css'
+import Img from 'gatsby-image'
 
 
-const Kontakt = () => (
+const Kontakt = (props) => (
   <section className={styles.section}>
     <div className={styles.imageContainer}>
-      <img src={img} alt="testimage" className={styles.img} />
+      <Img fluid={props.data.imageOne.childImageSharp.fluid} className={styles.img} alt="Arztpraxis von innen"/>
     </div>
     <div className={styles.contentContainer}>
       <div className={styles.contentContainerBody}>
@@ -21,14 +21,40 @@ const Kontakt = () => (
   </section>
 )
 
-export default Kontakt
+// export default Kontakt
 
-// export const query = graphql `
-//   query LayoutQuery {
-//     background: imageSharp(id: {regex:"/testimage.png/"}){
-//       sizes(maxWidth: 1240){
-//         GatsbyImageSharpSizes
+
+
+export default props => (
+  <StaticQuery
+    query={graphql`
+      query {
+        imageOne: file(relativePath: { eq: "images/testimage.png" }) {
+          childImageSharp {
+            fluid(maxWidth: 1000) {
+              ...GatsbyImageSharpFluid
+            }
+          }
+        }
+      }
+    `}
+  render={data => <Kontakt data={data} {...props} />}
+/>
+)
+
+
+
+
+
+
+// export const pageQuery = graphql`
+//   query {
+//     imageOne: file(relativePath: { eq: "images/testimage.png" }) {
+//       childImageSharp {
+//         fluid(maxWidth: 1000) {
+//           ...GatsbyImageSharpFluid
+//         }
 //       }
 //     }
 //   }
-//   `
+// `

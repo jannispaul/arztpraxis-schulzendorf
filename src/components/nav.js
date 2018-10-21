@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
-import styles from 'nav.module.css'
-import logo from '../images/gatsby-icon.png'
+import styles from './nav.module.css'
+import logo from '../../content/images/gatsby-icon.png'
 import Icon from './icon'
 import {ICONS} from '../constants/icons'
 
