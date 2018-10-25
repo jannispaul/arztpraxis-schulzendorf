@@ -1,5 +1,5 @@
 .newsContainer{
-    background: var(--color-accent);
+    background: var(--color-accent-dark);
     width: 100%;
 }
 /* .newsItem {
@@ -44,7 +44,7 @@
     color: var(--color-white);
     margin-top:-1px;
     margin-bottom: -3px;
-    opacity: 0.8;
+    /* opacity: 0.8; */
 }
 .newsBody{
     color: var(--color-white);

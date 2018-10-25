@@ -1,10 +1,12 @@
 import React from 'react'
 import Layout from '../components/layout'
+import Kontakt from '../components/kontakt'
 
 const NotFoundPage = () => (
   <Layout>
-    <h1>NOT FOUND</h1>
-    <p>You just hit a route that doesn&#39;t exist... the sadness.</p>
+    <p>Ups, da ist etwas schief gelaufen.</p>
+    <h1>Diese Seite wurde nicht gefunden.</h1>
+    <Kontakt></Kontakt>
   </Layout>
 )
 

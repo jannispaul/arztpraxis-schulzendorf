@@ -1,24 +1,26 @@
-footer {
+.footer {
     width: 100%;
-    display: grid;
+    display: flex;
+    flex-wrap: wrap;
     background: var(--color-darker);
     padding: var(--space-m);
 }
+.footer div{
+    margin: var(--space-m);
+}
+.footer p{
+    color: var(--color-white);
+}
 
-footer a{
+.footer a{
     text-decoration: none;
     color: var(--color-white);
-
     opacity: 0.8;
     transition: opacity 200ms;
 
 }
 
-footer a:hover{
+.footer a:hover{
     opacity: 1;
     transition: opacity 200ms;
-
 } 
-footer a:not(:first-child){
-    padding-left: var(--space-m);
-}

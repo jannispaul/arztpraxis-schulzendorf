@@ -6,6 +6,7 @@ import Kontakt from '../components/kontakt'
 import Layout from '../components/layout'
 import Hero from '../components/hero'
 
+import  '../theme/font-face.css'
 import '../theme/styles.css'
 import  '../theme/variables.css'
 

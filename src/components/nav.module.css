@@ -69,11 +69,11 @@ nav a:hover span {
     }
     .desktop{
         display: flex;
-        /* align-items: center;
-        justify-content: space-between; */
     }
-    nav a:not(:first-child){
-        padding-left: var(--space-m);
+    nav a:not(:first-of-type){
+        padding-left: var(--space-s);
+        padding-right: var(--space-s);
+
     }
 
     .logo{
@@ -84,9 +84,24 @@ nav a:hover span {
         /* align-items: center; */
     }
     .logo img {
-        max-height: 30px;
+        max-height: 50px;
         margin-bottom:0;
     }
+    nav a.button {
+        border: 2px solid var(--color-success);
+        color: var(--color-success);
+        border-radius: 5px;
+        padding-top: calc(0.5 * var(--space-s));
+        padding-top: calc(0.5 * var(--space-s));
+        transition: color var(--time-fast), background-color var(--time-fast);
 
+    }
+    .button:hover{
+        color: var(--color-white);
+        background: var(--color-success);
+        transition: color var(--time-fast), background-color var(--time-fast);
+    
+    }
+    
 
 }
