@@ -1,23 +1,25 @@
 .footer {
     width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns:  repeat(auto-fit, minmax(300px,1fr));
     background: var(--color-darker);
     padding: var(--space-m);
 }
 .footer div{
     margin: var(--space-m);
 }
+.footer a,
 .footer p{
     color: var(--color-white);
+    font-size: var(--small);
+    line-height:calc(1.5 * var(--line-height));
+    text-decoration: none;
+    margin-bottom: 0;
 }
 
 .footer a{
-    text-decoration: none;
-    color: var(--color-white);
     opacity: 0.8;
     transition: opacity 200ms;
-
 }
 
 .footer a:hover{

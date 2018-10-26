@@ -25,7 +25,7 @@ a{
 
 h1,h2,h3,h4{
   color:var(--color-primary);
-  font-weight: medium;
+  font-family: "Ubuntu Medium";
 }
 
 h1{
