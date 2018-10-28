@@ -3,6 +3,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 400;
+  font-display: swap;
   src: local('Ubuntu Regular'), local('Ubuntu-Regular'), url('fonts/Ubuntu-Regular.woff2') format('woff2');
 }
 /* latin-ext */
@@ -10,6 +11,7 @@
   font-family: 'Ubuntu';
   font-style: normal;
   font-weight: 500;
+  font-display: swap;
   src: local('Ubuntu Medium'), local('Ubuntu-Medium'), url('fonts/Ubuntu-Medium.woff2') format('woff2');
 }
 
