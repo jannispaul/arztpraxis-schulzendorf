@@ -12,7 +12,6 @@
 .footer a,
 .footer p{
     font-size: var(--small);
-
     color: var(--color-white);
     line-height:calc(1.5 * var(--line-height));
     text-decoration: none;
