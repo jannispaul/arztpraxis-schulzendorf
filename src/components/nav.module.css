@@ -4,7 +4,7 @@
 }
 
 /* Mobile Nav */
-nav {
+.nav {
     overflow: hidden;
     width: 100%;
     position: fixed;
@@ -19,26 +19,26 @@ nav {
     padding:0;
 }
 
-nav a{
+.nav a{
     padding: calc(0.5 * var(--space-s)) 0;
     width: 100%;
     text-align: center;
     text-decoration: none;
     color: var(--color-primary);
 }
-nav svg{
+.nav svg{
     fill: var(--color-primary);
 }
 
-nav a svg,
-nav a span{
+.mobile a svg,
+.nav a span{
     display: block;
     margin-left: auto;
     margin-right: auto;
     font-size: 12px;
 }
 
-nav svg{
+.nav svg{
     margin: calc(0.5 * var(--space-s));
 }
 .active,
@@ -47,16 +47,16 @@ nav svg{
     color: var(--color-primary-light);
     fill: var(--color-primary-light);
 }
-nav a:hover,
-nav a:hover svg,
-nav a:hover span {
+.nav a:hover,
+.nav a:hover svg,
+.nav a:hover span {
     color: var(--color-primary-light);
     fill: var(--color-primary-light);
 }
 
 /* Desktop Nav */
 @media (min-width: 700px) {
-    nav {
+    .nav {
         top:0;
         height: var(--nav-height);
         box-shadow: 0 1px 14px rgba(0,0,0,0.1);
@@ -70,12 +70,18 @@ nav a:hover span {
     .desktop{
         display: flex;
     }
-    nav a:not(:first-of-type){
+    .nav a:not(:first-of-type){
         padding-left: var(--space-s);
         padding-right: var(--space-s);
 
     }
-
+    .iconLink{
+        display: flex;
+        align-items: center;
+    }
+    .icon{
+        margin-right: var(--space-s);
+    }
     .logo{
         /* display: flex; */
         color: var(--color-primary);
@@ -87,7 +93,7 @@ nav a:hover span {
         max-height: 50px;
         margin-bottom:0;
     }
-    nav a.button {
+    .nav a.button {
         border: 2px solid var(--color-success);
         color: var(--color-success);
         border-radius: 5px;
@@ -96,7 +102,7 @@ nav a:hover span {
         transition: color var(--time-fast), background-color var(--time-fast);
 
     }
-    .button:hover{
+    .nav .button:hover{
         color: var(--color-white);
         background: var(--color-success);
         transition: color var(--time-fast), background-color var(--time-fast);

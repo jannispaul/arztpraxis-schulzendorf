@@ -5,16 +5,10 @@
   padding: 0;
 }
 
-html{
-  font-family: 'Ubuntu', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
-  -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%;
-}
 p,a,li,span,td{
-  font-size: var(--font-size);
   line-height: var(--line-height);
   color: var(--color-primary);
-  font-weight: normal;
+  /* font-weight: normal; */
 }
 p{
   margin-bottom: var(--space-s);
@@ -25,7 +19,6 @@ a{
 
 h1,h2,h3,h4{
   color:var(--color-primary);
-  font-family: "Ubuntu Medium";
 }
 
 h1{

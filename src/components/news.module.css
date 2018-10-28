@@ -12,7 +12,7 @@
     width: auto;
     display: flex;
     justify-content: center;
-    padding: var(--space-m);
+    padding: var(--space-s);
 }
 
 
@@ -25,7 +25,7 @@
     border-radius: 5px;
     flex: 0 0 var(--space-l);
     margin-right: var(--space-s);
-    fill: var(--color-accent);
+    fill: var(--color-accent-dark);
 }
 
 .icon svg{
@@ -38,15 +38,21 @@
     display: block;
 }
 
+.content{
+    display: flex;
+    align-items: center;
+}
+
 .date{
     font-size: var(--small);
     text-transform: uppercase;
     color: var(--color-white);
-    margin-top:-1px;
+    margin-top:2px;
     margin-bottom: -3px;
     /* opacity: 0.8; */
 }
+
 .newsBody{
     color: var(--color-white);
-    margin-bottom: -7px;
+    /* margin-bottom: -7px; */
 }

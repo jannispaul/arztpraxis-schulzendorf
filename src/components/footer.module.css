@@ -4,14 +4,16 @@
     grid-template-columns:  repeat(auto-fit, minmax(300px,1fr));
     background: var(--color-darker);
     padding: var(--space-m);
+
 }
 .footer div{
     margin: var(--space-m);
 }
 .footer a,
 .footer p{
-    color: var(--color-white);
     font-size: var(--small);
+
+    color: var(--color-white);
     line-height:calc(1.5 * var(--line-height));
     text-decoration: none;
     margin-bottom: 0;
