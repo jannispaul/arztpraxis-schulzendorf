@@ -1,10 +1,10 @@
 .app{
-  margin-bottom: var(--nav-height);
+  margin-bottom: 60px;
   overflow: hidden;
 }
 
 
-@media (min-width: 700px) {
+@media (min-width: 800px) {
   .app{
     margin-top: calc(var(--nav-height));
     margin-bottom: 0;

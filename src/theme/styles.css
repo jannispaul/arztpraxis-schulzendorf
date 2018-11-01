@@ -7,7 +7,7 @@
 
 p,a,li,span,td{
   line-height: var(--line-height);
-  color: var(--color-primary);
+  color: var(--color-medium);
   /* font-weight: normal; */
 }
 p{
@@ -18,7 +18,7 @@ a{
 }
 
 h1,h2,h3,h4{
-  color:var(--color-primary);
+  color:var(--color-primary-light);
 }
 
 h1{

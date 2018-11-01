@@ -1,10 +1,10 @@
 html {
  /* main colors */
  --color-primary: #0A1468;
- --color-primary-light: #101FA3;
- --color-primary-dark: #060C3D;
+ --color-primary-light: #3A478F;
+ --color-primary-dark: #19284D;
 
- --color-accent: #F1437F;
+ --color-accent: #F10053;
  --color-accent-light: #FF6197;
  --color-accent-dark: #DF004E;
 
@@ -12,9 +12,9 @@ html {
  --color-black: #1d1d21;
  --color-darker: #2e2e31;
  --color-dark: #7b7a7d;
- --color-medium: #a5a5a6;
- --color-light: #bbbbbc;
- --color-lighter: #FAFAFA;
+ --color-medium: #5E728D;
+ --color-light: #D4E3FF;
+ --color-lighter: #F8F9FB;
  --color-white: white;
 
 
@@ -49,18 +49,28 @@ html {
   --time-fast: 0.2s;
 } 
 
-@media  (min-width: 375px) {
+@media  (min-width: 376px) {
   html{
-  --font-size: 1.25rem;
-  --ratio: 1.25;
-  --line-height: 1.4;
+  --font-size: 1.2rem;
+
+  }
+}
+@media  (min-width: 600px) {
+  html{
+  --font-size: 1.3rem;
+
+  --space-m: calc(2 * var(--space-unit));
+
   }
 }
 
-@media  (min-width: 1800px) {
+@media  (min-width: 1600px) {
   html{
   --font-size: 1.45rem;
-  --ratio: 1.25;
-  --line-height: 1.4;
+
+
+
+
+
   }
 }

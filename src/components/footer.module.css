@@ -2,12 +2,12 @@
     width: 100%;
     display: grid;
     grid-template-columns:  repeat(auto-fit, minmax(300px,1fr));
-    background: var(--color-darker);
-    padding: var(--space-m);
+    background: var(--color-primary-dark);
+    padding: var(--space-unit);
 
 }
 .footer div{
-    margin: var(--space-m);
+    margin: var(--space-unit);
 }
 .footer a,
 .footer p{

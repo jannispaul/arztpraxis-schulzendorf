@@ -1,11 +1,11 @@
 .button{
     display: inline-block;
     text-decoration: none;
-    border: 2px solid var(--color-primary);
+    border: 2px solid var(--color-medium);
     border-radius: 5px;
     text-align: center;
-    color: var(--color-primary);
-    padding: var(--space-s) calc(1.5 * var(--space-s)) calc(var(--space-s) - 2px) calc(1.5 * var(--space-s));
+    color: var(--color-medium);
+    padding: calc(0.5 * var(--space-unit)) calc(0.75 * var(--space-unit)) calc(0.5 * var(--space-unit) - 2px) calc(0.75 * var(--space-unit));
     margin-top: var(--space-s);
     margin-bottom: var(--space-s);
     margin-right: var(--space-s);
@@ -14,7 +14,8 @@
 }
 .button:hover{
     color:var(--color-white);
-    background: var(--color-primary);
+    background: var(--color-primary-light);
+    border-color: var(--color-primary-light);
     transition: color var(--time-fast), background-color var(--time-fast);
 
 }
