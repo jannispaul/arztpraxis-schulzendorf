@@ -7,23 +7,13 @@
 }
 
 .content{
-    /* display: flex; */
-    /* flex-wrap: wrap; */
-    /* display: grid;
-    grid-gap: var(--space-m);
-    grid-template-columns: minmax(100px, 300px) minmax(300px, 800px); */
     margin: auto;
 }
 
 .logo{
-    /* flex: 1 0 300px; */
-    /* max-width: 250px; */
-    /* margin-left: -170px; */
     max-width: 80vw;
     height: 100px;
     margin-bottom: var(--space-l);
-    /* width: 100%; */
-    /* margin-right: var(--space-l); */
 }
 
 .copy{

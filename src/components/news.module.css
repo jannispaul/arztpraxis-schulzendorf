@@ -27,8 +27,8 @@
 
 .icon svg{
     margin: auto;
-    height: var(--space-unit);
-    width: var(--space-unit);
+    /* height: var(--space-unit);
+    width: var(--space-unit); */
 }
 
 .newsItem span{

@@ -16,7 +16,7 @@ const Icon = props => {
       style={styles.svg}
       width={`${props.size}px`}
       height={`${props.size}px`}
-      viewBox="0 0 1024 1024"
+      viewBox="0 0 48 48"
     >
       <path
         style={styles.path}

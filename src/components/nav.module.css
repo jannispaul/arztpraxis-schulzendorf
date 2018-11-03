@@ -11,7 +11,7 @@
     bottom:0;
     z-index: 100;
     background: white;
-    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+    box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.05);
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     align-items: center;
@@ -24,10 +24,12 @@
     width: 100%;
     text-align: center;
     text-decoration: none;
-    color: var(--color-primary);
+    color: var(--color-medium);
 }
 .nav svg{
-    fill: var(--color-primary);
+    fill: var(--color-medium);
+    width: 24px;
+    height: 24px;
 }
 
 .mobile a svg,
@@ -39,13 +41,13 @@
 }
 
 .nav svg{
-    margin: calc(0.5 * var(--space-s));
+    margin: 4px;
 }
 .active,
 .active span,
 .active svg{
-    color: var(--color-primary-light);
-    fill: var(--color-primary-light);
+    color: var(--color-primary);
+    fill: var(--color-primary);
 }
 .nav a:hover,
 .nav a:hover svg,
