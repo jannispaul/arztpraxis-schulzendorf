@@ -61,7 +61,7 @@ export default props => (
         image: file(relativePath: { eq: "images/testimage.png" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
