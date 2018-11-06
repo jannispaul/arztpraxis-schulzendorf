@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Arzttest',
+    title: 'Arztpraxis Schulzendorf',
   },
   plugins: [
     'gatsby-plugin-react-helmet',
