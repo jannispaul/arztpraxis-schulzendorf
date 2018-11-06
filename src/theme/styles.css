@@ -4,6 +4,9 @@
   margin: 0;
   padding: 0;
 }
+body{
+  user-select: none;
+}
 
 p,a,li,span,td{
   line-height: var(--line-height);
@@ -41,3 +44,10 @@ ul{
     list-style: none;
 }
 
+
+@media  (min-width: 376px) {
+  body{
+    user-select: auto;
+
+  }
+}

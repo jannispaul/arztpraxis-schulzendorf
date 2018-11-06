@@ -24,7 +24,8 @@ const Layout = ({ children }) => (
           title={data.site.siteMetadata.title}
           meta={[
             { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'sample, something' },
+            { name: 'keywords', content: 'Hausarzt, Arztpraxis, krank, Schulzendorf' },
+            { name: 'viewport', content: 'width=device-width', initialScale: '1.0', minimumScale:'1.0', maximumScale:'1.0', userScalable:'no'}
           ]}
         >
           <html lang="en" />

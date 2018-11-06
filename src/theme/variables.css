@@ -50,13 +50,13 @@ html {
 } 
 
 @media  (min-width: 376px) {
-  html{
+  body{
   --font-size: 1.2rem;
 
   }
 }
 @media  (min-width: 600px) {
-  html{
+  body{
   --font-size: 1.3rem;
 
   --space-m: calc(2 * var(--space-unit));
@@ -64,13 +64,10 @@ html {
   }
 }
 
-@media  (min-width: 1600px) {
-  html{
+@media  (min-width: 1800px) {
+  body{
   --font-size: 1.45rem;
-
-
-
-
+  --nav-height: 90px;
 
   }
 }

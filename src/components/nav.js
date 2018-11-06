@@ -11,7 +11,7 @@ const Nav = () => (
         <img src={logo} alt="Arztpraxis Schulzendorf Logo"/>
       </Link>
       <a href="tel:03376248550" className={`${styles.desktop} ${styles.iconLink}`}>
-        <Icon icon={ICONS.PHONE} color="var(--color-primary)" className={styles.icon}/>033762 48550
+        <Icon icon={ICONS.PHONE} className={styles.icon}/>033762 48550
       </a>
       <Link to="/leistungen" className={styles.desktop} activeClassName={styles.active}>Leistungen</Link>
       <Link to="/termine" className={`${styles.desktop} ${styles.button}`} activeClassName={styles.active}>Termin buchen</Link>
