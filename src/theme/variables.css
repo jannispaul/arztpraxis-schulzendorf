@@ -25,7 +25,7 @@ html {
 
 
   /* Spacing */
-  --nav-height: 70px;
+  --nav-height: 80px;
   --space-unit: 1.25em; /*Relative to html font-size*/
   --space-s: calc(.5 * var(--space-unit));
   --space-m: calc(1 * var(--space-unit));
@@ -38,7 +38,7 @@ html {
   --line-height: 1.4;
 
   /* Calculate values */
-  --small: calc(var(--font-size) / var(--ratio));
+  --small: calc(var(--font-size) );
   --h4: calc(var(--font-size) * var(--ratio));
   --h3: calc(var(--font-size) * var(--ratio) * var(--ratio));
   --h2: calc(var(--font-size) * var(--ratio) * var(--ratio) * var(--ratio));
@@ -58,7 +58,6 @@ html {
 @media  (min-width: 600px) {
   body{
   --font-size: 1.3rem;
-
   --space-m: calc(2 * var(--space-unit));
 
   }

@@ -42,7 +42,7 @@
 /*Times Section*/
 .timesContainer {
     color: var(--color-primary);
-    margin: var(--space-s) 0;
+    margin: var(--space-unit) 0;
 }
 table {
     margin-bottom: var(--space-m);

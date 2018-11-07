@@ -1,13 +1,16 @@
 import React from 'react'
-import { Link } from 'gatsby'
+// import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
+import Service from '../components/service'
+import Kontakt from '../components/kontakt'
+
 
 const Leistungen = () => (
   <Layout>
     <h1>Leistungen</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+    <Service></Service>
+    <Kontakt></Kontakt>
   </Layout>
 )
 

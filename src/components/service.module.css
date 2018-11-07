@@ -1,0 +1,35 @@
+.service{
+    margin: var(--space-unit);
+}
+
+.list{
+    column-count: 1;
+    margin-bottom: var(--space-s);
+}
+.list li{
+    margin-bottom: var(--space-s);
+}
+.list svg {
+    margin-right: 20px;
+    fill: var(--color-success);
+}
+
+@media  (min-width: 950px) {
+    .list{
+        column-count: 2;
+        column-gap: 40px;
+        column-width: 100px;
+        max-width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .service h2{
+        text-align: center;
+        margin-bottom: var(--space-unit);
+    }
+    .service p{
+        text-align: center;
+        margin-bottom: var(--space-l);
+    }
+
+}

@@ -8,11 +8,11 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'Arztpraxis Schulzendorf',
-        // short_name: 'starter',
+        short_name: 'Hausarzt',
         start_url: '/',
         background_color: '#ffffff',
         theme_color: '#ffffff',
-        display: 'minimal-ui',
+        display: 'fullscreen',
         icon: 'content/images/favicon.png', // This path is relative to the root of the site.
       },
     },

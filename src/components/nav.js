@@ -24,7 +24,10 @@ const Nav = () => (
         <span>Leistungen</span></Link>
       <Link to="/termine" className={styles.mobile} activeClassName={styles.active}>
        <Icon icon={ICONS.CONTACT} />
-       <span>Termine</span></Link>
+       <span>Kontakt</span></Link>
+      <a href="tel:03376248550" className={styles.mobile}>
+       <Icon icon={ICONS.CONTACT} />
+       <span>Termine</span></a>
   </nav>
 )
 
