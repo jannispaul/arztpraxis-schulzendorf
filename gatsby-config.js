@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
     title: 'Arztpraxis Schulzendorf',
+    siteUrl: 'https://youthful-brown-8d4f3a.netlify.com',
   },
   plugins: [
+    'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
