@@ -18,7 +18,7 @@ const Times = (props) => (
         <h2>Öffnungszeiten</h2>
         {props.data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
-            <table className={timetable}>
+            <table className={styles.timetable}>
               <tbody>
                 <tr>
                   <td>Montag</td>
