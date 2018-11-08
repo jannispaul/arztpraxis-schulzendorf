@@ -1,11 +1,11 @@
 import React from 'react'
 
+import Layout from '../components/layout'
 import News from '../components/news'
+import Hero from '../components/hero'
+import Kontakt from '../components/kontakt'
 import Times from '../components/times'
 import Notdienst from '../components/notdienst'
-import Kontakt from '../components/kontakt'
-import Layout from '../components/layout'
-import Hero from '../components/hero'
 
 
 const IndexPage = () => (

@@ -22,12 +22,12 @@ const Nav = () => (
       <Link to="/leistungen" className={styles.mobile} activeClassName={styles.active}>
         <Icon icon={ICONS.SERVICES} />
         <span>Leistungen</span></Link>
+      <a href="tel:03376248550/termine" className={styles.mobile}>
+       <Icon icon={ICONS.CONTACT} />
+       <span>Kontakt</span></a>
       <Link to="/termine" className={styles.mobile} activeClassName={styles.active}>
-       <Icon icon={ICONS.CONTACT} />
-       <span>Kontakt</span></Link>
-      <a href="tel:03376248550" className={styles.mobile}>
-       <Icon icon={ICONS.CONTACT} />
-       <span>Termine</span></a>
+       <Icon icon={ICONS.APPOINTMENT} />
+       <span>Termine</span></Link>
   </nav>
 )
 

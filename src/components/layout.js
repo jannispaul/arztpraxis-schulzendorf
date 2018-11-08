@@ -23,11 +23,11 @@ const Layout = ({ children }) => (
         <Helmet
           title={data.site.siteMetadata.title}
           meta={[
-            { name: 'description', content: 'Sample' },
-            { name: 'keywords', content: 'Hausarzt, Arztpraxis, krank, Schulzendorf' }
+            { name: 'description', content: 'Hausarztpraxis für die ganze Familie in Schulzendorf' },
+            { name: 'keywords', content: 'Hausarzt, Arztpraxis, krank, Schulzendorf, Peggy von Niederhäusern, Familienarzt, Kinderarzt, Grippe, Impfung, Untersuchung, Hausbesuch' }
           ]}
         >
-          <html lang="en" />
+          <html lang="de" />
         </Helmet>
         <Nav/>
         <div className={styles.app}>
