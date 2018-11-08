@@ -44,23 +44,23 @@
     color: var(--color-primary);
     margin: var(--space-unit) 0;
 }
-table {
+.timetable {
     margin-bottom: var(--space-m);
     border-spacing: 0;
 }
 
-table td{
+.timetable td{
     padding: var(--space-s) var(--space-unit);
     border:none;
 }
-table tbody tr:nth-child(2n + 1) {
+.timetable tbody tr:nth-child(2n + 1) {
     background: var(--color-lighter);
 }
-table tbody tr td:nth-child(2){
+.timetable tbody tr td:nth-child(2){
     text-align: right;
 }
 
-table tbody tr{
+.timetable tbody tr{
     border: none;
     border:0;
 }
