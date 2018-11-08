@@ -1,5 +1,4 @@
-# gatsby-starter-default
-Gatsby Website 
+# Gatsby Website 
 
 For information on Gatsby refer to the [Gatsby documentation - Building with Components](https://www.gatsbyjs.org/docs/building-with-components/).
 
@@ -10,8 +9,7 @@ Make sure that you have the Gatsby CLI program installed:
 npm install --global gatsby-cli
 ```
 
-
-## Install node modules
+## Install node modules with yarn
 
 ```sh
 cd arztpraxis-schulzendorf
@@ -35,8 +33,8 @@ gatsby build && gatsby serve
 In case gastby throws an error, 
  - make sure you only use yarn (or npm, not both)
  - delete node modules
- - run ```sh yarn```
- - run ```sh yarn upgrade --latest```
+ - run ```yarn```
+ - run ```yarn upgrade --latest```
 
 
 
