@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: 'Arztpraxis Schulzendorf',
+    title: 'Hausarztpraxis Schulzendorf',
     siteUrl: 'https://youthful-brown-8d4f3a.netlify.com',
   },
   plugins: [

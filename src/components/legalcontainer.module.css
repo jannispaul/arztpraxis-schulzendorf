@@ -4,3 +4,12 @@
     padding: var(--space-m);
     min-height: 100vh;
 }
+.contentContainer li{
+    list-style-type: disc;
+    margin-left: 2rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.contentContainer small{
+    color: var(--color-medium);
+}
