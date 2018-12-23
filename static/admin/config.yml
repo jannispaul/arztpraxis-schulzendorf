@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: vajayjay/netlify-test
+  repo: vajayjay/arztpraxis-schulzendorf
 
 media_folder: static/assets
 public_folder: assets
