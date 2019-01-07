@@ -1,14 +1,14 @@
 import React from 'react'
-import Buttonprimary from '../components/buttonprimary'
+import Buttonprimary from './buttonprimary'
 import { StaticQuery, graphql } from 'gatsby'
 import styles from './sectionstandard.module.css'
 import Img from 'gatsby-image'
 
 
-const Kontakt = (props) => (
+const Contact = (props) => (
   <section className={styles.section}>
     <div className={styles.imageContainer}>
-      <Img fluid={props.data.imageOne.childImageSharp.fluid} className={styles.img} alt="Arztpraxis von innen"/>
+      <Img fluid={props.data.imageOne.childImageSharp.fluid} className={styles.img} alt="Hausärztin Peggy von Niederhäusern lächelt freundlich in die Kamera während sie am Schreibtisch sitzt"/>
     </div>
     <div className={styles.contentContainer}>
       <div className={styles.contentContainerBody}>
@@ -21,15 +21,13 @@ const Kontakt = (props) => (
   </section>
 )
 
-// export default Kontakt
-
 
 
 export default props => (
   <StaticQuery
     query={graphql`
       query {
-        imageOne: file(relativePath: { eq: "images/testimage.png" }) {
+        imageOne: file(relativePath: { eq: "images/contact.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid_withWebp
@@ -38,7 +36,7 @@ export default props => (
         }
       }
     `}
-  render={data => <Kontakt data={data} {...props} />}
+  render={data => <Contact data={data} {...props} />}
 />
 )
 

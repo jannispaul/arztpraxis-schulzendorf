@@ -1,5 +1,6 @@
 .service{
-    margin: var(--space-unit);
+    padding: calc( 2 * var(--space-l) ) var(--space-unit);
+    background: var(--color-lighter);
 }
 
 .list{

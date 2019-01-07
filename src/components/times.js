@@ -3,14 +3,13 @@ import { StaticQuery, graphql } from 'gatsby'
 import Img from 'gatsby-image'
 
 import styles from './sectionstandard.module.css'
-// import styles from './times.module.css'
 
 
 
 const Times = (props) => (
   <section className={styles.section}>
     <div className={styles.imageContainer}>
-      <Img fluid={props.data.image.childImageSharp.fluid} className={styles.img} alt="Arztpraxis von innen"/>
+      <Img fluid={props.data.image.childImageSharp.fluid} className={styles.img} alt="Einladender Eingang zur Arztpraxis mit Topfpflanzen an den Seiten"/>
     </div>
     <div className={styles.contentContainer}>
       <div className={styles.contentContainerBody}>
@@ -58,7 +57,7 @@ export default props => (
   <StaticQuery
     query={graphql`
       query {
-        image: file(relativePath: { eq: "images/testimage.png" }) {
+        image: file(relativePath: { eq: "images/opening-hours.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid_withWebp

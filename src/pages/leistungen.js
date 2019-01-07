@@ -2,15 +2,17 @@ import React from 'react'
 // import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
+import ServiceHero from '../components/servicehero'
 import Service from '../components/service'
-import Kontakt from '../components/kontakt'
+import Contact from '../components/contact'
+
 
 
 const Leistungen = () => (
   <Layout>
-    <h1>Leistungen</h1>
+    <ServiceHero></ServiceHero>
     <Service></Service>
-    <Kontakt></Kontakt>
+    <Contact></Contact>
   </Layout>
 )
 

@@ -3,18 +3,18 @@ import React from 'react'
 import Layout from '../components/layout'
 import News from '../components/news'
 import Hero from '../components/hero'
-import Kontakt from '../components/kontakt'
+import Contact from '../components/contact'
 import Times from '../components/times'
-import Notdienst from '../components/notdienst'
+import Emergency from '../components/emergency'
 
 
 const IndexPage = () => (
   <Layout>
     <News></News>
     <Hero></Hero>
-    <Kontakt></Kontakt>
+    <Contact></Contact>
     <Times></Times>
-    <Notdienst></Notdienst>
+    <Emergency></Emergency>
   </Layout>
 )
 

@@ -4,10 +4,10 @@ import { StaticQuery, graphql } from 'gatsby'
 import styles from './sectionstandard.module.css'
 import Img from 'gatsby-image'
 
-const Notdienst = (props) => (
+const Emergency = (props) => (
   <section className={styles.section}>
     <div className={styles.imageContainer}>
-      <Img fluid={props.data.imageOne.childImageSharp.fluid} className={styles.img} alt="Arztpraxis von innen"/>
+      <Img fluid={props.data.imageOne.childImageSharp.fluid} className={styles.img} alt="Ein bunter Blumenstrauß steht auf einem Tisch vor dem Hintergrund der Arztpraxis von innen"/>
     </div>
     <div className={styles.contentContainer}>
       <div className={styles.contentContainerBody}>
@@ -22,13 +22,12 @@ const Notdienst = (props) => (
 
 )
 
-// export default Notdienst
 
 export default props => (
   <StaticQuery
     query={graphql`
       query {
-        imageOne: file(relativePath: { eq: "images/testimage.png" }) {
+        imageOne: file(relativePath: { eq: "images/emergency.jpg" }) {
           childImageSharp {
             fluid(maxWidth: 1000) {
               ...GatsbyImageSharpFluid_withWebp
@@ -37,6 +36,6 @@ export default props => (
         }
       }
     `}
-  render={data => <Notdienst data={data} {...props} />}
+  render={data => <Emergency data={data} {...props} />}
 />
 )

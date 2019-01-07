@@ -30,12 +30,15 @@ gatsby build && gatsby serve
 
 ## Issues
 
-In case gastby throws an error, 
+In case gastby throws an error:
  - make sure you only use yarn (or npm, not both)
  - delete node modules
  - run ```yarn```
  - run ```yarn upgrade --latest```
 
+Yarn related errors:
+ - delete yarn.lock
+- run ```yarn```
 
 
 ## Deploy
