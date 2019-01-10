@@ -30,6 +30,7 @@ const Layout = ({ children }) => (
             { name: 'keywords', content: 'Hausarzt, Arztpraxis, krank, Schulzendorf, Peggy von Niederhäusern, Familienarzt, Kinderarzt, Grippe, Impfung, Untersuchung, Hausbesuch' }
           ]}
         >
+            <script src="https://cdn.jsdelivr.net/npm/css-vars-ponyfill@1"></script>
           <html lang="de" />
         </Helmet>
         <Nav/>
