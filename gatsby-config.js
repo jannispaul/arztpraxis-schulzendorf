@@ -4,6 +4,7 @@ module.exports = {
     siteUrl: 'https://youthful-brown-8d4f3a.netlify.com',
   },
   plugins: [
+    `gatsby-plugin-polyfill-io`,
     'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     {
@@ -30,6 +31,5 @@ module.exports = {
     },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-plugin-postcss`,
   ],
 }
