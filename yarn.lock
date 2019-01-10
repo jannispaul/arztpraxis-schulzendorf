@@ -3479,11 +3479,6 @@ css-url-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/css-url-regex/-/css-url-regex-1.1.0.tgz#83834230cc9f74c457de59eebd1543feeb83b7ec"
   integrity sha1-g4NCMMyfdMRX3lnuvRVD/uuDt+w=
 
-css-vars-ponyfill@^1.16.2:
-  version "1.16.2"
-  resolved "https://registry.yarnpkg.com/css-vars-ponyfill/-/css-vars-ponyfill-1.16.2.tgz#4573d896ff29454e5cb263f2ea1bad56d93c1ed2"
-  integrity sha512-cnF2KwwMPjU+P5jgDnPv/o+RioqDyjw81YNLki3rEPDp28xYE0zjpN23RaFF/pimmS4G4MG1eJtSYGaf19mvyw==
-
 css-what@2.1, css-what@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/css-what/-/css-what-2.1.2.tgz#c0876d9d0480927d7d4920dcd72af3595649554d"
@@ -5378,6 +5373,14 @@ gatsby-plugin-polyfill-io@^1.0.5:
   integrity sha512-xkjde+FkWfWpYj7cisGXePVXt1Gb84LgWlaT5OuSFs6wcnebhAAr8GNJctIzJFmlKOTdbTYQnwYuDl3i/w7nyw==
   dependencies:
     babel-runtime "^6.26.0"
+
+gatsby-plugin-postcss@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-postcss/-/gatsby-plugin-postcss-2.0.2.tgz#b3a907699787f91349d7b80a6fb7c516c95c4729"
+  integrity sha512-1BKDDZTzCZaId4egQCQtWeN5mgyF5o8EQSd1d2y8A9NIt6oHrcAPcuBazZXTzBsDFw+8itOqE68OW2u4MsvqUA==
+  dependencies:
+    "@babel/runtime" "^7.0.0"
+    postcss-loader "^3.0.0"
 
 gatsby-plugin-react-helmet@3.0.1:
   version "3.0.1"
@@ -9769,6 +9772,16 @@ postcss-loader@^2.1.3:
     postcss "^6.0.0"
     postcss-load-config "^2.0.0"
     schema-utils "^0.4.0"
+
+postcss-loader@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/postcss-loader/-/postcss-loader-3.0.0.tgz#6b97943e47c72d845fa9e03f273773d4e8dd6c2d"
+  integrity sha512-cLWoDEY5OwHcAjDnkyRQzAXfs2jrKjXpO/HQFcc5b5u/r7aa471wdmChmwfnv7x2u840iat/wi0lQ5nbRgSkUA==
+  dependencies:
+    loader-utils "^1.1.0"
+    postcss "^7.0.0"
+    postcss-load-config "^2.0.0"
+    schema-utils "^1.0.0"
 
 postcss-merge-longhand@^4.0.10:
   version "4.0.10"
