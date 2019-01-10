@@ -3479,6 +3479,11 @@ css-url-regex@^1.1.0:
   resolved "https://registry.yarnpkg.com/css-url-regex/-/css-url-regex-1.1.0.tgz#83834230cc9f74c457de59eebd1543feeb83b7ec"
   integrity sha1-g4NCMMyfdMRX3lnuvRVD/uuDt+w=
 
+css-vars-ponyfill@^1.16.2:
+  version "1.16.2"
+  resolved "https://registry.yarnpkg.com/css-vars-ponyfill/-/css-vars-ponyfill-1.16.2.tgz#4573d896ff29454e5cb263f2ea1bad56d93c1ed2"
+  integrity sha512-cnF2KwwMPjU+P5jgDnPv/o+RioqDyjw81YNLki3rEPDp28xYE0zjpN23RaFF/pimmS4G4MG1eJtSYGaf19mvyw==
+
 css-what@2.1, css-what@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/css-what/-/css-what-2.1.2.tgz#c0876d9d0480927d7d4920dcd72af3595649554d"
