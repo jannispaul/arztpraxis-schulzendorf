@@ -8,10 +8,14 @@ const Datenschutz = () => (
   <Layout>
     <Legalcontainer>
       <h1>Datenschutz</h1>
-      <p>Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:</p>
-      <p>Peggy von Niederh&auml;usern</p>
-      <p>Kontaktdaten</p>
-      <p>&nbsp;</p>
+      <p id="dataprivacyofficer">Verantwortliche Stelle im Sinne der Datenschutzgesetze, insbesondere der EU-Datenschutzgrundverordnung (DSGVO), ist:</p><br />
+      <p >Peggy von Niederh&auml;usern</p>
+      <p>Illgenstr. 4</p>
+      <p>15732 Schulzendorf</p>
+      <p>Telefon: 033762 48550</p>
+      <p>Email: <a href="mailto:kontakt@arztpraxis-schulzendorf.de">kontakt@arztpraxis-schulzendorf.de</a></p>
+      <br />
+      <br />
       <h2>Ihre Betroffenenrechte</h2>
       <p>Unter den angegebenen Kontaktdaten unseres Datenschutzbeauftragten k&ouml;nnen Sie jederzeit folgende Rechte aus&uuml;ben:</p>
       <ul>
@@ -61,11 +65,15 @@ const Datenschutz = () => (
       <br />
       <br />
       <h2>Fragen an den Datenschutzbeauftragten</h2>
-      <p>Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die f&uuml;r den Datenschutz verantwortliche Person in unserer Organisation:</p>
-      <p>&nbsp;</p>
-      <p>Kontaktdaten</p>
-      <p>&nbsp;</p>
-      <small>Die Datenschutzerkl&auml;rung wurde mit dem <a href="https://www.activemind.de/datenschutz/datenschutzhinweis-generator/">Datenschutzerkl&auml;rungs-Generator der activeMind AG erstellt</a> (Version 2018-09-24).</small>
+      <p>Wenn Sie Fragen zum Datenschutz haben, schreiben Sie uns bitte eine E-Mail oder wenden Sie sich direkt an die <a href="#dataprivacyofficer">f&uuml;r den Datenschutz verantwortliche Person</a> in unserer Organisation.</p>
+      <br />
+      <br />
+      <h2>Jameda Integration</h2>
+      <p>Auf unserer Internetseite sind Siegel oder Widgets der jameda GmbH, St. Cajetan-Straße 41, 81669 München, eingebunden. Ein Widget ist ein kleines Fenster, das veränderliche Informationen anzeigt. Auch unser Siegel funktioniert in ähnlicher Weise, d. h. es sieht nicht immer gleich aus, sondern die Anzeige ändert sich regelmäßig. Dabei wird der entsprechende Inhalt zwar auf unserer Internetseite dargestellt, er wird aber in diesem Moment von den jameda-Servern abgerufen. Nur so kann immer der aktuelle Inhalt gezeigt werden, vor allem die jeweils aktuelle Bewertung. Dafür muss eine Datenverbindung von dieser Internetseite zu jameda aufgebaut werden und jameda erhält gewisse technische Daten (Datum und Uhrzeit des Besuchs; die Seite, von der die Abfrage erfolgt; verwendete Internet Protokoll-Adresse (IP- Adresse), Browsertyp und -version, Gerätetyp, Betriebssystem und ähnliche technische Informationen), die nötig sind, damit der Inhalt ausgeliefert werden kann. Diese Daten werden lediglich für die Bereitstellung des Inhalts verwendet und nicht gespeichert oder anderweitig genutzt.</p>
+      <p>Wir verfolgen mit der Einbindung den Zweck und das berechtigte Interesse, aktuelle und korrekte Inhalte auf unserer Homepage darzustellen. Rechtsgrundlage ist Art 6 Abs. 1 f) DSGVO. Eine Speicherung der genannten Daten erfolgt durch uns aufgrund dieser Einbindung nicht. Weitere Informationen zur Datenverarbeitung durch jameda können Sie der Datenschutzerklärung der Seite <a href="https://www.jameda.de/jameda/datenschutz.php">https://www.jameda.de/jameda/datenschutz.php</a> entnehmen.</p>
+      <br />
+      <br />
+      <small>Diese Datenschutzerkl&auml;rung wurde mit dem <a href="https://www.activemind.de/datenschutz/datenschutzhinweis-generator/">Datenschutzerkl&auml;rungs-Generator der activeMind AG erstellt</a> (Version 2018-09-24).</small>
       <br />
       <br />
       <Link to="/">Zurück zur Startseite</Link>

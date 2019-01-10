@@ -24,7 +24,7 @@ const Impressum = () => (
       <p>
       
       </p>
-      <Link to="/">Go back to the homepage</Link>
+      <Link to="/">Zurück zur Startseite</Link>
     </Legalcontainer>
   </Layout>
 )
