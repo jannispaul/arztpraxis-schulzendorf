@@ -4,11 +4,13 @@ module.exports = {
     siteUrl: 'https://youthful-brown-8d4f3a.netlify.com',
   },
   plugins: [
-    `gatsby-plugin-polyfill-io`,
+    'gatsby-plugin-polyfill-io',
+    'gatsby-plugin-postcss',
     'gatsby-plugin-sitemap',
     'gatsby-plugin-react-helmet',
     {
       resolve: `gatsby-plugin-manifest`,
+      resolve: 'gatsby-plugin-css-customs',
       options: {
         name: 'Arztpraxis Schulzendorf',
         short_name: 'Hausarzt',
