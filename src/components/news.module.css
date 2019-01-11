@@ -16,7 +16,7 @@
 .icon{
     height: var(--space-l);
     width: var(--space-l);
-    display: grid;
+    display: flex;
     align-items: center;
     background: var(--color-white);
     border-radius: 5px;
