@@ -64,7 +64,7 @@
         top:0;
         height: var(--nav-height);
         box-shadow: 0 1px 14px rgba(0,0,0,0.1);
-        -ms-grid-columns: 1fr repeat(3,auto);
+        -ms-grid-columns: 1fr 1fr 1fr 1fr;
         grid-template-columns:  1fr repeat(3,auto);
         justify-items: start;
         padding:0 var(--space-unit);
