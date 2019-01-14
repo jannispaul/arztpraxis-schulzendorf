@@ -64,7 +64,7 @@
 }
 
 @media  (min-width: 1800px) {
-  body{
+  :root{
   --font-size: 1.45rem;
   --nav-height: 90px;
 
