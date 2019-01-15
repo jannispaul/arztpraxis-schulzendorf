@@ -11,13 +11,12 @@
     z-index: 5;
 
 }
-
 .content{
     display: table-cell;/*IE*/
     vertical-align: middle;/*IE*/
 }
 
-.logo{
+.logo, .wave{
     display:none;/*IE*/
 }
 /*All browsers other than IE*/
@@ -35,6 +34,14 @@
         margin-bottom: var(--space-unit);
         margin-right: var(--space-unit);
     }
+    .wave {
+        display: inline-block;
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        min-height: 100px;
+        margin-bottom: -50px;
+    }
 }
 .copy{
     margin-left: auto;
@@ -43,10 +50,3 @@
     max-width:700px;
 }
 
-.wave {
-    position: absolute;
-    bottom: 0;
-    width: 100%;
-    min-height: 100px;
-    margin-bottom: -50px;
-}
