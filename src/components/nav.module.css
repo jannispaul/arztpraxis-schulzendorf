@@ -66,7 +66,6 @@
         height: var(--nav-height);
         box-shadow: 0 1px 14px rgba(0,0,0,0.1);
         -ms-grid-columns: 1fr auto auto auto auto;
-        /* display: table-cell; */
         grid-template-columns:  1fr repeat(3,auto);
         justify-items: start;
         padding:0 var(--space-unit);
@@ -87,16 +86,13 @@
     .nav a:nth-of-type(3) {
         -ms-grid-column: 4;
         align-items: flex-end;
-
     }
     .nav> a:nth-of-type(4) {
         -ms-grid-column: 5;
         align-items: flex-end;
     }
    
-    /* .nav a:{
-        display: inline;
-    } */
+
     .nav a:not(:first-of-type){
         padding-left: var(--space-s);
         padding-right: var(--space-s);
@@ -133,6 +129,7 @@
         transition: color var(--time-fast), background-color var(--time-fast);
         margin-left: calc(1.5 * var(--space-s));
         width: auto;
+        height: auto;
     }
     .nav .button:hover{
         color: var(--color-white);
