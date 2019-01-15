@@ -13,18 +13,20 @@
 }
 
 .content{
-    margin: auto;
     display: table-cell;/*IE*/
     vertical-align: middle;/*IE*/
-    display: flex; 
-    flex-wrap: wrap;
-
 }
+
 .logo{
     display:none;/*IE*/
 }
-/*SHow logo over text in all browsers other than IE*/
+/*All browsers other than IE*/
 @supports (display: grid) {
+    .content{
+        margin: auto;
+        display: flex; 
+        flex-wrap: wrap;
+    }
     .logo{
         display: inline-block;
         width: auto;
