@@ -70,7 +70,7 @@
 
 @media (min-width: 700px) {
     .img {
-        width: auto;
+        width: auto!important;/*Important to fix IE issue*/
         min-width: none;
         max-width: none;
         height: 100%;

@@ -25,34 +25,34 @@ const Impressum = () => (
       <p>Gesetzliche Berufsbezeichnung: 
         Arzt, Approbationen verliehen in der Bundesrepublik Deutschland
         Fachärztin für Allgemeinmedizin
-      </p>
+      </p><br /><br />
       <h4>Zuständige Ärztekammer:</h4>
       <p>Landesärztekammer Brandenburg<br />
           Geschäftsstelle Cottbus <br />
           PF 10 14 45<br />
           03014 Cottbus<br />
-          Web: <a href="www.laekb.de">www.laekb.de</a></p>
-           
-          <h4>Berufsrechtliche Regelung</h4>
+          Web: <a href="www.laekb.de">www.laekb.de</a>
+        </p><br /><br />
+        <h4>Berufsrechtliche Regelung</h4>
         <p>Berufsordnung für die Ärzte im Land Brandenburg<br />
           Gebührenordnung für Ärzte (GOÄ)<br />
           Heilberufsgesetz des Landes Brandenburg<br />
-          Einheitlicher Bewertungsmaßstab (EBM)<br />
-           <br />
+          Einheitlicher Bewertungsmaßstab (EBM)<br /><br />
           Die Regelungen finden Sie unter:<br />
-          <a href="https://www.laekb.de/www/website/ServiceNavigation/download/">https://www.laekb.de/www/website/ServiceNavigation/download/</a></p>
-           
+          <a href="https://www.laekb.de/www/website/ServiceNavigation/download/">https://www.laekb.de/www/website/ServiceNavigation/download/</a>
+        </p><br />
         <h4>Aufsichtsbehörde:</h4>
         <p>Kassenärztliche Vereinigung Brandenburg<br />
           Pappelallee 5<br />
           14469 Potsdam<br />
-          Web: <a href="www.kvbb.de">www.kvbb.de</a><br />
-        </p>
+          Web: <a href="www.kvbb.de">www.kvbb.de</a>
+        </p><br /><br />
         <h4>Angaben zur Arzthaftpflichtversicherung</h4>
         <p>Name und Sitz des Versicherers:<br />
-           Deutsch Ärzteversicherung Allgemeine Zweigniederlassung der AXA Vers. AG<br />
-           Postanschrift: 51171 Köln<br />
+          Deutsch Ärzteversicherung Allgemeine Zweigniederlassung der AXA Vers. AG<br />
+          Postanschrift: 51171 Köln<br />
         </p>
+        <br />
       <Link to="/">Zurück zur Startseite</Link>
     </Legalcontainer>
   </Layout>
