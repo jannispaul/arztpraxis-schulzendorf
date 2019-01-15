@@ -79,17 +79,19 @@
     }
     .nav a:first-of-type{
         -ms-grid-column: 1;
+        align-items: flex-end;
     }
     .nav a:nth-of-type(2) {
         -ms-grid-column: 3;
     }
     .nav a:nth-of-type(3) {
         -ms-grid-column: 4;
-        align-items: flex-end;
+        align-items: center;
     }
     .nav> a:nth-of-type(4) {
         -ms-grid-column: 5;
-        align-items: flex-end;
+        align-items: center;
+        margin-bottom: 0;
     }
    
 

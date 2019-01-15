@@ -52,6 +52,8 @@
 @media  (min-width: 376px) {
   :root{
   --font-size: 1.2rem;
+  font-size: 1.2rem;
+  line-height: 1.5;
 
   }
 }
@@ -59,7 +61,8 @@
   :root{
   --font-size: 1.3rem;
   --space-m: calc(2 * var(--space-unit));
-
+  font-size: 1.3rem;
+  line-height: 1.4;
   }
 }
 
@@ -67,6 +70,6 @@
   :root{
   --font-size: 1.45rem;
   --nav-height: 90px;
-
+  font-size: 1.45rem;
   }
 }
