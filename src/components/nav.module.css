@@ -64,7 +64,7 @@
         top:0;
         height: var(--nav-height);
         box-shadow: 0 1px 14px rgba(0,0,0,0.1);
-        -ms-grid-columns: 1fr 1fr 1fr 1fr;
+        -ms-grid-columns: 1fr repeat(3,auto);
         grid-template-columns:  1fr repeat(3,auto);
         justify-items: start;
         padding:0 var(--space-unit);
@@ -81,14 +81,11 @@
     }
     nav a:nth-of-type(2) {
         -ms-grid-column: 2;
-        color: red!important;
-        text-decoration: underline;
-        border: 2px solid red;
     }
     nav a:nth-of-type(3) {
         -ms-grid-column: 3;
     }
-    .desktop > a:nth-of-type(4) {
+    nav> a:nth-of-type(4) {
         -ms-grid-column: 4;
     }
    
