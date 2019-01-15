@@ -9,18 +9,19 @@ const Impressum = () => (
     <Legalcontainer>
       <h1>Impressum</h1>
       <p>
-      Hausarztpraxis Schulzendorf<br />
-      Peggy von Niederhäusern<br />
-      Fachärztin für Allgemeinmedizin<br />
-      Illgenstraße 4<br />
-      15732 Schulzendorf
+        Hausarztpraxis Schulzendorf<br />
+        Peggy von Niederhäusern<br />
+        Fachärztin für Allgemeinmedizin<br />
+        Illgenstraße 4<br />
+        15732 Schulzendorf
       </p>
-      <p></p>
+      <br />
       <ul>
-        <li>Email: <Link to="mailto:arztpraxis.schulzendorf@t-online.de">arztpraxis.schulzendorf@t-online.de</Link> </li>
+        <li>Email: <Link to="mailto:info@arztpraxis-schulzendorf.de">info@arztpraxis-schulzendorf.de</Link> </li>
         <li>Telefon: 033762 48550</li>
         <li>Fax: 033752 48552</li>
       </ul>
+      <br /><br />
       <h4>Berufsbezeichnung und berufsrechtliche Regelungen</h4>
       <p>Gesetzliche Berufsbezeichnung: 
         Arzt, Approbationen verliehen in der Bundesrepublik Deutschland
@@ -40,7 +41,7 @@ const Impressum = () => (
           Einheitlicher Bewertungsmaßstab (EBM)<br /><br />
           Die Regelungen finden Sie unter:<br />
           <a href="https://www.laekb.de/www/website/ServiceNavigation/download/">https://www.laekb.de/www/website/ServiceNavigation/download/</a>
-        </p><br />
+        </p><br /><br />
         <h4>Aufsichtsbehörde:</h4>
         <p>Kassenärztliche Vereinigung Brandenburg<br />
           Pappelallee 5<br />
