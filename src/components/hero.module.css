@@ -1,7 +1,9 @@
 .hero{
     width: 100%;
     min-height: 50vh;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-pack: center;
     justify-content: center;
     padding: var(--space-m);
     position: relative;
@@ -11,7 +13,9 @@
 
 .content{
     margin: auto;
+    display: -ms-flexbox;
     display: flex;
+    -ms-flex-wrap: wrap;
     flex-wrap: wrap;
 }
 
@@ -24,6 +28,7 @@
 }
 
 .copy{
+    -ms-flex: 2 1 500px;
     flex: 2 1 500px;
     max-width:700px;
 }
