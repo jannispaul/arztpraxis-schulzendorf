@@ -129,7 +129,7 @@
         transition: color var(--time-fast), background-color var(--time-fast);
         margin-left: calc(1.5 * var(--space-s));
         width: auto;
-        height: auto;
+        height: 2.4em;
     }
     .nav .button:hover{
         color: var(--color-white);
