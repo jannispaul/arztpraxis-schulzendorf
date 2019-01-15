@@ -14,8 +14,9 @@
     box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.05);
     display: -ms-grid;
     display: grid;
-    -ms-grid-columns: repeat(4, 1fr);
+    -ms-grid-columns: 1fr 1fr 1fr 1fr;
     grid-template-columns: repeat(4, 1fr);
+    -ms-grid-row-align: center;
     align-items: center;
     justify-items: center;
     padding:0;
@@ -64,7 +65,7 @@
         top:0;
         height: var(--nav-height);
         box-shadow: 0 1px 14px rgba(0,0,0,0.1);
-        -ms-grid-columns: 1fr repeat(3,auto);
+        -ms-grid-columns: 1fr 1fr 1fr 1fr 1fr;
         grid-template-columns:  1fr repeat(3,auto);
         justify-items: start;
         padding:0 var(--space-unit);
@@ -80,13 +81,13 @@
         -ms-grid-column: 1;
     }
     nav a:nth-of-type(2) {
-        -ms-grid-column: 2;
-    }
-    nav a:nth-of-type(3) {
         -ms-grid-column: 3;
     }
-    nav> a:nth-of-type(4) {
+    nav a:nth-of-type(3) {
         -ms-grid-column: 4;
+    }
+    nav> a:nth-of-type(4) {
+        -ms-grid-column: 5;
     }
    
     .nav a:not(:first-of-type){
