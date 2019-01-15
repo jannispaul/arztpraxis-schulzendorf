@@ -1,9 +1,10 @@
 .hero{
     width: 100%;
     min-height: 50vh;
-    display: -ms-flexbox;
+    display: table; /*IE*/
+    vertical-align: middle; /*IE*/
+    display: table;/*IE*/
     display: flex;
-    -ms-flex-pack: center;
     justify-content: center;
     padding: var(--space-m);
     position: relative;
@@ -13,22 +14,29 @@
 
 .content{
     margin: auto;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
+    display: table-cell;/*IE*/
+    vertical-align: middle;/*IE*/
+    display: flex; 
     flex-wrap: wrap;
-}
 
+}
 .logo{
-    width: auto;
-    max-width: 80vw;
-    height: calc(2 * var(--space-l));
-    margin-bottom: var(--space-unit);
-    margin-right: var(--space-unit);
+    display:none;/*IE*/
 }
-
+/*SHow logo over text in all browsers other than IE*/
+@supports (display: grid) {
+    .logo{
+        display: inline-block;
+        width: auto;
+        max-width: 80vw;
+        height: calc(2 * var(--space-l));
+        margin-bottom: var(--space-unit);
+        margin-right: var(--space-unit);
+    }
+}
 .copy{
-    -ms-flex: 2 1 500px;
+    margin-left: auto;
+    margin-right: auto;
     flex: 2 1 500px;
     max-width:700px;
 }
