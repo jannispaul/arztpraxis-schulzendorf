@@ -3,6 +3,8 @@ import { Link } from 'gatsby'
 
 import Layout from '../components/layout'
 import Legalcontainer from '../components/legalcontainer'
+import Buttonprimary from '../components/buttonprimary'
+
 
 const Impressum = () => (
   <Layout>
@@ -54,7 +56,7 @@ const Impressum = () => (
           Postanschrift: 51171 Köln<br />
         </p>
         <br />
-      <Link to="/">Zurück zur Startseite</Link>
+        <Buttonprimary link="/">Zurück zur Startseite</Buttonprimary>
     </Legalcontainer>
   </Layout>
 )

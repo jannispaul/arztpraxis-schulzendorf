@@ -23,7 +23,7 @@ const Service = () => (
         <li><Icon icon={ICONS.CHECKMARK} className={styles.icon}/>Impfberatung, Impfungen</li>
         <li><Icon icon={ICONS.CHECKMARK} className={styles.icon}/>Palliativmedizinische Begleitung</li>
       </ul>
-      <p>…und vieles mehr…</p>
+      <p>…und vieles mehr.</p>
   </section>
 )
 

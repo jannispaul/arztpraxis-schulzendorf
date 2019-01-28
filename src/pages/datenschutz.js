@@ -1,8 +1,7 @@
 import React from 'react'
-import { Link } from 'gatsby'
-
 import Layout from '../components/layout'
 import Legalcontainer from '../components/legalcontainer'
+import Buttonprimary from '../components/buttonprimary'
 
 const Datenschutz = () => (
   <Layout>
@@ -76,7 +75,7 @@ const Datenschutz = () => (
       <small>Diese Datenschutzerkl&auml;rung wurde mit dem <a href="https://www.activemind.de/datenschutz/datenschutzhinweis-generator/">Datenschutzerkl&auml;rungs-Generator der activeMind AG erstellt</a> (Version 2018-09-24).</small>
       <br />
       <br />
-      <Link to="/">Zurück zur Startseite</Link>
+      <Buttonprimary link="/">Zurück zur Startseite</Buttonprimary>
     </Legalcontainer>
   </Layout>
 )
