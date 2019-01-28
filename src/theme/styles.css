@@ -8,7 +8,7 @@ body{
   user-select: none;
 }
 
-p,a,li,span,td{
+p,a,li,td{
   line-height: var(--line-height);
   color: var(--color-medium);
   /* font-weight: normal; */

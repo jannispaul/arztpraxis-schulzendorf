@@ -6,20 +6,21 @@ class Cookienotice extends React.Component {
             window.cookieconsent.initialise({
             "palette": {
                 "popup": {
-                "background": "#2e2e31",
-                "text": "#fff"
+                "background": "#0A1468",
+                "text": "#ffffff"
                 },
                 "button": {
-                "background": "#00863B",
-                "text": "#fff"
-                },
-                "position": "bottom-right",
-                "content": {
-                  "message": "Diese Website nutzt Cookies um dein Er",
-                  "dismiss": "Verstanden",
-                  "link": "Mehr erfahren",
-                  "href": "https://arztpraxis-schulzendorf.de/datenschutz"
+                "background": "transparent",
+                "text": "#ffffff",
+                "border": "#fff"
                 }
+              },
+              "position": "bottom",
+              "content": {
+                "message": "Diese Website nutzt Cookies um dein Erlebnis zu verbessern.",
+                "dismiss": "Verstanden",
+                "link": "Mehr erfahren",
+                "href": "https://arztpraxis-schulzendorf.de/datenschutz"
             }
             })});
         
