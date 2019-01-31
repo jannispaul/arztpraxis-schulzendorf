@@ -1,8 +1,8 @@
 {
-  "name": "gatsby-starter-default",
-  "description": "Gatsby default starter",
+  "name": "custom-gatbsy-site",
+  "description": "Custom Gatsby Site",
   "version": "1.0.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Jannis Wicke <jannis@pixel-pink.de>",
   "dependencies": {
     "cookieconsent": "^3.1.0",
     "gatsby": "2.0.41",
@@ -11,7 +11,6 @@
     "gatsby-plugin-manifest": "2.0.8",
     "gatsby-plugin-netlify-cms": "^3.0.7",
     "gatsby-plugin-offline": "2.0.13",
-    "gatsby-plugin-polyfill-io": "^1.0.5",
     "gatsby-plugin-postcss": "^2.0.2",
     "gatsby-plugin-react-helmet": "3.0.1",
     "gatsby-plugin-sharp": "^2.0.12",
@@ -41,6 +40,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+    "url": "https://github.com/vajayjay/arztpraxis-schulzendorf"
   }
 }

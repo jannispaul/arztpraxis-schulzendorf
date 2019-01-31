@@ -33,7 +33,6 @@ const Layout = ({ children }) => (
           <html lang="de" />
           <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
           <script src="//cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-          <script src="https://www.jameda.de/api/otb-widget/?refid=81191615_1" async></script>
         </Helmet>
         <Nav/>
         <div className={styles.app}>
