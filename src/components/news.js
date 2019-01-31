@@ -27,7 +27,7 @@ export default () => (
     `}
     render={data => (
       <div className={styles.newsContainer}>
-        {data.allMarkdownRemark.edges.map(({ node }) => (
+        {data.allMarkdownRemark.edges.slice(1).map(({ node }) => (
           <div key={node.id} className={styles.newsItem}>
             <div className={styles.content}>
               <div className={styles.icon}>
