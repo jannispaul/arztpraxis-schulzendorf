@@ -14,7 +14,10 @@ export default () => (
               id
               rawMarkdownBody
               frontmatter {
-                date (formatString: "DD. MMMM YYYY")
+                date (
+                  formatString: "DD. MMMM YYYY"
+                  locale: "de-DE"
+                )
                 title
               }
             }
