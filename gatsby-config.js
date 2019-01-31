@@ -1,15 +1,13 @@
 module.exports = {
   siteMetadata: {
-    title: `Hausarztpraxis Schulzendorf`,
-    siteUrl: `https://youthful-brown-8d4f3a.netlify.com`,
+    title: `Arztpraxis Schulzendorf`,
+    siteUrl: `https://arztpraxis-schulzendorf.de`,
   },
   plugins: [
-    `gatsby-plugin-postcss`,
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-plugin-manifest`,
-      resolve: `gatsby-plugin-css-customs`,
       options: {
         name: `Arztpraxis Schulzendorf`,
         short_name: `Hausarzt`,
@@ -18,6 +16,14 @@ module.exports = {
         theme_color: `#ffffff`,
         display: `fullscreen`,
         icon: `content/images/favicon.png`, // This path is relative to the root of the site.
+      }
+    },
+    `gatsby-plugin-postcss`,
+    {
+      resolve: `gatsby-plugin-css-customs`,
+      // defaults
+      options: {
+        cssModules: false,
       },
     },
     `gatsby-plugin-offline`,
