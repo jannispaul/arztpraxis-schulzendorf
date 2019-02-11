@@ -12,7 +12,7 @@ const Contact = (props) => (
     <div className={styles.contentContainer}>
       <div className={styles.contentContainerBody}>
         <h1>Leistungen</h1>
-        <p>Wir sind eine Praxis für allgemeine Medizin und betreuen Patienten aller Altersgruppen, insbesondere ab zwei Jahren bis ins Senium. Wir sehen uns als Praxis für die Familie und unser Ziel ist es, unseren Patienten in allen Lebenslagen unter die Arme zu greifen. Durch unterschiedliche Hauptaufgabenfelder ergänzen wir uns ideal und arbeiten stetig daran, den Gemeinschaftsgeist der Praxis zu stärken.
+        <p>Wir sind eine Praxis für allgemeine Medizin und betreuen Patienten aller Altersgruppen, insbesondere ab drei Jahren bis ins Senium. Wir sehen uns als Praxis für die Familie und unser Ziel ist es, unseren Patienten in allen Lebenslagen unter die Arme zu greifen. Durch unterschiedliche Hauptaufgabenfelder ergänzen wir uns ideal und arbeiten stetig daran, den Gemeinschaftsgeist der Praxis zu stärken.
         Wir bieten eine Vielzahl von Leistungen. Einige haben wir im Folgenden aufgelistet. Falls Sie Fragen haben, kontaktieren Sie uns gerne!</p>
       </div>
     </div>
