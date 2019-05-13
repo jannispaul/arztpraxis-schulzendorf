@@ -55,11 +55,11 @@ const Impressum = () => (
           Deutsch Ärzteversicherung Allgemeine Zweigniederlassung der AXA Vers. AG<br />
           Postanschrift: 51171 Köln<br />
         </p>
-        <br />
+        <br /><br />
         <h4>Design und Entwicklung</h4>
         <p>PixelPink Design Studio<br />
         <a href="https://www.pixel-pink.de">https://www.pixel-pink.de</a></p>
-        <br />
+        <br /><br />
         <Buttonprimary link="/">Zurück zur Startseite</Buttonprimary>
     </Legalcontainer>
   </Layout>
