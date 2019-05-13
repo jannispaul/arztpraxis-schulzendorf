@@ -18,7 +18,7 @@ const Impressum = () => (
         15732 Schulzendorf
       </p>
       <br />
-      <ul>
+      <ul >
         <li>Email: <Link to="mailto:info@arztpraxis-schulzendorf.de">info@arztpraxis-schulzendorf.de</Link> </li>
         <li>Telefon: 033762 48550</li>
         <li>Fax: 033752 48552</li>
@@ -29,7 +29,7 @@ const Impressum = () => (
         Arzt, Approbationen verliehen in der Bundesrepublik Deutschland
         Fachärztin für Allgemeinmedizin
       </p><br /><br />
-      <h4>Zuständige Ärztekammer:</h4>
+      <h4>Zuständige Ärztekammer</h4>
       <p>Landesärztekammer Brandenburg<br />
           Geschäftsstelle Cottbus <br />
           PF 10 14 45<br />
@@ -44,7 +44,7 @@ const Impressum = () => (
           Die Regelungen finden Sie unter:<br />
           <a href="https://www.laekb.de/www/website/ServiceNavigation/download/">https://www.laekb.de/www/website/ServiceNavigation/download/</a>
         </p><br /><br />
-        <h4>Aufsichtsbehörde:</h4>
+        <h4>Aufsichtsbehörde</h4>
         <p>Kassenärztliche Vereinigung Brandenburg<br />
           Pappelallee 5<br />
           14469 Potsdam<br />
@@ -55,6 +55,10 @@ const Impressum = () => (
           Deutsch Ärzteversicherung Allgemeine Zweigniederlassung der AXA Vers. AG<br />
           Postanschrift: 51171 Köln<br />
         </p>
+        <br />
+        <h4>Design und Entwicklung</h4>
+        <p>PixelPink Design Studio<br />
+        <a href="https://www.pixel-pink.de">https://www.pixel-pink.de</a></p>
         <br />
         <Buttonprimary link="/">Zurück zur Startseite</Buttonprimary>
     </Legalcontainer>
