@@ -1,6 +1,6 @@
 backend:
   name: github
-  repo: vajayjay/arztpraxis-schulzendorf
+  repo: jannispaul/arztpraxis-schulzendorf
 
 media_folder: static/assets
 public_folder: assets
@@ -11,21 +11,21 @@ collections:
     folder: content/news
     create: true
     fields:
-      - { name: title, label: Titel, default: News } 
+      - { name: title, label: Titel, default: News }
       - { name: date, label: Datum, widget: date }
       - { name: body, label: Nachricht, widget: markdown }
 
   - name: times
     label: Öffnungszeiten
     files:
-    - label: Öffnungszeiten
-      name: times
-      file: content/times/times.md
-      fields:
-        - { name: path, label: Path, widget: string, default: times }
-        - { name: monday, label: Montag, widget: text }
-        - { name: tuesday, label: Dienstag, widget: text }
-        - { name: wednesday, label: Mittwoch, widget: text }
-        - { name: thursday, label: Donnerstag, widget: text }
-        - { name: friday, label: Freitag, widget: text }
-        - { name: body, label: Nachricht, widget: markdown }
+      - label: Öffnungszeiten
+        name: times
+        file: content/times/times.md
+        fields:
+          - { name: path, label: Path, widget: string, default: times }
+          - { name: monday, label: Montag, widget: text }
+          - { name: tuesday, label: Dienstag, widget: text }
+          - { name: wednesday, label: Mittwoch, widget: text }
+          - { name: thursday, label: Donnerstag, widget: text }
+          - { name: friday, label: Freitag, widget: text }
+          - { name: body, label: Nachricht, widget: markdown }

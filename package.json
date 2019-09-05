@@ -5,7 +5,8 @@
   "author": "Jannis Wicke <jannis@pixel-pink.de>",
   "dependencies": {
     "cookieconsent": "^3.1.0",
-    "gatsby": "2.0.41",
+    "gatsby": "^2.15.7",
+    "gatsby-cli": "^2.7.44",
     "gatsby-image": "^2.0.20",
     "gatsby-plugin-css-customs": "^0.2.3",
     "gatsby-plugin-manifest": "2.0.8",
@@ -40,6 +41,6 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vajayjay/arztpraxis-schulzendorf"
+    "url": "https://github.com/jannispaul/arztpraxis-schulzendorf"
   }
 }
