@@ -7,11 +7,12 @@ import Contact from '../components/contact'
 import Times from '../components/times'
 import Emergency from '../components/emergency'
 import Cookienotice from '../components/cookienotice'
-
+import Notice from '../components/Notice'
 
 const IndexPage = () => (
   <Layout>
     <Cookienotice></Cookienotice>
+    <Notice></Notice>
     <News></News>
     <Hero></Hero>
     <Contact></Contact>
