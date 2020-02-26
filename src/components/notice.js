@@ -20,8 +20,7 @@ const Notice = () => (
             <b>Symptome</b>: SCHWERSTES Krankheitsgeühl, HOHES Fieber,
             Atemprobleme, Husten, SCHWERSTE Gliederschmerzen
             <br />
-            <b>Risikofaktoren</b>: Reisen in Risikogebiete, Kontakt zu
-            Reisenden, 
+            <b>Risikofaktoren</b>: Reisen in Risikogebiete, Kontakt zu Reisenden
           </span>
         </div>
       </div>
