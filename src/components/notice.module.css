@@ -9,11 +9,12 @@
   width: auto;
   display: flex;
   justify-content: center;
-  padding: var(--space-s);
+  padding: var(--space-m);
 }
 
 .icon {
-  height: var(--space-l);
+  /* height: var(--space-l); */
+  min-height: 100%;
   width: var(--space-l);
   /* display: flex; */
   display: none;
@@ -42,7 +43,7 @@
 
 .content {
   display: flex;
-  align-items: center;
+  align-items: stretch;
 }
 
 .date {
@@ -57,4 +58,5 @@
 .newsBody {
   color: var(--color-white);
   /* margin-bottom: -7px; */
+  max-width: 700px;
 }
