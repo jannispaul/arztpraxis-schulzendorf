@@ -55,7 +55,8 @@
   /* opacity: 0.8; */
 }
 
-.newsBody {
+.newsBody,
+a {
   color: var(--color-white);
   /* margin-bottom: -7px; */
   max-width: 700px;
