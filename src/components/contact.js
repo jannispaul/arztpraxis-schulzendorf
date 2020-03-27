@@ -24,9 +24,9 @@ const Contact = props => (
           </a>
           .
         </p>
-        {/* <Buttonprimary link="tel:+493376248550">
+        <Buttonprimary link="tel:+493376248550">
           Tel: 033762 48550
-        </Buttonprimary> */}
+        </Buttonprimary>
         <Buttonprimary link="mailto:info@arztpraxis-schulzendorf.de">
           info@arztpraxis-schulzendorf.de
         </Buttonprimary>

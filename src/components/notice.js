@@ -19,14 +19,8 @@ const Notice = () => (
             Hause zu bleiben und nicht in die Praxis zu kommen.
             <br />
             <br />
-            Nehmen Sie bitte per E-Mail Kontakt mit uns auf: <br />
-            Arztpraxis:{' '}
-            <a href="mailto:info@arztpraxis-schulzendorf.de">
-              info@arztpraxis-schulzendorf.de
-            </a>
-            <br />
-            Oder per Telefon:
-            <br />
+            Nehmen Sie zuerst telefonisch Kontakt auf: <br />
+            Arztpraxis: 033762-48550 / Wochenende: 116 117 <br />
             Gesundheitsamt (Mo.-So. 8-18 Uhr): 03375-262146 <br />
             Bürgertelefon (Mo.-Fr. 9-15 Uhr): 0331-8683777
           </span>
