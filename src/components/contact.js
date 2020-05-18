@@ -8,6 +8,10 @@ const StyledContent = styled.div`
   padding: 16px;
   font-size: 18px;
   flex: 1 0 50%;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `
 
 const Contact = (props) => (
@@ -24,12 +28,14 @@ const Contact = (props) => (
           </a>
           .
         </p>
-        <ButtonPrimary link="tel:+493376248550">
-          Tel: 033762 48550
-        </ButtonPrimary>
-        <ButtonPrimary link="mailto:info@arztpraxis-schulzendorf.de">
-          info@arztpraxis-schulzendorf.de
-        </ButtonPrimary>
+        <div>
+          <ButtonPrimary link="tel:+493376248550">
+            Tel: 033762 48550
+          </ButtonPrimary>
+          <ButtonPrimary link="mailto:info@arztpraxis-schulzendorf.de">
+            info@arztpraxis-schulzendorf.de
+          </ButtonPrimary>
+        </div>
       </StyledContent>
     </ContentCard>
   </section>

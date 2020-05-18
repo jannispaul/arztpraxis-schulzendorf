@@ -4,7 +4,7 @@ import '../../theme/variables.css'
 import '../../theme/styles.css'
 import Nav from '../Nav/Nav'
 import MobileMenu from '../Nav/MobileMenu'
-import Footer from '../footer'
+import Footer from '../Footer'
 
 class Layout extends React.Component {
   state = {

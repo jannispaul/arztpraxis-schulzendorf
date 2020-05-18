@@ -17,7 +17,7 @@ const Nav = styled.nav`
   align-items: center;
   justify-content: space-between;
 
-  height: 60px;
+  height: 68px;
   width: 100%;
   background: white;
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
@@ -26,7 +26,7 @@ const Nav = styled.nav`
   font-size: var(--small);
 
   /*Nav bar on desktop*/
-  @media ${device.tablet} {
+  @media ${device.laptop} {
     height: 100px;
     padding: 0 32px;
   }
@@ -37,7 +37,7 @@ const Nav = styled.nav`
   }
 
   /*Hide BurgerButton on Dektop*/
-  @media ${device.tablet} {
+  @media ${device.laptop} {
     & > :last-child {
       display: none;
     }
@@ -45,7 +45,7 @@ const Nav = styled.nav`
 `
 const StyledLogo = styled.img`
   height: 34px;
-  @media ${device.tablet} {
+  @media ${device.laptop} {
     height: 48px;
   }
 `
@@ -54,7 +54,7 @@ const DesktopLinks = styled.div`
   /*Hide Dekstop Nav links on mobile*/
   display: none;
 
-  @media ${device.tablet} {
+  @media ${device.laptop} {
     display: inline-block;
   }
   /*Desktop Nav links*/

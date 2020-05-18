@@ -6,8 +6,9 @@ import { device } from '../../theme/breakpoints'
 const StyledContainer = styled.div`
   max-width: 700px;
   padding: 16px;
-  margin: 0 auto 20px;
+  margin: 24px auto 20px;
   @media ${device.tablet} {
+    margin: 64px auto 20px;
     text-align: center;
   }
 `

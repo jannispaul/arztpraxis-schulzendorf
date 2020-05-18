@@ -42,7 +42,7 @@
   --h4: calc(var(--font-size) * var(--ratio));
   --h3: calc(var(--font-size) * var(--ratio) * var(--ratio));
   --h2: calc(var(--font-size) * var(--ratio) * var(--ratio) * var(--ratio));
-  --h1: calc(var(--font-size) * var(--ratio) * var(--ratio) * var(--ratio) * var(--ratio));
+  /* --h1: calc(var(--font-size) * var(--ratio) * var(--ratio) * var(--ratio) * var(--ratio)); */
 
 
   /* Timing */

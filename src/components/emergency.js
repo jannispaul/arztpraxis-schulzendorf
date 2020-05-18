@@ -8,6 +8,9 @@ const StyledContent = styled.div`
   padding: 16px;
   font-size: 18px;
   flex: 1 0 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 `
 
 const Emergency = (props) => (

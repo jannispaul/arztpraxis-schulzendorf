@@ -16,8 +16,7 @@ const IndexPage = () => (
   <Layout>
     {/* <Cookienotice></Cookienotice> */}
     {/* <Notice></Notice> */}
-    {/* <News></News>
-    <Hero></Hero> */}
+    {/* <News></News>*/} <Hero></Hero>
     <Times></Times>
     <ServicesTeaser></ServicesTeaser>
     <HeadlineText
