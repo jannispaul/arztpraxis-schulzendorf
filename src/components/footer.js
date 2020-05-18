@@ -27,7 +27,11 @@ const ContentContainer = styled.div`
     margin: 0 0 32px 0;
   }
   @media ${device.tablet} {
-    font-size: 18px;
+    p,
+    a,
+    td {
+      font-size: 18px;
+    }
     & > div {
       max-width: 100%;
       display: flex;
@@ -48,7 +52,7 @@ const StyledTableRow = styled.tr`
   }
 `
 const StyledTableCell = styled.td`
-  padding: 5px;
+  padding: 5px 10px;
   :nth-child(2) {
     text-align: right;
   }
@@ -83,7 +87,9 @@ const Footer = (props) => (
           </p>
         </div>
         <div>
-          <p>Öffnungszeiten</p>
+          <p>
+            <b>Öffnungszeiten</b>
+          </p>
           {props.data.allMarkdownRemark.edges.map(({ node }) => (
             <div key={node.id}>
               <StyledTable>
