@@ -108,10 +108,10 @@ const NavBar = (props) => (
         <Link to="/praxis" activeClassName="active">
           Unsere Praxis
         </Link>
-        <StyledButton link="/online-rezept" background="#FF2D7F">
+        <StyledButton href="/online-rezept" background="#FF2D7F">
           Online-Rezept
         </StyledButton>
-        <StyledButton link="/online-termin" background="#00892F">
+        <StyledButton href="/online-termin" background="#00892F">
           Online-Termin
         </StyledButton>
       </DesktopLinks>
