@@ -1,60 +1,88 @@
 import React from 'react'
-import { StaticQuery, graphql } from 'gatsby'
-import styles from './servicehero.module.css'
-import Img from 'gatsby-image'
+// import { Link } from 'gatsby'
+import MobileServiceHeroImage from '../components/Images/MobileServiceHeroImage'
+import ServiceHeroImage from '../components/Images/ServiceHeroImage'
+import styled from 'styled-components'
+import { device } from '../theme/breakpoints'
 
+const StyledSection = styled.section`
+  background: #fff;
+  position: relative;
+  padding-bottom: 40px;
+  position: relative;
+  svg {
+    margin: 0 auto -20px;
+    position: absolute;
+    bottom: 0;
+    min-width: 100%;
+  }
 
-const Contact = (props) => (
-  <section className={styles.section}>
-    <div className={styles.imageContainer}>
-      <Img fluid={props.data.imageOne.childImageSharp.fluid} className={styles.img} alt="Arztpraxis von innen"/>
-    </div>
-    <div className={styles.contentContainer}>
-      <div className={styles.contentContainerBody}>
-        <h1>Leistungen</h1>
-        <p>Wir sind eine Praxis für allgemeine Medizin und betreuen Patienten aller Altersgruppen, insbesondere ab drei Jahren bis ins Senium. Wir sehen uns als Praxis für die Familie und unser Ziel ist es, unseren Patienten in allen Lebenslagen unter die Arme zu greifen. Durch unterschiedliche Hauptaufgabenfelder ergänzen wir uns ideal und arbeiten stetig daran, den Gemeinschaftsgeist der Praxis zu stärken.
-        Wir bieten eine Vielzahl von Leistungen. Einige haben wir im Folgenden aufgelistet. Falls Sie Fragen haben, kontaktieren Sie uns gerne!</p>
+  @media ${device.tablet} {
+    min-height: 50vw;
+    margin: 0 auto -5vw;
+  }
+`
+
+const ContentContainer = styled.div`
+  padding: 16px;
+  z-index: 2;
+  @media ${device.tablet} {
+    margin-top: -10vw;
+    order: -1;
+    padding: 12vw 32px;
+    max-width: 1168px;
+    margin: 0 auto;
+    & > div {
+      position: relative;
+      max-width: 480px;
+    }
+  }
+  @media ${device.laptop} {
+    p {
+      font-size: 24px;
+    }
+  }
+`
+
+const Hero = () => (
+  <StyledSection>
+    <MobileServiceHeroImage></MobileServiceHeroImage>
+    <ServiceHeroImage></ServiceHeroImage>
+    <ContentContainer>
+      <div>
+        <h1>Unsere Leistungen</h1>
+        <p>
+          Wir sind eine Facharztpraxis für Allgemeine Medizin mit Schwerpunkt
+          Hausärztliche Versorgung. Wir betreuen alle Altersgruppen ab dem 3.
+          Lebensjahr. Wir sehen uns als Praxis für die gesamte Familie. Unser
+          ausgesprochenens Ziel ist, eine umfassende häusliche Versorgung zu
+          ermöglichen.
+        </p>
       </div>
-    </div>
-    {/* <svg viewBox="0 0 1440 93" fill="none" xmlns="http://www.w3.org/2000/svg" className={styles.wave} alt="Wavy Designelement">
-      <path d="M409.228 50.1749C528.22 53.3157 646.024 62.5784 761.898 71.6893C998.043 90.2568 1226.17 108.194 1440 72.3997V39.6003C1167.07 3.8058 875.892 21.7431 574.478 40.3107C519.717 43.6841 464.617 47.0783 409.228 50.1749Z" fill="#F5F6FE"/>
-      <path d="M1440 72.3997C1226.17 108.194 998.043 90.2568 761.898 71.6893C514.33 52.2236 257.951 32.065 0 72.3997V0H0.379325C145.93 4.38147 293.671 11.0948 443.139 17.8867C768.812 32.6854 1102.69 47.8569 1440 40.092V72.3997Z" fill="#FFF9E3"/>
-      <path d="M761.898 71.6893C514.33 52.2236 257.951 32.065 0 72.3997V13.2451C152.204 14.8865 308.438 24.5108 467.521 34.3107C783.515 53.7765 1110.75 73.935 1440 33.6004V72.3997C1226.17 108.194 998.043 90.2569 761.898 71.6893Z" fill="#FFE6D7"/>
-    </svg> */}
-  </section>
+    </ContentContainer>
+
+    <svg
+      viewBox="0 0 1440 148"
+      // width="1441"
+      // height="148"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <g fill="none" fill-rule="evenodd">
+        <path
+          d="M1440 53.343v63.773c-438 109.923-936-118.153-1440 0l.002-28.831C505.244 91.544 996.699-33.835 1440 53.343z"
+          fill="#A4ADF6"
+        />
+        <path
+          d="M1440 .986v116.13c-438 109.923-936-118.153-1440 0L-.001 8.043C454.663 3.43 946.536 104.776 1440.556.872l-.556.114z"
+          fill="#F1437F"
+        />
+        <path
+          d="M-.005 17.938C462.797 38.809 947.742 95.065 1440 78.073l.001 39.043c-438 109.923-936-118.153-1440 0z"
+          fill="#FFD300"
+        />
+      </g>
+    </svg>
+  </StyledSection>
 )
 
-
-export default props => (
-  <StaticQuery
-    query={graphql`
-      query {
-        imageOne: file(relativePath: { eq: "images/service.jpg" }) {
-          childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
-      }
-    `}
-  render={data => <Contact data={data} {...props} />}
-/>
-)
-
-
-
-
-
-
-// export const pageQuery = graphql`
-//   query {
-//     imageOne: file(relativePath: { eq: "images/testimage.png" }) {
-//       childImageSharp {
-//         fluid(maxWidth: 1000) {
-//           ...GatsbyImageSharpFluid
-//         }
-//       }
-//     }
-//   }
-// `
+export default Hero
