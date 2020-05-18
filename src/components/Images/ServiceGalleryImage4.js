@@ -7,10 +7,11 @@ import { device } from '../../theme/breakpoints'
 const StyledImage = styled(Img)`
   min-height: 100%;
   width: 100%;
+  /* margin-right: 16px; */
 
   @media ${device.tablet} {
-    flex: 1 0 50%;
-    margin-right: 16px;
+    flex: 1 0 calc(50% - 16px);
+    /* margin-right: 32px; */
   }
   @media ${device.laptop} {
   }
@@ -21,7 +22,7 @@ const ServiceGalleryImage4 = () => (
     query={graphql`
       query {
         serviceGalleryImage4: file(
-          relativePath: { eq: "images/services/service1.jpg" }
+          relativePath: { eq: "images/services/service4.jpg" }
         ) {
           childImageSharp {
             fluid(maxWidth: 560, quality: 60) {

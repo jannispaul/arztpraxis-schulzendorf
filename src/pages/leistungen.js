@@ -12,6 +12,7 @@ import { device } from '../theme/breakpoints'
 
 import ServiceCRPImage from '../components/Images/ServiceCRPImage'
 import ServiceSeniumImage from '../components/Images/ServiceSeniumImage'
+import ServicesImageGrid from '../components/Layout/ServicesImageGrid'
 
 const StyledContent = styled.div`
   padding: 16px;
@@ -68,6 +69,7 @@ const Leistungen = () => (
         </p>
       </StyledContent>
     </ContentCard>
+    <ServicesImageGrid></ServicesImageGrid>
     <Contact></Contact>
     <Emergency></Emergency>
   </Layout>

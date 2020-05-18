@@ -9,8 +9,8 @@ const StyledImage = styled(Img)`
   width: 100%;
 
   @media ${device.tablet} {
-    flex: 1 0 50%;
-    margin-right: 16px;
+    flex: 1 0 calc(50% - 16px);
+    /* margin-right: 32px; */
   }
   @media ${device.laptop} {
   }
@@ -21,7 +21,7 @@ const ServiceGalleryImage2 = () => (
     query={graphql`
       query {
         serviceGalleryImage2: file(
-          relativePath: { eq: "images/services/service1.jpg" }
+          relativePath: { eq: "images/services/service2.jpg" }
         ) {
           childImageSharp {
             fluid(maxWidth: 560, quality: 60) {
