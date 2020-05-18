@@ -1,20 +1,20 @@
 import React from 'react'
-import Buttonprimary from './buttonprimary'
-import { StaticQuery, graphql } from 'gatsby'
-import styles from './sectionstandard.module.css'
-import Img from 'gatsby-image'
+import styled from 'styled-components'
+import ContentCard from './Layout/ContentCard'
+import ButtonPrimary from './Layout/ButtonPrimary'
+import ContactImage from './Images/ContactImage'
 
-const Contact = props => (
-  <section className={styles.section}>
-    <div className={styles.imageContainer}>
-      <Img
-        fluid={props.data.imageOne.childImageSharp.fluid}
-        className={styles.img}
-        alt="Hausärztin Peggy von Niederhäusern lächelt freundlich in die Kamera während sie am Schreibtisch sitzt"
-      />
-    </div>
-    <div className={styles.contentContainer}>
-      <div className={styles.contentContainerBody}>
+const StyledContent = styled.div`
+  padding: 16px;
+  font-size: 18px;
+  flex: 1 0 50%;
+`
+
+const Contact = (props) => (
+  <section>
+    <ContentCard>
+      <ContactImage></ContactImage>
+      <StyledContent>
         <h2>Kontakt</h2>
         <p>
           Wir freuen uns auf Ihren Anruf und Besuch und helfen Ihnen bei Fragen
@@ -24,33 +24,33 @@ const Contact = props => (
           </a>
           .
         </p>
-        <Buttonprimary link="tel:+493376248550">
+        <ButtonPrimary link="tel:+493376248550">
           Tel: 033762 48550
-        </Buttonprimary>
-        <Buttonprimary link="mailto:info@arztpraxis-schulzendorf.de">
+        </ButtonPrimary>
+        <ButtonPrimary link="mailto:info@arztpraxis-schulzendorf.de">
           info@arztpraxis-schulzendorf.de
-        </Buttonprimary>
-      </div>
-    </div>
+        </ButtonPrimary>
+      </StyledContent>
+    </ContentCard>
   </section>
 )
-
-export default props => (
-  <StaticQuery
-    query={graphql`
-      query {
-        imageOne: file(relativePath: { eq: "images/contact.jpg" }) {
-          childImageSharp {
-            fluid(maxWidth: 1000) {
-              ...GatsbyImageSharpFluid_withWebp
-            }
-          }
-        }
-      }
-    `}
-    render={data => <Contact data={data} {...props} />}
-  />
-)
+export default Contact
+// export default (props) => (
+//   <StaticQuery
+//     query={graphql`
+//       query {
+//         imageOne: file(relativePath: { eq: "images/contact.jpg" }) {
+//           childImageSharp {
+//             fluid(maxWidth: 1000) {
+//               ...GatsbyImageSharpFluid_withWebp
+//             }
+//           }
+//         }
+//       }
+//     `}
+//     render={(data) => <Contact data={data} {...props} />}
+//   />
+// )
 
 // export const pageQuery = graphql`
 //   query {

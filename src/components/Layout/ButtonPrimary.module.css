@@ -1,0 +1,27 @@
+.button {
+  display: inline-block;
+  text-decoration: none;
+  border: 2px solid var(--color-medium);
+  border-radius: 5px;
+  text-align: center;
+  color: var(--color-medium);
+  padding: calc(0.5 * var(--space-unit)) calc(0.75 * var(--space-unit))
+    calc(0.5 * var(--space-unit) - 2px) calc(0.75 * var(--space-unit));
+  /* margin-top: var(--space-s); */
+  margin-bottom: var(--space-s);
+  margin-right: var(--space-s);
+  transition: color var(--time-fast), background-color var(--time-fast);
+  width: 100%;
+}
+.button:hover {
+  color: var(--color-white);
+  background: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+  transition: color var(--time-fast), background-color var(--time-fast);
+}
+
+@media (min-width: 400px) {
+  .button {
+    width: auto;
+  }
+}

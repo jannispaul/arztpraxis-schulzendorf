@@ -1,7 +1,7 @@
 import React from 'react'
 // import { Link } from 'gatsby'
 
-import Layout from '../components/layout'
+import Layout from '../components/Layout/Layout'
 import News from '../components/news'
 import ServiceHero from '../components/servicehero'
 import Service from '../components/service'

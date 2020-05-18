@@ -2,6 +2,12 @@ module.exports = {
   siteMetadata: {
     title: `Arztpraxis Schulzendorf`,
     siteUrl: `https://arztpraxis-schulzendorf.de`,
+    description: `Wir freuen uns auf Sie – Ihre Hausarztpraxis Schulzendorf. Ärztin Peggy von Niederhäusern sofgt für die ganze Familie ✓ Öffnungszeiten ✓ Kontakt ✓ Termine`,
+    keywords: [
+      'Hausarzt, Arztpraxis, krank, Schulzendorf, Peggy von Niederhäusern, Familienarzt, Kinderarzt, Grippe, Impfung, Untersuchung, Hausbesuch',
+    ],
+    image: '/social-image.jpg', // Path to your image you placed in the 'static' folder
+    siteUrl: `https://arztpraxis-schulzendorf.de/`,
   },
   plugins: [
     `gatsby-plugin-sitemap`,
@@ -16,7 +22,7 @@ module.exports = {
         theme_color: `#ffffff`,
         display: `fullscreen`,
         icon: `content/images/favicon.png`, // This path is relative to the root of the site.
-      }
+      },
     },
     `gatsby-plugin-postcss`,
     {
@@ -26,6 +32,7 @@ module.exports = {
         cssModules: false,
       },
     },
+    `gatsby-plugin-styled-components`,
     `gatsby-plugin-offline`,
     `gatsby-plugin-netlify-cms`,
     `gatsby-transformer-remark`,
@@ -33,7 +40,7 @@ module.exports = {
       resolve: `gatsby-source-filesystem`,
       options: {
         path: `${__dirname}/content/`,
-        name: "content",
+        name: 'content',
       },
     },
     `gatsby-transformer-sharp`,

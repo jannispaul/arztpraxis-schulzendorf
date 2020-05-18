@@ -1,59 +1,85 @@
 import React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
-import Img from 'gatsby-image'
+import styled from 'styled-components'
+import ContentCard from './Layout/ContentCard'
+import HeadlineText from './Layout/HeadlineText'
+import EntranceImage from './Images/EntranceImage'
 
-import styles from './sectionstandard.module.css'
+const StyledContent = styled.div`
+  padding: 16px;
+  font-size: 18px;
+  flex: 1 0 50%;
+`
 
-
+const StyledTable = styled.table`
+  width: 100%;
+  max-width: 400px;
+`
+const StyledTableRow = styled.tr`
+  :nth-of-type(2n + 1) {
+    background: #fafafa;
+  }
+`
+const StyledTableCell = styled.td`
+  padding: 10px;
+  :nth-child(2) {
+    text-align: right;
+  }
+`
 
 const Times = (props) => (
-  <section className={styles.section}>
-    <div className={styles.imageContainer}>
-      <Img fluid={props.data.image.childImageSharp.fluid} className={styles.img} alt="Einladender Eingang zur Arztpraxis mit Topfpflanzen an den Seiten"/>
-    </div>
-    <div className={styles.contentContainer}>
-      <div className={styles.contentContainerBody}>
-      <div className={styles.timesContaineer}>
-        <h2>Öffnungszeiten</h2>
-        {props.data.allMarkdownRemark.edges.map(({ node }) => (
-          <div key={node.id}>
-            <table className={styles.timetable}>
-              <tbody>
-                <tr>
-                  <td>Montag</td>
-                  <td>{node.frontmatter.monday}</td>
-                </tr>
-                <tr>
-                  <td>Dienstag</td>
-                  <td>{node.frontmatter.tuesday}</td>
-                </tr>
-                <tr>
-                  <td>Mittwoch</td>
-                  <td>{node.frontmatter.wednesday}</td>
-                </tr>
-                <tr>
-                  <td>Donnerstag</td>
-                  <td>{node.frontmatter.thursday}</td>
-                </tr>
-                <tr>
-                  <td>Freitag</td>
-                  <td>{node.frontmatter.friday}</td>
-                </tr>
-              </tbody>
-            </table>
-            <p>{node.rawMarkdownBody}</p>
-          </div>
-        ))}
-      </div>
-
-      </div>
-    </div>
+  <section>
+    <HeadlineText
+      h2="Wir sind für Sie da"
+      p="Wir betreuen Sie nach modernstem Standard an Diagnostik und know how. Wir legen als Team Wert auf aktuelle Weiterbildungen und Weitergabe unseres medizinischen und pflegerischen Wissens an unsere Patienten."
+    ></HeadlineText>
+    <ContentCard>
+      <EntranceImage></EntranceImage>
+      <StyledContent>
+        <div>
+          <h3>Öffnungszeiten</h3>
+          {props.data.allMarkdownRemark.edges.map(({ node }) => (
+            <div key={node.id}>
+              <StyledTable>
+                <tbody>
+                  <StyledTableRow>
+                    <StyledTableCell>Montag</StyledTableCell>
+                    <StyledTableCell>{node.frontmatter.monday}</StyledTableCell>
+                  </StyledTableRow>
+                  <StyledTableRow>
+                    <StyledTableCell>Dienstag</StyledTableCell>
+                    <StyledTableCell>
+                      {node.frontmatter.tuesday}
+                    </StyledTableCell>
+                  </StyledTableRow>
+                  <StyledTableRow>
+                    <StyledTableCell>Mittwoch</StyledTableCell>
+                    <StyledTableCell>
+                      {node.frontmatter.wednesday}
+                    </StyledTableCell>
+                  </StyledTableRow>
+                  <StyledTableRow>
+                    <StyledTableCell>Donnerstag</StyledTableCell>
+                    <StyledTableCell>
+                      {node.frontmatter.thursday}
+                    </StyledTableCell>
+                  </StyledTableRow>
+                  <StyledTableRow>
+                    <StyledTableCell>Freitag</StyledTableCell>
+                    <StyledTableCell>{node.frontmatter.friday}</StyledTableCell>
+                  </StyledTableRow>
+                </tbody>
+              </StyledTable>
+              <p>{node.rawMarkdownBody}</p>
+            </div>
+          ))}
+        </div>
+      </StyledContent>
+    </ContentCard>
   </section>
 )
 
-
-
-export default props => (
+export default (props) => (
   <StaticQuery
     query={graphql`
       query {
@@ -64,7 +90,7 @@ export default props => (
             }
           }
         }
-        allMarkdownRemark (filter: {fileAbsolutePath: {regex: "/times/"}}) {
+        allMarkdownRemark(filter: { fileAbsolutePath: { regex: "/times/" } }) {
           edges {
             node {
               id
@@ -81,6 +107,6 @@ export default props => (
         }
       }
     `}
-  render={data => <Times data={data} {...props} />}
-/>
+    render={(data) => <Times data={data} {...props} />}
+  />
 )
