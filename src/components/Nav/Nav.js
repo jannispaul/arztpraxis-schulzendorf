@@ -73,10 +73,9 @@ const DesktopLinks = styled.div`
     }
 
     &.active {
-      color: #2a72d3;
-      color: var(--color-primary);
-      padding-bottom: 37px;
-      border-bottom: 4px solid var(--color-primary);
+      color: #100e6d;
+      padding-bottom: 35px;
+      /* border-bottom: 4px solid #100e6d; */
     }
     :not(:last-of-type) {
       margin-right: 24px;

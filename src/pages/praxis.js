@@ -9,11 +9,11 @@ import Team from '../components/Team'
 import RezeptCard from '../components/RezeptCard'
 
 import Emergency from '../components/emergency'
-import Cookienotice from '../components/cookienotice'
-import News from '../components/news'
-import Times from '../components/times'
-import ServicesTeaser from '../components/ServicesTeaser'
-import Notice from '../components/notice'
+// import Cookienotice from '../components/cookienotice'
+// import News from '../components/news'
+// import Times from '../components/times'
+// import ServicesTeaser from '../components/ServicesTeaser'
+// import Notice from '../components/notice'
 
 const IndexPage = () => (
   <Layout>
@@ -25,7 +25,6 @@ const IndexPage = () => (
     <Team></Team>
     <PraxisImageGrid></PraxisImageGrid>
     <RezeptCard></RezeptCard>
-
     <Contact></Contact>
     <Emergency></Emergency>
   </Layout>

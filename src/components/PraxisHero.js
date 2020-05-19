@@ -1,6 +1,4 @@
 import React from 'react'
-// import { Link } from 'gatsby'
-import MobileHeroImage from '../components/Images/MobileHeroImage'
 import PraxisHeroImage from '../components/Images/PraxisHeroImage'
 import styled from 'styled-components'
 import { device } from '../theme/breakpoints'
@@ -47,35 +45,9 @@ const ContentContainer = styled.div`
     }
   }
 `
-const StyledButton = styled.a`
-  text-decoration: none;
-  display: block;
-  margin: 0 0 12px 0;
-  background: ${(props) => props.background};
-  color: #fff !important;
-  padding: 12px 16px 11px;
-  border-radius: 4px;
-  font-weight: 500;
-  text-align: center;
-  @media ${device.tablet} {
-    display: inline-block;
-    margin-right: 12px;
-  }
-  :hover {
-    color: #fff !important;
-    cursor: pointer;
-  }
-`
-const StyledAnchor = styled.a`
-  display: inline-block;
-  @media ${device.tablet} {
-    margin-top: 24px;
-  }
-`
 
 const Hero = () => (
   <StyledSection>
-    {/* <MobileHeroImage></MobileHeroImage> */}
     <PraxisHeroImage></PraxisHeroImage>
     <ContentContainer>
       <div>

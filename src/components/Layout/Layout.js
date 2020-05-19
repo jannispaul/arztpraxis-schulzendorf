@@ -5,6 +5,9 @@ import '../../theme/styles.css'
 import Nav from '../Nav/Nav'
 import MobileMenu from '../Nav/MobileMenu'
 import Footer from '../Footer'
+import News from '../news'
+import CookieNotice from '../cookienotice'
+import Notice from '../notice'
 
 class Layout extends React.Component {
   state = {
@@ -23,9 +26,10 @@ class Layout extends React.Component {
           burgerButtonClickHandler={this.burgerButtonToggleClickHandler}
           showMobileMenu={this.state.mobileMenuOpen}
         />
-        {/* The following line causes an error */}
         <MobileMenu showMobileMenu={this.state.mobileMenuOpen} />
-        {/* <CookieNotice /> */}
+        <CookieNotice />
+        <Notice></Notice>
+        <News></News>
         <div>{this.props.children}</div>
         <Footer />
       </>
