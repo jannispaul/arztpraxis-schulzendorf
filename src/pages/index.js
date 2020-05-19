@@ -10,14 +10,15 @@ import HeadlineText from '../components/Layout/HeadlineText'
 import Emergency from '../components/emergency'
 // // import News from '../components/news'
 // // import Cookienotice from '../components/cookienotice'
-// import Notice from '../components/notice'
+import Notice from '../components/notice'
 import RezeptCard from '../components/RezeptCard'
 
 const IndexPage = () => (
   <Layout>
     {/* <Cookienotice></Cookienotice> */}
-    {/* <Notice></Notice> */}
-    {/* <News></News>*/} <Hero></Hero>
+    {/* <News></News>*/}
+    <Notice></Notice>
+    <Hero></Hero>
     <Times></Times>
     <ServicesTeaser></ServicesTeaser>
     <HeadlineText

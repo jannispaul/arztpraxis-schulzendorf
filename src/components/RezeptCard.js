@@ -57,7 +57,7 @@ const RezeptCard = (props) => (
           Folgerezept anfordern
         </h2>
         <p>Sie können auch ganz einfach online ein Folgerezept anfordern.</p>
-        <StyledButton href="/online-rezept" background="#FF2D7F">
+        <StyledButton to="/online-rezept" background="#FF2D7F">
           Online-Rezept
         </StyledButton>
       </ContentContainer>

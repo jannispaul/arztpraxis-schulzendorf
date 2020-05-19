@@ -232,6 +232,17 @@ const Datenschutz = () => (
         entnehmen.
       </p>
       <br />
+      <h2>Formular-Übermittelung mittels Integromat</h2>
+      <p>
+        Bei der Übermittelung eines Online-Rezepts über das auf dieser Seite
+        befindliche Formular werden Ihre Daten an die Integromat Server
+        gesendet. Von dort wird eine E-Mail an die Praxis geschickt und die
+        Daten werden umgehend nach ihrer Verarbeitung vom Server gelöscht. Die
+        Integromat Datenschutzbestimmungen finden Sie hier:{' '}
+        <a href="https://support.integromat.com/hc/en-us/articles/360001988174">
+          https://support.integromat.com/hc/en-us/articles/360001988174
+        </a>
+      </p>
       <br />
       <small>
         Diese Datenschutzerkl&auml;rung wurde mit dem{' '}
