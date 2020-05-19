@@ -25,6 +25,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-postcss`,
+    `gatsby-plugin-preact`,
     {
       resolve: `gatsby-plugin-css-customs`,
       // defaults

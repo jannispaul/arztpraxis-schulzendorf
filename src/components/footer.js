@@ -4,8 +4,6 @@ import { Link } from 'gatsby'
 import styled from 'styled-components'
 import { device } from '../theme/breakpoints'
 
-// import styles from './footer.module.css'
-
 const StyledFooter = styled.footer`
   width: 100%;
   background: #19284d;

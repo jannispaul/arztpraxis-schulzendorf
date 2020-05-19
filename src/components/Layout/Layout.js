@@ -31,7 +31,7 @@ class Layout extends React.Component {
         {/* <Notice></Notice> */}
         <News></News>
         <div>{this.props.children}</div>
-        <Footer />
+        <Footer></Footer>
       </>
     )
   }
