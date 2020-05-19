@@ -1,17 +1,18 @@
 import React from 'react'
 
 import Layout from '../components/Layout/Layout'
-import News from '../components/news'
 import PraxisHero from '../components/PraxisHero'
 import Contact from '../components/contact'
-import Times from '../components/times'
-import ServicesTeaser from '../components/ServicesTeaser'
 import HeadlineText from '../components/Layout/HeadlineText'
 import PraxisImageGrid from '../components/Layout/PraxisImageGrid'
 import Team from '../components/Team'
+import RezeptCard from '../components/RezeptCard'
 
 import Emergency from '../components/emergency'
 import Cookienotice from '../components/cookienotice'
+import News from '../components/news'
+import Times from '../components/times'
+import ServicesTeaser from '../components/ServicesTeaser'
 import Notice from '../components/notice'
 
 const IndexPage = () => (
@@ -23,6 +24,8 @@ const IndexPage = () => (
     ></HeadlineText>
     <Team></Team>
     <PraxisImageGrid></PraxisImageGrid>
+    <RezeptCard></RezeptCard>
+
     <Contact></Contact>
     <Emergency></Emergency>
   </Layout>

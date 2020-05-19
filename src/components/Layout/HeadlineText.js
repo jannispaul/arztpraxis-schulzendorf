@@ -4,6 +4,7 @@ import styled from 'styled-components'
 import { device } from '../../theme/breakpoints'
 
 const StyledContainer = styled.div`
+  position: relative;
   max-width: 700px;
   padding: 16px;
   margin: 24px auto 20px;

@@ -8,7 +8,10 @@ import { device } from '../theme/breakpoints'
 
 const StyledSection = styled.section`
   @media ${device.tablet} {
-    padding-top: 100px;
+    padding-top: 50px;
+  }
+  @media ${device.laptop} {
+    padding-top: 70px;
   }
 `
 const StyledContent = styled.div`
@@ -39,7 +42,7 @@ const StyledTableCell = styled.td`
 `
 
 const Times = (props) => (
-  <StyledSection>
+  <StyledSection id="oeffnungszeiten">
     <HeadlineText
       h2="Wir sind für Sie da"
       p="Wir betreuen Sie nach modernstem Standard an Diagnostik und know how. Wir legen als Team Wert auf aktuelle Weiterbildungen und Weitergabe unseres medizinischen und pflegerischen Wissens an unsere Patienten."

@@ -23,43 +23,47 @@ const MobileNav = styled.div`
 
 /*Mobile Nav Links with animation based on prop */
 const StyledLink = styled(Link)`
-    /* transform: ${(props) =>
-      props.showMobileMenu ? 'translateY(0%)' : 'translateY(-100px)'}; */
-    margin-top: 5vh;
-    display: block;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    text-align: center;
+  margin-top: 5vh;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
 
-    &.active {
-        color: #2a72d3;
-;
-    }
+  &.active {
+    color: #2a72d3;
+  }
 
-    /*animation of Menu items flying in slightly delayed*/
-    &:last-of-type {
-        transition-delay: 0;
-    }
-    &:nth-of-type(4) {
-        transition-delay: 50ms;
-    }
-    &:nth-of-type(3) {
-        transition-delay: 100ms;
-    }
-    &:nth-of-type(2) {
-        transition-delay: 150ms;
-    }
-    &:nth-of-type(1) {
-        transition-delay: 200ms;
-    }
-    transition: transform 1000ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  /*animation of Menu items flying in slightly delayed*/
+  &:last-of-type {
+    transition-delay: 0;
+  }
+  &:nth-of-type(4) {
+    transition-delay: 50ms;
+  }
+  &:nth-of-type(3) {
+    transition-delay: 100ms;
+  }
+  &:nth-of-type(2) {
+    transition-delay: 150ms;
+  }
+  &:nth-of-type(1) {
+    transition-delay: 200ms;
+  }
+  transition: transform 1000ms cubic-bezier(0.075, 0.82, 0.165, 1);
+`
+
+const StyledExternal = styled.a`
+  margin-top: 5vh;
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  transition: transform 1000ms cubic-bezier(0.075, 0.82, 0.165, 1);
 `
 
 const MobileMenu = (props) => {
-  // if(props.showMobileMenu){
-  //     console.log("test")
-  // }
   return (
     <MobileNav showMobileMenu={props.showMobileMenu}>
       <StyledLink
@@ -90,13 +94,9 @@ const MobileMenu = (props) => {
       >
         Online-Rezept
       </StyledLink>
-      <StyledLink
-        to="/online-termin/"
-        // showMobileMenu={props.showMobileMenu}
-        activeClassName="active"
-      >
+      <StyledExternal href="https://www.jameda.de/schulzendorf/aerzte/innere-allgemeinmediziner/peggy-von-niederhaeusern/uebersicht/81191615_1/?utm_source=OTB-Button&utm_campaign=Kunden-Homepages">
         Online-Termin
-      </StyledLink>
+      </StyledExternal>
     </MobileNav>
   )
 }

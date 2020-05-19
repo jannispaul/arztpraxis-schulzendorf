@@ -111,7 +111,10 @@ const NavBar = (props) => (
         <StyledButton href="/online-rezept" background="#FF2D7F">
           Online-Rezept
         </StyledButton>
-        <StyledButton href="/online-termin" background="#00892F">
+        <StyledButton
+          href="https://www.jameda.de/schulzendorf/aerzte/innere-allgemeinmediziner/peggy-von-niederhaeusern/uebersicht/81191615_1/?utm_source=OTB-Button&utm_campaign=Kunden-Homepages"
+          background="#00892F"
+        >
           Online-Termin
         </StyledButton>
       </DesktopLinks>

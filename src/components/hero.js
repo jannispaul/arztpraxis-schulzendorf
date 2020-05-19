@@ -15,6 +15,7 @@ const StyledSection = styled.section`
     position: absolute;
     bottom: 0;
     min-width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0) 45%, #f8f9fb 46%);
   }
 
   @media ${device.tablet} {
@@ -81,13 +82,18 @@ const Hero = () => (
           Familienpraxis betreuen wir Patienten aller Altersgruppen ab drei
           Jahren bis ins Senium.
         </p>
-        <StyledButton href="/online-termin" background="#00892F">
+        <StyledButton
+          href="https://www.jameda.de/schulzendorf/aerzte/innere-allgemeinmediziner/peggy-von-niederhaeusern/uebersicht/81191615_1/?utm_source=OTB-Button&utm_campaign=Kunden-Homepages"
+          background="#00892F"
+        >
           Online Termin buchen
         </StyledButton>
         <StyledButton href="tel:+493376248550" background="#0A1468">
           Tel: 033762 48550
         </StyledButton>
-        <StyledAnchor href="#times">Unsere Öffnungszeiten</StyledAnchor>
+        <StyledAnchor href="#oeffnungszeiten">
+          Unsere Öffnungszeiten
+        </StyledAnchor>
       </div>
     </ContentContainer>
 

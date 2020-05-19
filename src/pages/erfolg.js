@@ -2,9 +2,10 @@ import React from 'react'
 import Layout from '../components/Layout/Layout'
 import styled from 'styled-components'
 import { device } from '../theme/breakpoints'
+import RezeptImageGrid from '../components/Layout/RezeptImageGrid'
 
 const StyledSection = styled.section``
-const StyledFormContainer = styled.div`
+const StyledContainer = styled.div`
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
@@ -20,10 +21,11 @@ const StyledFormContainer = styled.div`
 const ErfolgPage = () => (
   <Layout>
     <StyledSection>
-      <StyledFormContainer>
+      <StyledContainer>
         <h1>Anfrage erfolgreich</h1>
         <p>Vielen Dank für Ihre Rezeptanfrage.</p>
-      </StyledFormContainer>
+      </StyledContainer>
+      <RezeptImageGrid></RezeptImageGrid>
     </StyledSection>
   </Layout>
 )

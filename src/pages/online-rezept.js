@@ -2,20 +2,17 @@ import React from 'react'
 import Layout from '../components/Layout/Layout'
 import styled from 'styled-components'
 import { device } from '../theme/breakpoints'
-// import News from '../components/news'
-// import PraxisHero from '../components/PraxisHero'
-// import Contact from '../components/contact'
-// import Times from '../components/times'
-// import ServicesTeaser from '../components/ServicesTeaser'
-// import HeadlineText from '../components/Layout/HeadlineText'
-// import PraxisImageGrid from '../components/Layout/PraxisImageGrid'
-// import Team from '../components/Team'
+import RezeptImageGrid from '../components/Layout/RezeptImageGrid'
 
-// import Emergency from '../components/emergency'
-// import Cookienotice from '../components/cookienotice'
-// import Notice from '../components/notice'
-
-const StyledSection = styled.section``
+const StyledSection = styled.section`
+  & > p {
+    max-width: 900px;
+    margin: auto;
+    padding: 32px 16px;
+    text-align: center;
+    margin-bottom: 48px;
+  }
+`
 const StyledFormContainer = styled.div`
   max-width: 800px;
   margin: 0 auto;
@@ -145,6 +142,13 @@ const IndexPage = () => (
           <StyledButton type="submit">Abschicken</StyledButton>
         </StyledForm>
       </StyledFormContainer>
+      <RezeptImageGrid></RezeptImageGrid>
+      <p>
+        Unser Leben ist die Medizin und die Betreuung von Menschen. Egal, wo der
+        Schuh drückt. Wir freuen uns über das Vertrauen, dass Sie uns
+        entgegenbringen und geben unser Bestes Ihren kostbarsten Besitz: Ihre
+        Gesundheit, zu unterstützen und zu bewahren.
+      </p>
     </StyledSection>
   </Layout>
 )

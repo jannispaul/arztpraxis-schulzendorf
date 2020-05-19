@@ -1,7 +1,7 @@
 import React from 'react'
 
 import Layout from '../components/Layout/Layout'
-import News from '../components/news'
+// import News from '../components/news'
 import Hero from '../components/hero'
 import Contact from '../components/contact'
 import Times from '../components/times'
@@ -9,8 +9,9 @@ import ServicesTeaser from '../components/ServicesTeaser'
 import HeadlineText from '../components/Layout/HeadlineText'
 
 import Emergency from '../components/emergency'
-import Cookienotice from '../components/cookienotice'
+// import Cookienotice from '../components/cookienotice'
 import Notice from '../components/notice'
+import RezeptCard from '../components/RezeptCard'
 
 const IndexPage = () => (
   <Layout>
@@ -25,6 +26,7 @@ const IndexPage = () => (
       link="/praxis"
       linkText="Mehr erfahren"
     ></HeadlineText>
+    <RezeptCard></RezeptCard>
     <Contact></Contact>
     <Emergency></Emergency>
   </Layout>

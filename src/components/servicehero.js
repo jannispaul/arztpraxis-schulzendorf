@@ -15,6 +15,7 @@ const StyledSection = styled.section`
     position: absolute;
     bottom: 0;
     min-width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0) 45%, #f8f9fb 46%);
   }
 
   @media ${device.tablet} {

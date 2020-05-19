@@ -10,16 +10,18 @@ const StyledSection = styled.section`
   position: relative;
   padding-bottom: 40px;
   position: relative;
+
   svg {
     margin: 0 auto -20px;
     position: absolute;
     bottom: 0;
     min-width: 100%;
+    background: linear-gradient(rgba(255, 255, 255, 0) 45%, #f8f9fb 46%);
   }
 
   @media ${device.tablet} {
     min-height: 50vw;
-    margin: 0 auto -5vw;
+    margin: 0 auto;
   }
 `
 

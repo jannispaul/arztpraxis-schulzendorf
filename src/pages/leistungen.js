@@ -7,6 +7,7 @@ import ServiceHero from '../components/servicehero'
 import Service from '../components/service'
 import Contact from '../components/contact'
 import Emergency from '../components/emergency'
+import RezeptCard from '../components/RezeptCard'
 
 import { device } from '../theme/breakpoints'
 
@@ -70,6 +71,8 @@ const Leistungen = () => (
       </StyledContent>
     </ContentCard>
     <ServicesImageGrid></ServicesImageGrid>
+    <RezeptCard></RezeptCard>
+
     <Contact></Contact>
     <Emergency></Emergency>
   </Layout>
