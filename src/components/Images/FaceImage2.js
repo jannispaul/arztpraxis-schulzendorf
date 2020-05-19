@@ -37,7 +37,7 @@ const FaceImage2 = () => (
         <StyledImage
           fluid={image.fluid}
           imgStyle={{ objectFit: 'cover' }}
-          alt="Blone Frau mit dunkler Brille"
+          alt="Portrait einer blonden Frau mit dunkler Brille"
         />
       )
     }}

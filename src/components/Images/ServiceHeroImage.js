@@ -50,7 +50,7 @@ const ServiceHeroImage = () => (
           fluid={image.fluid}
           objectFit="contain"
           objectPosition="100% 50%"
-          alt="Frau in blauem Kleid kümmert sich um Kind"
+          alt="Frau in blauem Kleid hält Tafeln mit Lebensmitteln zur Erklärung für dabei sitzende Patientetn"
         />
       )
     }}

@@ -37,7 +37,7 @@ const ServiceGalleryImage2 = () => (
         <StyledImage
           fluid={image.fluid}
           imgStyle={{ objectFit: 'cover' }}
-          alt="Einladender Eingang zur Arztpraxis mit Topfpflanzen an den Seiten"
+          alt="Frau in blauem Kleid zeigt Patienten etwas auf einer Tafel "
         />
       )
     }}

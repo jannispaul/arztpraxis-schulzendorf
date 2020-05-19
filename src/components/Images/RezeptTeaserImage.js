@@ -38,7 +38,7 @@ const RezeptTeaserImage = () => (
         <StyledImage
           fluid={image.fluid}
           imgStyle={{ objectFit: 'contain' }}
-          alt="Einladender Eingang zur Arztpraxis mit Topfpflanzen an den Seiten"
+          alt="Illustration eines Kalenders"
         />
       )
     }}

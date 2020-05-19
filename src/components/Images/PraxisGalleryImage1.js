@@ -37,7 +37,7 @@ const PraxisGalleryImage1 = () => (
         <StyledImage
           fluid={image.fluid}
           imgStyle={{ objectFit: 'cover' }}
-          alt="Einladender Eingang zur Arztpraxis mit Topfpflanzen an den Seiten"
+          alt="Kind liest ein Buch in Kinderspielecke"
         />
       )
     }}

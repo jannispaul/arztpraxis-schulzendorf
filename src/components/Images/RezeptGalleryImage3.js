@@ -35,7 +35,7 @@ const RezeptGalleryImage3 = () => (
         <StyledImage
           fluid={image.fluid}
           imgStyle={{ objectFit: 'cover' }}
-          alt="Einladender Eingang zur Arztpraxis mit Topfpflanzen an den Seiten"
+          alt="Heller Untersuchungsraum mit großem Fenster"
         />
       )
     }}

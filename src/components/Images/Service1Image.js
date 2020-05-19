@@ -37,7 +37,7 @@ const Service1Image = () => (
         <StyledImage
           fluid={image.fluid}
           imgStyle={{ objectFit: 'cover' }}
-          alt="Einladender Eingang zur Arztpraxis mit Topfpflanzen an den Seiten"
+          alt="Senior bekommt ein Blutdruckmessgerät von einer Frau angelegt"
         />
       )
     }}
