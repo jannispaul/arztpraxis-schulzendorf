@@ -8,6 +8,7 @@ const StyledSection = styled.section`
   position: relative;
   padding-bottom: 40px;
   position: relative;
+  overflow: hidden;
 
   svg {
     margin: 0 auto -20px;

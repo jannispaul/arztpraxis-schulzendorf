@@ -10,6 +10,7 @@ const StyledSection = styled.section`
   position: relative;
   padding-bottom: 40px;
   position: relative;
+  overflow: hidden;
   svg {
     margin: 0 auto -20px;
     position: absolute;
@@ -59,6 +60,7 @@ const StyledButton = styled.a`
     margin-right: 12px;
   }
   :hover {
+    background: ${(props) => props.bgHover};
     color: #fff !important;
     cursor: pointer;
   }
@@ -85,10 +87,15 @@ const Hero = () => (
         <StyledButton
           href="https://www.jameda.de/schulzendorf/aerzte/innere-allgemeinmediziner/peggy-von-niederhaeusern/uebersicht/81191615_1/?utm_source=OTB-Button&utm_campaign=Kunden-Homepages"
           background="#00892F"
+          bgHover="#00bd42"
         >
           Online Termin buchen
         </StyledButton>
-        <StyledButton href="tel:+493376248550" background="#0A1468">
+        <StyledButton
+          href="tel:+493376248550"
+          background="#0A1468"
+          bgHover="#0f1c95"
+        >
           Tel: 033762 48550
         </StyledButton>
         <StyledAnchor href="#oeffnungszeiten">

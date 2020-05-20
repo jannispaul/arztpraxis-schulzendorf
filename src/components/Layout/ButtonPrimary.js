@@ -16,7 +16,7 @@ const StyledButton = styled.a`
   width: 100%;
 
   :hover {
-    background: #0a1468;
+    background: #0f1c95;
     transition: all 200ms ease;
   }
 

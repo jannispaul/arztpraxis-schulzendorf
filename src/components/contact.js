@@ -3,19 +3,29 @@ import styled from 'styled-components'
 import ContentCard from './Layout/ContentCard'
 import ButtonPrimary from './Layout/ButtonPrimary'
 import ContactImage from './Images/ContactImage'
+import { device } from '../theme/breakpoints'
+
+const StyledSection = styled.section`
+  @media ${device.tablet} {
+    padding: 0 16px 0;
+  }
+`
 
 const StyledContent = styled.div`
-  padding: 16px;
+  padding: 16px 16px 48px;
   font-size: 18px;
   flex: 1 0 50%;
 
   display: flex;
   flex-direction: column;
   justify-content: center;
+  @media ${device.tablet} {
+    padding: 16px;
+  }
 `
 
 const Contact = (props) => (
-  <section>
+  <StyledSection>
     <ContentCard>
       <ContactImage></ContactImage>
       <StyledContent>
@@ -38,7 +48,7 @@ const Contact = (props) => (
         </div>
       </StyledContent>
     </ContentCard>
-  </section>
+  </StyledSection>
 )
 export default Contact
 // export default (props) => (

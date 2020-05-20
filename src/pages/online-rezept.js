@@ -37,6 +37,7 @@ const StyledForm = styled.form`
       align-items: flex-start;
       margin: 0 0 16px 0;
       text-align: left;
+      color: #3a478f;
     }
     input {
       font-size: 18px;
@@ -63,6 +64,7 @@ const StyledForm = styled.form`
   }
 `
 const StyledButton = styled.button`
+  border: none;
   text-decoration: none;
   display: block;
   width: 100%;

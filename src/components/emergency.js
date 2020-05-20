@@ -3,6 +3,13 @@ import styled from 'styled-components'
 import ButtonPrimary from './Layout/ButtonPrimary'
 import ContentCard from './Layout/ContentCard'
 import EmergencyImage from './Images/EmergencyImage'
+import { device } from '../theme/breakpoints'
+
+const StyledSection = styled.section`
+  @media ${device.tablet} {
+    padding: 0 16px 0;
+  }
+`
 
 const StyledContent = styled.div`
   padding: 16px;
@@ -14,7 +21,7 @@ const StyledContent = styled.div`
 `
 
 const Emergency = (props) => (
-  <section>
+  <StyledSection>
     <ContentCard>
       <EmergencyImage></EmergencyImage>
       <StyledContent>
@@ -32,7 +39,7 @@ const Emergency = (props) => (
         <ButtonPrimary link="tel:116117 ">Tel: 116117 </ButtonPrimary>
       </StyledContent>
     </ContentCard>
-  </section>
+  </StyledSection>
 )
 export default Emergency
 // export default (props) => (

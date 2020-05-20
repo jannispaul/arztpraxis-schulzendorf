@@ -7,7 +7,7 @@ import { device } from '../../theme/breakpoints'
 const StyledImage = styled(Img)`
   min-height: 100%;
   width: 100%;
-  margin-right: 16px;
+  /* margin-right: 16px; */
   @media ${device.tablet} {
     flex: 1 0 calc(50% - 16px);
     margin-right: 32px;

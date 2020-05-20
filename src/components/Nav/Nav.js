@@ -73,7 +73,7 @@ const DesktopLinks = styled.div`
     }
 
     &.active {
-      color: #100e6d;
+      color: #ff2d7f;
       padding-bottom: 35px;
       /* border-bottom: 4px solid #100e6d; */
     }
@@ -91,6 +91,7 @@ const StyledButton = styled.a`
   :hover {
     color: #fff !important;
     cursor: pointer;
+    background: ${(props) => props.bgHover};
   }
 `
 
@@ -107,12 +108,17 @@ const NavBar = (props) => (
         <Link to="/praxis" activeClassName="active">
           Unsere Praxis
         </Link>
-        <StyledButton href="/online-rezept" background="#FF2D7F">
+        <StyledButton
+          href="/online-rezept"
+          background="#FF2D7F"
+          bgHover="#ff619e"
+        >
           Online-Rezept
         </StyledButton>
         <StyledButton
           href="https://www.jameda.de/schulzendorf/aerzte/innere-allgemeinmediziner/peggy-von-niederhaeusern/uebersicht/81191615_1/?utm_source=OTB-Button&utm_campaign=Kunden-Homepages"
           background="#00892F"
+          bgHover="#00bd42"
         >
           Online-Termin
         </StyledButton>

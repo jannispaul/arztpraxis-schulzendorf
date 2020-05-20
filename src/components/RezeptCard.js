@@ -8,7 +8,7 @@ import RezeptTeaserImage from './Images/RezeptTeaserImage'
 
 const StyledSection = styled.section`
   @media ${device.tablet} {
-    padding: 48px 16px;
+    padding: 0 16px;
   }
 `
 const ContentContainer = styled.div`
@@ -16,7 +16,7 @@ const ContentContainer = styled.div`
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  padding: 32px 16px 48px;
+  padding: 32px 16px 64px;
   @media ${device.tablet} {
     max-width: 500px;
     margin: 0 auto;
@@ -44,6 +44,7 @@ const StyledButton = styled(Link)`
   :hover {
     color: #fff !important;
     cursor: pointer;
+    background: ${(props) => props.bgHover};
   }
 `
 
@@ -57,7 +58,11 @@ const RezeptCard = (props) => (
           Folgerezept anfordern
         </h2>
         <p>Sie können auch ganz einfach online ein Folgerezept anfordern.</p>
-        <StyledButton to="/online-rezept" background="#FF2D7F">
+        <StyledButton
+          to="/online-rezept"
+          background="#FF2D7F"
+          bgHover="#ff619e"
+        >
           Online-Rezept
         </StyledButton>
       </ContentContainer>

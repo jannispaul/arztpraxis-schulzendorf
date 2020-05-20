@@ -5,8 +5,8 @@ import styled from 'styled-components'
 import { device } from '../../theme/breakpoints'
 
 const StyledImage = styled(Img)`
-  width: 160px;
-  height: 160px;
+  width: 100px;
+  height: 100px;
   border-radius: 100%;
   margin: 0 auto 16px;
 

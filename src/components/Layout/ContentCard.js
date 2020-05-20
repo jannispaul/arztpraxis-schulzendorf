@@ -16,6 +16,8 @@ const StyledCard = styled.div`
     margin: 50px auto;
     border-radius: 4px;
     overflow: hidden;
+
+    /* padding: 0 16px; */
   }
 `
 const ButtonPrimary = (props) => <StyledCard>{props.children}</StyledCard>

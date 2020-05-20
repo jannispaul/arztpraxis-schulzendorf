@@ -17,15 +17,26 @@ const ContentContainer = styled.div`
   display: flex;
   justify-content: space-evenly;
   flex-wrap: wrap;
+  p {
+    font-size: 14px;
+  }
   & > div {
     flex: 1 0 50%;
     text-align: center;
     margin-bottom: 16px;
   }
+  @media ${device.tablet} {
+    p {
+      font-size: 16px;
+    }
+  }
   @media ${device.laptop} {
     flex-wrap: no-wrap;
     & > div {
       flex: 1 0 25%;
+    }
+    p {
+      font-size: 18px;
     }
   }
 `

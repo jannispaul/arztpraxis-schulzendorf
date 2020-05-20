@@ -6,9 +6,13 @@ import { device } from '../../theme/breakpoints'
 
 const StyledImage = styled(Img)`
   min-height: 100%;
-  width: 100%;
-  /* margin-right: 16px; */
+  width: calc(100% - 32px);
+  margin: auto;
+  padding-top: 24px;
+
   @media ${device.tablet} {
+    width: 100%;
+    margin: 24px 24px 24px 0;
     flex: 1 0 calc(50% - 16px);
     max-width: 50%;
     right: 0;
@@ -25,7 +29,7 @@ const RezeptTeaserImage = () => (
           relativePath: { eq: "images/rezept/rezept0.jpg" }
         ) {
           childImageSharp {
-            fluid(maxWidth: 500, quality: 60) {
+            fluid(maxWidth: 500, quality: 90) {
               ...GatsbyImageSharpFluid_withWebp_noBase64
             }
           }

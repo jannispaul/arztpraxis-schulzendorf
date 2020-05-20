@@ -6,9 +6,10 @@ import { device } from '../../theme/breakpoints'
 const StyledContainer = styled.div`
   position: relative;
   max-width: 700px;
-  padding: 16px;
+  padding: 48px 16px;
   margin: 24px auto 20px;
   @media ${device.tablet} {
+    padding: 16px;
     margin: 64px auto 20px;
     text-align: center;
   }
@@ -23,7 +24,18 @@ const StyledLink = styled(Link)`
   font-weight: 500;
   text-decoration: none;
   :after {
-    content: ' ➝';
+    margin-left: 5px;
+    content: '➝';
+    transform: translateX(0);
+    transition: transform 0.2s ease-out;
+    display: inline-block;
+  }
+
+  :hover {
+    :after {
+      transform: translateX(5px);
+      transition: transform 0.2s ease-out;
+    }
   }
 `
 

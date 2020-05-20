@@ -16,7 +16,7 @@ import ServiceSeniumImage from '../components/Images/ServiceSeniumImage'
 import ServicesImageGrid from '../components/Layout/ServicesImageGrid'
 
 const StyledContent = styled.div`
-  padding: 16px;
+  padding: 24px 16px 48px;
   font-size: 18px;
   flex: 1 0 50%;
 
@@ -38,7 +38,7 @@ const Leistungen = () => (
     <ServiceHero></ServiceHero>
     <Service></Service>
     <ContentCard>
-      <ServiceCRPImage></ServiceCRPImage>
+      <ServiceSeniumImage></ServiceSeniumImage>
       <StyledContent>
         <h3>Geriatrische Beratung / Im Senium Zuhause</h3>
         <p>
@@ -54,7 +54,7 @@ const Leistungen = () => (
       </StyledContent>
     </ContentCard>
     <ContentCard>
-      <ServiceSeniumImage></ServiceSeniumImage>
+      <ServiceCRPImage></ServiceCRPImage>
       <StyledContent>
         <h3>CRP Messung in Ihrer Praxis</h3>
         <p>

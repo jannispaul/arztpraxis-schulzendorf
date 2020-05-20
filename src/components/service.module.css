@@ -1,9 +1,9 @@
 .service {
-  padding: calc(2 * var(--space-l)) var(--space-unit);
   background: var(--color-lighter);
 }
 
 .list {
+  padding: calc(2 * var(--space-s)) var(--space-unit);
   column-count: 1;
   margin-bottom: var(--space-s);
 }
@@ -13,6 +13,9 @@
 .list svg {
   margin-right: 20px;
   fill: var(--color-success);
+}
+.service p {
+  margin: -24px 16px 40px;
 }
 
 @media (min-width: 950px) {

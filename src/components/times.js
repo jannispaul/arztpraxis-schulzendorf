@@ -8,14 +8,14 @@ import { device } from '../theme/breakpoints'
 
 const StyledSection = styled.section`
   @media ${device.tablet} {
-    padding-top: 50px;
+    padding: 50px 16px 0;
   }
   @media ${device.laptop} {
-    padding-top: 70px;
+    padding: 70px 16px 0;
   }
 `
 const StyledContent = styled.div`
-  padding: 32px 16px;
+  padding: 48px 16px;
   font-size: 18px;
   flex: 1 0 50%;
 

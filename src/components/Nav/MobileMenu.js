@@ -31,7 +31,7 @@ const StyledLink = styled(Link)`
   text-align: center;
 
   &.active {
-    color: #2a72d3;
+    color: #ff2d7f;
   }
 
   /*animation of Menu items flying in slightly delayed*/
@@ -52,15 +52,35 @@ const StyledLink = styled(Link)`
   }
   transition: transform 1000ms cubic-bezier(0.075, 0.82, 0.165, 1);
 `
-
-const StyledExternal = styled.a`
-  margin-top: 5vh;
+const StyledButton = styled(Link)`
+  margin: 5vh auto;
   display: block;
+  width: max-content;
   text-decoration: none;
   text-transform: uppercase;
   font-weight: 500;
   text-align: center;
   transition: transform 1000ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  background: ${(props) => props.background};
+  color: #fff !important;
+  padding: 12px 16px 11px;
+  border-radius: 4px;
+`
+
+const StyledExternal = styled.a`
+  margin: 5vh auto;
+  display: block;
+  width: max-content;
+
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+  transition: transform 1000ms cubic-bezier(0.075, 0.82, 0.165, 1);
+  background: ${(props) => props.background};
+  color: #fff !important;
+  padding: 12px 16px 11px;
+  border-radius: 4px;
 `
 
 const MobileMenu = (props) => {
@@ -87,14 +107,18 @@ const MobileMenu = (props) => {
       >
         Unsere Praxis
       </StyledLink>
-      <StyledLink
+      <StyledButton
+        background="#FF2D7F"
         to="/online-rezept/"
         // showMobileMenu={props.showMobileMenu}
         activeClassName="active"
       >
         Online-Rezept
-      </StyledLink>
-      <StyledExternal href="https://www.jameda.de/schulzendorf/aerzte/innere-allgemeinmediziner/peggy-von-niederhaeusern/uebersicht/81191615_1/?utm_source=OTB-Button&utm_campaign=Kunden-Homepages">
+      </StyledButton>
+      <StyledExternal
+        href="https://www.jameda.de/schulzendorf/aerzte/innere-allgemeinmediziner/peggy-von-niederhaeusern/uebersicht/81191615_1/?utm_source=OTB-Button&utm_campaign=Kunden-Homepages"
+        background="#00892F"
+      >
         Online-Termin
       </StyledExternal>
     </MobileNav>
