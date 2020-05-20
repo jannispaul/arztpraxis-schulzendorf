@@ -30,7 +30,7 @@
   --space-l: calc(2 * var(--space-unit));
 
   /* Typography */
-  --font-size: 1 rem;
+  --font-size: 1rem;
   --ratio: 1.25;
   --line-height: 1.4;
 
