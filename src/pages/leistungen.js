@@ -47,7 +47,7 @@ const Leistungen = () => (
           wenn Sie uns nicht mehr allein aufsuchen können. Wir bieten
           Routinehausbesuche, um objektiv uns zu überzeugen, dass Sie gut
           versorgt sind. Dafür haben wir eine speziell ausgebildete medizinische
-          Fachangestellte (NäPah), die feste Hausbesuchsrunden betreut. Bei
+          Fachangestellte (NäPa), die feste Hausbesuchsrunden betreut. Bei
           akuten Erkrankungen und geplant kommt auch die Praxisärztin zu Ihnen
           nach Hause.
         </p>

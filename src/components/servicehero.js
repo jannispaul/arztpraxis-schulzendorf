@@ -56,7 +56,7 @@ const Hero = () => (
           Wir sind eine Facharztpraxis für Allgemeine Medizin mit Schwerpunkt
           Hausärztliche Versorgung. Wir betreuen alle Altersgruppen ab dem 3.
           Lebensjahr. Wir sehen uns als Praxis für die gesamte Familie. Unser
-          ausgesprochenens Ziel ist, eine umfassende häusliche Versorgung zu
+          ausgesprochenes Ziel ist, eine umfassende häusliche Versorgung zu
           ermöglichen.
         </p>
       </div>

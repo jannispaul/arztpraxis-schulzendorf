@@ -9,7 +9,7 @@ const Service = () => (
   <section className={styles.service}>
     <HeadlineText
       h2="Wir bieten Ihnen"
-      p="Von Impfungen und Jugenduntersuchungen, akuten Infekten, Schmerzerkrankungen und psychosomatischen Leiden bis Betreuung von Patienten mit chronischen Erkrankungen. Wir möchten in Zusammenarbeit mit Patient und Familie, jedem Patienten ermöglichen, trotz gesundheitlicher Beeinträchtigungen in ihrem/seinem Zuhause sicher versorgt zu bleiben."
+      p="Von Impfungen und Jugenduntersuchungen, akuten Infekten, Schmerzerkrankungen und psychosomatischen Leiden bis Betreuung von Patienten mit chronischen Erkrankungen. Wir möchten in Zusammenarbeit mit Patient und Familie, jedem Patienten ermöglichen trotz gesundheitlicher Beeinträchtigungen in ihrem/seinem Zuhause sicher versorgt zu bleiben."
     ></HeadlineText>
     <ul className={styles.list}>
       <li>
