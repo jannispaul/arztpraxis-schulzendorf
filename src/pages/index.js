@@ -11,14 +11,14 @@ import Emergency from '../components/emergency'
 // // import News from '../components/news'
 // // import Cookienotice from '../components/cookienotice'
 import Notice from '../components/notice'
-import NoticeVertretung from '../components/noticeVertretung'
+// import NoticeVertretung from '../components/noticeVertretung'
 import RezeptCard from '../components/RezeptCard'
 
 const IndexPage = () => (
   <Layout>
     {/* <Cookienotice></Cookienotice> */}
     {/* <News></News>*/}
-    <NoticeVertretung></NoticeVertretung>
+    {/* <NoticeVertretung></NoticeVertretung> */}
     <Notice></Notice>
     <Hero></Hero>
     <Times></Times>
