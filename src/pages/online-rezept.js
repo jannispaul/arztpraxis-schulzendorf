@@ -111,7 +111,7 @@ const IndexPage = () => (
           Diese liegen am Folgetag für Sie zur Abholung in unserer Praxis
           bereit.
         </p>
-        <StyledForm action="https://hook.integromat.com/z50tcey4k521m0tp9gsf445mw6mrcg8c">
+        <StyledForm action="https://hook.integromat.com/cha2nsmnpou9ce2wpdl8q24xwprn3u8f">
           <div>
             <input
               type="hidden"
