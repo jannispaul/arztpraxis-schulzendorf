@@ -8,6 +8,4 @@ Vertretung: Dr Gottschall Diepenseer Str. 7a in Waltersdorf
 
 Tel: 030/63313023
 
-Wir wünschen Ihnen schönen Weihnachten und einen Guten Rutsch ins neue Jahr.
-
-Bleiben Sie schön gesund.
+Wir wünschen Ihnen schöne Weihnachten und einen guten Rutsch ins neue Jahr.
