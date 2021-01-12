@@ -72,24 +72,22 @@ const StyledAnchor = styled.a`
   }
 `
 
-const Hero = () => (
+const Hero = (props) => (
   <StyledSection>
     <MobileHeroImage></MobileHeroImage>
     <HeroImage></HeroImage>
     <ContentContainer>
       <div>
-        <h1>Arztpraxis Schulzendorf</h1>
+        <h1>{props.h1}</h1>
         <p>
-          Sie suchen einen Hausarzt in Schulzendorf? Wir freuen uns auf Sie! Als
-          Familienpraxis betreuen wir Patienten aller Altersgruppen ab drei
-          Jahren bis ins Senium.
+          {props.p}
         </p>
         <StyledButton
           href="https://www.jameda.de/schulzendorf/aerzte/innere-allgemeinmediziner/peggy-von-niederhaeusern/uebersicht/81191615_1/?utm_source=OTB-Button&utm_campaign=Kunden-Homepages"
           background="#00892F"
           bgHover="#00bd42"
         >
-          Online Termin buchen
+          {props.button} 
         </StyledButton>
         <StyledButton
           href="tel:+493376248550"
@@ -99,7 +97,7 @@ const Hero = () => (
           Tel: 033762 48550
         </StyledButton>
         <StyledAnchor href="#oeffnungszeiten">
-          Unsere Öffnungszeiten
+          {props.anchor}
         </StyledAnchor>
       </div>
     </ContentContainer>

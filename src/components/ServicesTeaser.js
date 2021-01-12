@@ -31,11 +31,8 @@ const StyledGrid = styled.div`
 
 const ServicesTeaser = (props) => (
   <section>
-    <HeadlineText
-      h2="Unsere Leistungen"
-      p="Von akuten Krankheitsymptomen über chronischen Problemen in Ihrer Gesundheit bis Durchführung der Vorsorgerichtlinien oder Planung Ihrer häuslichen Versorgung stehen wir Ihnen gerne beratend zur Seite."
-      link="/leistungen"
-      linkText="Mehr erfahren"
+    <HeadlineText {...props}
+     
     ></HeadlineText>
     <StyledGrid>
       <Service1Image></Service1Image>

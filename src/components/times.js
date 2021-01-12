@@ -43,38 +43,35 @@ const StyledTableCell = styled.td`
 
 const Times = (props) => (
   <StyledSection id="oeffnungszeiten">
-    <HeadlineText
-      h2="Wir sind für Sie da"
-      p="Wir betreuen Sie nach modernstem Standard an Diagnostik und know how. Wir legen als Team Wert auf aktuelle Weiterbildungen und Weitergabe unseres medizinischen und pflegerischen Wissens an unsere Patienten."
-    ></HeadlineText>
+    <HeadlineText {...props}></HeadlineText>
     <ContentCard>
       <EntranceImage></EntranceImage>
       <StyledContent>
-        <h3>Öffnungszeiten</h3>
+        <h3>{props.h3}</h3>
         {props.data.allMarkdownRemark.edges.map(({ node }) => (
           <div key={node.id}>
             <StyledTable>
               <tbody>
                 <StyledTableRow>
-                  <StyledTableCell>Montag</StyledTableCell>
+                  <StyledTableCell>{props.monday}</StyledTableCell>
                   <StyledTableCell>{node.frontmatter.monday}</StyledTableCell>
                 </StyledTableRow>
                 <StyledTableRow>
-                  <StyledTableCell>Dienstag</StyledTableCell>
+                  <StyledTableCell>{props.tuesday}</StyledTableCell>
                   <StyledTableCell>{node.frontmatter.tuesday}</StyledTableCell>
                 </StyledTableRow>
                 <StyledTableRow>
-                  <StyledTableCell>Mittwoch</StyledTableCell>
+                  <StyledTableCell>{props.wednesday}</StyledTableCell>
                   <StyledTableCell>
                     {node.frontmatter.wednesday}
                   </StyledTableCell>
                 </StyledTableRow>
                 <StyledTableRow>
-                  <StyledTableCell>Donnerstag</StyledTableCell>
+                  <StyledTableCell>{props.thursday}</StyledTableCell>
                   <StyledTableCell>{node.frontmatter.thursday}</StyledTableCell>
                 </StyledTableRow>
                 <StyledTableRow>
-                  <StyledTableCell>Freitag</StyledTableCell>
+                  <StyledTableCell>{props.friday}</StyledTableCell>
                   <StyledTableCell>{node.frontmatter.friday}</StyledTableCell>
                 </StyledTableRow>
               </tbody>

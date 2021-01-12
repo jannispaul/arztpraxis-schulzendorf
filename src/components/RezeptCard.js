@@ -53,17 +53,14 @@ const RezeptCard = (props) => (
     <ContentCard>
       <RezeptTeaserImage></RezeptTeaserImage>
       <ContentContainer>
-        <h2>
-          Jetzt Online <br />
-          Folgerezept anfordern
-        </h2>
-        <p>Sie können auch ganz einfach online ein Folgerezept anfordern.</p>
+        <h2 dangerouslySetInnerHTML={{ __html: props.h2 }}></h2>
+        <p>{props.p}</p>
         <StyledButton
           to="/online-rezept"
           background="#FF2D7F"
           bgHover="#ff619e"
         >
-          Online-Rezept
+          {props.button}
         </StyledButton>
       </ContentContainer>
     </ContentCard>

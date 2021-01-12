@@ -25,16 +25,13 @@ const Emergency = (props) => (
     <ContentCard>
       <EmergencyImage></EmergencyImage>
       <StyledContent>
-        <h2>Notdienst</h2>
+        <h2>{props.h2}</h2>
         <p>
-          Falls wir nicht erreichbar sind, wenden Sie sich bei
-          allgemeinmedizinischen Erkrankungen an die hausärztliche Notfallpraxis
-          im Aachenbach Krankenhaus in Königs Wusterhausen.
+          {props.p1}
         </p>
         {/* <ButtonPrimary link="tel:+493375288231">Tel: 03375 288231</ButtonPrimary> */}
         <p>
-          Wenn ein Hausbesuch notwendig ist, erreichen Sie den telefonischen
-          hausärztlichen Notdienst Ihrer Umgebung unter
+              {props.p2}
         </p>
         <ButtonPrimary link="tel:116117 ">Tel: 116117 </ButtonPrimary>
       </StyledContent>
