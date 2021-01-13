@@ -8,24 +8,26 @@ import ServicesTeaser from '../../components/ServicesTeaser'
 import HeadlineText from '../../components/Layout/HeadlineText'
 
 import Emergency from '../../components/emergency'
-// // import News from '../../components/news'
-// // import Cookienotice from '../../components/cookienotice'
 import Notice from '../../components/notice'
-// import NoticeVertretung from '../../components/noticeVertretung'
 import RezeptCard from '../../components/RezeptCard'
+import { Helmet } from 'react-helmet'
 
 const IndexPage = () => (
   <Layout>
+    <Helmet>
+      <title>Arztpraxis Schulzendorf</title>
+      <html lang="en" />
+    </Helmet>
     {/* <Cookienotice></Cookienotice> */}
     {/* <News></News>*/}
     {/* <NoticeVertretung></NoticeVertretung> */}
     <Notice></Notice>
-    <Hero 
-    h1="Arztpraxis Schulzendorf"
-    p="Sie suchen einen Hausarzt in Schulzendorf? Wir freuen uns auf Sie! Als Familienpraxis betreuen wir Patienten aller Altersgruppen ab drei
+    <Hero
+      h1="Arztpraxis Schulzendorf"
+      p="Sie suchen einen Hausarzt in Schulzendorf? Wir freuen uns auf Sie! Als Familienpraxis betreuen wir Patienten aller Altersgruppen ab drei
           Jahren bis ins Senium."
-    button="Online Termin buchen"
-    anchor="Unsere Öffnungszeiten"
+      button="Online Termin buchen"
+      anchor="Unsere Öffnungszeiten"
     ></Hero>
     <Times
       h2="Wir sind für Sie da"
@@ -38,7 +40,7 @@ const IndexPage = () => (
       friday="Friday"
     ></Times>
     <ServicesTeaser
-       h2="Unsere Leistungen"
+      h2="Unsere Leistungen"
       p="Von akuten Krankheitsymptomen über chronischen Problemen in Ihrer Gesundheit bis Durchführung der Vorsorgerichtlinien oder Planung Ihrer häuslichen Versorgung stehen wir Ihnen gerne beratend zur Seite."
       link="/leistungen"
       linkText="Mehr erfahren"
@@ -50,22 +52,23 @@ const IndexPage = () => (
       linkText="Mehr erfahren"
     ></HeadlineText>
     <RezeptCard
-    h2="Jetzt Online<br/>Folgerezept anfordern"
-    p="Sie können auch ganz einfach online ein Folgerezept anfordern."
-    button="Online-Rezept"
+      h2="Jetzt Online<br/>Folgerezept anfordern"
+      p="Sie können auch ganz einfach online ein Folgerezept anfordern."
+      button="Online-Rezept"
     ></RezeptCard>
     <Contact
-    h2="Contact"
-        p="Wir freuen uns auf Ihren Anruf und Besuch und helfen Ihnen bei Fragen
+      h2="Contact"
+      p="Wir freuen uns auf Ihren Anruf und Besuch und helfen Ihnen bei Fragen
           gerne weiter! Sie finden uns in der"
     ></Contact>
     <Emergency
-     h2="Emergency"
-    p1="Falls wir nicht erreichbar sind, wenden Sie sich bei
+      h2="Emergency"
+      p1="Falls wir nicht erreichbar sind, wenden Sie sich bei
           allgemeinmedizinischen Erkrankungen an die hausärztliche Notfallpraxis
           im Aachenbach Krankenhaus in Königs Wusterhausen."
-    p2="Wenn ein Hausbesuch notwendig ist, erreichen Sie den telefonischen
-          hausärztlichen Notdienst Ihrer Umgebung unter"></Emergency>
+      p2="Wenn ein Hausbesuch notwendig ist, erreichen Sie den telefonischen
+          hausärztlichen Notdienst Ihrer Umgebung unter"
+    ></Emergency>
   </Layout>
 )
 

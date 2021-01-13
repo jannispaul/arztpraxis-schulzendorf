@@ -16,6 +16,7 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Arztpraxis Schulzendorf`,
+        title: `Arztpraxis Schulzendorf`,
         short_name: `Hausarzt`,
         start_url: `/`,
         background_color: `#ffffff`,
