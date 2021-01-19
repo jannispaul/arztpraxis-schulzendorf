@@ -23,16 +23,15 @@ const IndexPage = () => (
     {/* <NoticeVertretung></NoticeVertretung> */}
     <Notice></Notice>
     <Hero
-      h1="Arztpraxis Schulzendorf"
-      p="Sie suchen einen Hausarzt in Schulzendorf? Wir freuen uns auf Sie! Als Familienpraxis betreuen wir Patienten aller Altersgruppen ab drei
-          Jahren bis ins Senium."
-      button="Online Termin buchen"
-      anchor="Unsere Öffnungszeiten"
+      h1="General Practitioner Schulzendorf"
+      p="We’re proud to care for people from all over the world. If you’re looking for an English-speaking team, we would be delighted to welcome you and your family to our general practice."
+      button="Book an Appointment Online"
+      anchor="Opening Hours"
     ></Hero>
     <Times
-      h2="Wir sind für Sie da"
-      p="Wir betreuen Sie nach modernstem Standard an Diagnostik und know how. Wir legen als Team Wert auf aktuelle Weiterbildungen und Weitergabe unseres medizinischen und pflegerischen Wissens an unsere Patienten."
-      h3="Hours"
+      h2="We’re There For You"
+      p="We care for you with the latest standards of health diagnostics and know-how. As a team, we value continual professional training and we’re committed to passing on our medical and nursing knowledge to our patients."
+      h3="Opening Hours"
       monday="Monday"
       tuesday="Tuesday"
       wednesday="Wednesday"
@@ -40,34 +39,30 @@ const IndexPage = () => (
       friday="Friday"
     ></Times>
     <ServicesTeaser
-      h2="Unsere Leistungen"
-      p="Von akuten Krankheitsymptomen über chronischen Problemen in Ihrer Gesundheit bis Durchführung der Vorsorgerichtlinien oder Planung Ihrer häuslichen Versorgung stehen wir Ihnen gerne beratend zur Seite."
+      h2="Our Services"
+      p="From acute symptoms and chronic health issues to performing preventative screening and making plans for at-home care, you can count on us for guidance and support."
       link="/leistungen"
-      linkText="Mehr erfahren"
+      linkText="Discover More"
     ></ServicesTeaser>
     <HeadlineText
-      h2="Unsere Praxis"
-      p="Unser Leben ist die Medizin und die Betreuung von Menschen. Egal, wo der Schuh drückt. Wir freuen uns über das Vertrauen, dass Sie uns entgegenbringen und geben unser Bestes Ihren kostbarsten Besitz: Ihre Gesundheit, zu unterstützen und zu bewahren."
+      h2="Our Practice"
+      p="Our lives revolve around medicine and caring for people, no matter the problem. We appreciate the trust you place in us and do our best to help you care for your most precious belonging: your health."
       link="/praxis"
-      linkText="Mehr erfahren"
+      linkText="Discover More"
     ></HeadlineText>
     <RezeptCard
-      h2="Jetzt Online<br/>Folgerezept anfordern"
-      p="Sie können auch ganz einfach online ein Folgerezept anfordern."
-      button="Online-Rezept"
+      h2="Order a Follow-Up Prescription Online"
+      p="Now you can easily request a follow-up prescription online."
+      button="Online Prescription"
     ></RezeptCard>
     <Contact
       h2="Contact"
-      p="Wir freuen uns auf Ihren Anruf und Besuch und helfen Ihnen bei Fragen
-          gerne weiter! Sie finden uns in der"
+      p="We’re happy to answer your questions and look forward to your call and visit! You can find us here:"
     ></Contact>
     <Emergency
-      h2="Emergency"
-      p1="Falls wir nicht erreichbar sind, wenden Sie sich bei
-          allgemeinmedizinischen Erkrankungen an die hausärztliche Notfallpraxis
-          im Aachenbach Krankenhaus in Königs Wusterhausen."
-      p2="Wenn ein Hausbesuch notwendig ist, erreichen Sie den telefonischen
-          hausärztlichen Notdienst Ihrer Umgebung unter"
+      h2="Emergency Services"
+      p1="If we’re not available and you’re experiencing a general health issue, please contact the emergency general practitioner’s office at Achenbach Krankenhaus in Königs Wusterhausen."
+      p2="If a home visit is necessary, you can reach your area's emergency medical service by telephone:"
     ></Emergency>
   </Layout>
 )
