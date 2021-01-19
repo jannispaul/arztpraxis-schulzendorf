@@ -6,12 +6,23 @@ module.exports = {
     keywords: [
       'Hausarzt, Arztpraxis, krank, Schulzendorf, Peggy von Niederhäusern, Familienarzt, Kinderarzt, Grippe, Impfung, Untersuchung, Hausbesuch',
     ],
+    langs: ['de', 'en'],
+    defaultLangKey: 'de',
     image: '/social-image.jpg', // Path to your image you placed in the 'static' folder
     siteUrl: `https://arztpraxis-schulzendorf.de/`,
   },
   plugins: [
     `gatsby-plugin-sitemap`,
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-i18n`,
+      options: {
+        langKeyDefault: 'de',
+        langKeyForNull: 'de',
+        prefixDefault: false,
+        useLangKeyLayout: false,
+      },
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {

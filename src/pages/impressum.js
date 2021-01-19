@@ -4,9 +4,22 @@ import { Link } from 'gatsby'
 import Layout from '../components/Layout/Layout'
 import Legalcontainer from '../components/legalcontainer'
 import ButtonPrimary from '../components/Layout/ButtonPrimary'
+import { Helmet } from 'react-helmet'
 
 const Impressum = () => (
   <Layout>
+    <Helmet>
+      <title>Arztpraxis Schulzendorf - Impressum</title>
+      <meta
+        name="keywords"
+        content="Hausarzt, Arztpraxis, krank, Schulzendorf, Peggy von Niederhäusern, Arzt, Familienarzt, Kinderarzt, Grippe, Impfung, Untersuchung, Hausbesuch, impressum"
+      ></meta>
+      <meta
+        name="description"
+        content="Wir freuen uns auf Sie – Ihre Hausarztpraxis Schulzendorf. Ärztin Peggy von Niederhäusern sorgt für die ganze Familie ✓ Öffnungszeiten ✓ Kontakt ✓ Termine"
+      ></meta>
+      <html lang="de" />
+    </Helmet>
     <Legalcontainer>
       <h1>Impressum</h1>
       <p>

@@ -1,27 +1,34 @@
 import React from 'react'
 
-import Layout from '../../components/Layout/Layout'
-import Hero from '../../components/hero'
-import Contact from '../../components/contact'
-import Times from '../../components/times'
-import ServicesTeaser from '../../components/ServicesTeaser'
-import HeadlineText from '../../components/Layout/HeadlineText'
+import Layout from '../components/Layout/Layout'
+import Hero from '../components/hero'
+import Contact from '../components/contact'
+import Times from '../components/times'
+import ServicesTeaser from '../components/ServicesTeaser'
+import HeadlineText from '../components/Layout/HeadlineText'
 
-import Emergency from '../../components/emergency'
-import Notice from '../../components/notice'
-import RezeptCard from '../../components/RezeptCard'
+import Emergency from '../components/emergency'
+import Notice from '../components/notice'
+import RezeptCard from '../components/RezeptCard'
 import { Helmet } from 'react-helmet'
 
 const IndexPage = () => (
-  <Layout>
+  <Layout lang="en">
     <Helmet>
-      <title>Arztpraxis Schulzendorf</title>
+      <title>General Practitioner Schulzendorf - Peggy von Niederhäusern</title>
+      <meta
+        name="keywords"
+        content="general practitioner, doctor, english speaking, family,  Schulzendorf"
+      ></meta>
+      <meta
+        name="description"
+        content="We look forward to seeing you – your general practitioner in Schulzendorf. Doctor Peggy von Niederhäusern cares for the whole family ✓ Opening hours ✓ Contact ✓ Appointments"
+      ></meta>
       <html lang="en" />
     </Helmet>
-    {/* <Cookienotice></Cookienotice> */}
     {/* <News></News>*/}
     {/* <NoticeVertretung></NoticeVertretung> */}
-    <Notice></Notice>
+    <Notice p="Dear patients,<br />If you suspect that you are infected with the new coronavirus, <b>please do not enter our practice!</b> To minimize the risk of infection, we urge you to stay at home and refrain from coming to our office.<br /><br />Please contact us by phone first:<br />Our Practice: 033762-48550 / Weekends: 116 117<br />Local Health Department (Mon.-Sat. 8.00-18.00): 03375-262146<br />Citizen Hotline (Mon.-Fri. 9.00-15.00): 0331-8683777"></Notice>
     <Hero
       h1="General Practitioner Schulzendorf"
       p="We’re proud to care for people from all over the world. If you’re looking for an English-speaking team, we would be delighted to welcome you and your family to our general practice."
@@ -62,7 +69,7 @@ const IndexPage = () => (
     <Emergency
       h2="Emergency Services"
       p1="If we’re not available and you’re experiencing a general health issue, please contact the emergency general practitioner’s office at Achenbach Krankenhaus in Königs Wusterhausen."
-      p2="If a home visit is necessary, you can reach your area's emergency medical service by telephone:"
+      p2="If a home visit is necessary, you can reach your area’s emergency medical service by telephone:"
     ></Emergency>
   </Layout>
 )

@@ -14,6 +14,7 @@ import { device } from '../theme/breakpoints'
 import ServiceCRPImage from '../components/Images/ServiceCRPImage'
 import ServiceSeniumImage from '../components/Images/ServiceSeniumImage'
 import ServicesImageGrid from '../components/Layout/ServicesImageGrid'
+import { Helmet } from 'react-helmet'
 
 const StyledContent = styled.div`
   padding: 24px 16px 48px;
@@ -34,6 +35,18 @@ const StyledContent = styled.div`
 
 const Leistungen = () => (
   <Layout>
+    <Helmet>
+      <title>Arztpraxis Schulzendorf - Unsere Leistungen</title>
+      <meta
+        name="keywords"
+        content="Hausarzt, Arztpraxis, krank, Schulzendorf, Peggy von Niederhäusern, Arzt, Familienarzt, Kinderarzt, Grippe, Impfung, Untersuchung, Hausbesuch"
+      ></meta>
+      <meta
+        name="description"
+        content="Wir freuen uns auf Sie – Ihre Hausarztpraxis Schulzendorf. Ärztin Peggy von Niederhäusern sorgt für die ganze Familie ✓ Öffnungszeiten ✓ Kontakt ✓ Termine"
+      ></meta>
+      <html lang="de" />
+    </Helmet>
     <News></News>
     <ServiceHero></ServiceHero>
     <Service></Service>
