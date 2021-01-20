@@ -15,6 +15,7 @@ import { Helmet } from 'react-helmet'
 const IndexPage = () => (
   <Layout lang="en">
     <Helmet>
+      <html lang="en" />
       <title>General Practitioner Schulzendorf - Peggy von Niederhäusern</title>
       <meta
         name="keywords"
@@ -24,7 +25,6 @@ const IndexPage = () => (
         name="description"
         content="We look forward to seeing you – your general practitioner in Schulzendorf. Doctor Peggy von Niederhäusern cares for the whole family ✓ Opening hours ✓ Contact ✓ Appointments"
       ></meta>
-      <html lang="en" />
     </Helmet>
     {/* <News></News>*/}
     {/* <NoticeVertretung></NoticeVertretung> */}

@@ -31,6 +31,7 @@ class RedirectIndex extends React.PureComponent {
     return (
       <Layout lang="de">
         <Helmet>
+          <html lang="de" />
           <title>Arztpraxis Schulzendorf - Peggy von Niederhäusern</title>
           <meta
             name="keywords"
@@ -40,7 +41,10 @@ class RedirectIndex extends React.PureComponent {
             name="description"
             content="Wir freuen uns auf Sie – Ihre Hausarztpraxis Schulzendorf. Ärztin Peggy von Niederhäusern sorgt für die ganze Familie ✓ Öffnungszeiten ✓ Kontakt ✓ Termine"
           ></meta>
-          <html lang="de" />
+          <meta
+            name="google-site-verification"
+            content="g_1gjLq6VVDauSPHKRiXRS-LtLs4Z79gTWVih9juzxE"
+          />
         </Helmet>
         {/* <News></News>*/}
         {/* <NoticeVertretung></NoticeVertretung> */}
