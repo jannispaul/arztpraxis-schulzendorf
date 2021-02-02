@@ -7,6 +7,7 @@ import MobileMenu from '../Nav/MobileMenu'
 import Footer from '../Footer'
 import News from '../news'
 import CookieNotice from '../cookienotice'
+import JamedaBadge from '../jamedaBadge'
 // import Notice from '../notice'
 
 class Layout extends React.Component {
@@ -22,6 +23,7 @@ class Layout extends React.Component {
   render() {
     return (
       <>
+        <JamedaBadge></JamedaBadge>
         <Nav
           burgerButtonClickHandler={this.burgerButtonToggleClickHandler}
           showMobileMenu={this.state.mobileMenuOpen}
