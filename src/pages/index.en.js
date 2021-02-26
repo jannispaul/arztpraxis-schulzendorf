@@ -8,7 +8,6 @@ import ServicesTeaser from '../components/ServicesTeaser'
 import HeadlineText from '../components/Layout/HeadlineText'
 
 import Emergency from '../components/emergency'
-import Notice from '../components/notice'
 import RezeptCard from '../components/RezeptCard'
 import { Helmet } from 'react-helmet'
 
@@ -28,7 +27,7 @@ const IndexPage = () => (
     </Helmet>
     {/* <News></News>*/}
     {/* <NoticeVertretung></NoticeVertretung> */}
-    <Notice p="Dear patients,<br />If you suspect that you are infected with the new coronavirus, <b>please do not enter our practice!</b> To minimize the risk of infection, we urge you to stay at home and refrain from coming to our office.<br /><br />Please contact us by phone first:<br />Our Practice: 033762-48550 / Weekends: 116 117<br />Local Health Department (Mon.-Sat. 8.00-18.00): 03375-262146<br />Citizen Hotline (Mon.-Fri. 9.00-15.00): 0331-8683777"></Notice>
+
     <Hero
       h1="General Practitioner in Schulzendorf"
       p="We’re proud to care for people from all over the world. If you’re looking for an English-speaking team, we would be delighted to welcome you and your family to our general practice."
