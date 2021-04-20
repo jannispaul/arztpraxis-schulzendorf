@@ -118,6 +118,16 @@ const IndexPage = () => (
               name="redirect"
               value="http://arztpraxis-schulzendorf.de/erfolg"
             ></input>
+            <input
+              type="checkbox"
+              name="contact_me_by_fax_only"
+              value="1"
+              style="display:none !important"
+              tabindex="-1"
+              autocomplete="off"
+            />
+            {/* <input type="text" name="a_password" style="display:none !important" tabindex="-1" autocomplete="off"> */}
+
             <label>
               Vorname *<input type="text" name="vorname" required></input>
             </label>
