@@ -101,6 +101,10 @@ const StyledCheckbox = styled.label`
     /* display: inline-block; */
   }
 `
+const StyledField = styled.input`
+  display: none !important;
+`
+
 const IndexPage = () => (
   <Layout>
     <StyledSection>
@@ -118,12 +122,11 @@ const IndexPage = () => (
               name="redirect"
               value="http://arztpraxis-schulzendorf.de/erfolg"
             ></input>
-            <input
+            <StyledField
               type="checkbox"
               name="contact_me_by_fax_only"
               value="1"
-              style="display:none !important"
-              tabindex="-1"
+              tabIndex="-1"
               autocomplete="off"
             />
             {/* <input type="text" name="a_password" style="display:none !important" tabindex="-1" autocomplete="off"> */}
