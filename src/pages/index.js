@@ -10,7 +10,7 @@ import Times from '../components/times'
 import ServicesTeaser from '../components/ServicesTeaser'
 import HeadlineText from '../components/Layout/HeadlineText'
 import Emergency from '../components/emergency'
-import VaccineNotice from '../components/vaccineNotice'
+// import VaccineNotice from '../components/vaccineNotice'
 import RezeptCard from '../components/RezeptCard'
 import { Helmet } from 'react-helmet'
 
@@ -48,7 +48,7 @@ class RedirectIndex extends React.PureComponent {
         </Helmet>
         {/* <News></News>*/}
         {/* <NoticeVertretung></NoticeVertretung> */}
-        <VaccineNotice p="Wir freuen uns, Sie zu informieren, dass das gesamte Team unserer Praxis gegen Covid 19 geimpft wurde. Bei allen brannte am  Abend erst der Arm, wir hatten Schüttelfrost, Schweißausbrüche, Fieber bis max. 39,5 °C und fühlten uns 1 Nacht und 1 Tag angeschlagen, aber ansonsten: STOLZ WIE BOLLE. Wir haben ohne schwere Infektion die Pandemie überstanden. Wir sind für Sie da. Wir hoffen Ihnen bald, ebenfalls diese Impfung, diesen Schutz gegen eine schwere Infektion mit dem Coronavirus bieten zu können."></VaccineNotice>
+        {/* <VaccineNotice p="Wir freuen uns, Sie zu informieren, dass das gesamte Team unserer Praxis gegen Covid 19 geimpft wurde. Bei allen brannte am  Abend erst der Arm, wir hatten Schüttelfrost, Schweißausbrüche, Fieber bis max. 39,5 °C und fühlten uns 1 Nacht und 1 Tag angeschlagen, aber ansonsten: STOLZ WIE BOLLE. Wir haben ohne schwere Infektion die Pandemie überstanden. Wir sind für Sie da. Wir hoffen Ihnen bald, ebenfalls diese Impfung, diesen Schutz gegen eine schwere Infektion mit dem Coronavirus bieten zu können."></VaccineNotice> */}
         <Hero
           h1="Arztpraxis Schulzendorf"
           p="Sie suchen einen Hausarzt in Schulzendorf? Wir freuen uns auf Sie! Als Familienpraxis betreuen wir Patienten aller Altersgruppen ab drei Jahren bis ins Senium."
