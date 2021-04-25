@@ -14,6 +14,16 @@ const IndexPage = () => (
   <Layout lang="en">
     <Helmet>
       <html lang="en" />
+      <link
+        rel="alternate"
+        hreflang="en"
+        href="https://arztpraxis-schulzendorf.de/en/"
+      />
+      <link
+        rel="alternate"
+        hreflang="de"
+        href="https://arztpraxis-schulzendorf.de/"
+      />
       <title>General Practitioner Schulzendorf - Peggy von Niederhäusern</title>
       <meta
         name="keywords"

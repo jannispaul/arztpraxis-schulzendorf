@@ -32,6 +32,16 @@ class RedirectIndex extends React.PureComponent {
       <Layout lang="de">
         <Helmet>
           <html lang="de" />
+          <link
+            rel="alternate"
+            hreflang="de"
+            href="https://arztpraxis-schulzendorf.de/"
+          />
+          <link
+            rel="alternate"
+            hreflang="en"
+            href="https://arztpraxis-schulzendorf.de/en/"
+          />
           <title>Arztpraxis Schulzendorf - Peggy von Niederhäusern</title>
           <meta
             name="keywords"
