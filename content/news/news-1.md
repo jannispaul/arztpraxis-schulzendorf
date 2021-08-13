@@ -1,11 +1,13 @@
 ---
 title: News
-date: 2021-04-23T09:49:51.768Z
+date: 2021-06-15T22:00:00.000Z
 ---
-ACHTUNG:
+Liebe Patienten,
 
-Am Donnerstagden 29.4.21 haben wir nur von 12-17 Uhr Sprechstunde ! Danach findet eine Impfsprechstunde statt.
+es ist endlich soweit! 
 
-Am Freitag den 30.4.21 bleibt die Praxis geschlossen, da wir als Impfteam unterwegs sind.
+Wir haben ausreichend Impfstoff für alle Impfwillge Menschen älter 16J.!!!!
 
-Ihr Praxisteam
+Möchtet Ihr geimpft werden, mit BionTech/Pfizer ruft uns an/ mailt uns!!
+
+Euer Praxisteam
