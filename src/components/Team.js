@@ -73,14 +73,6 @@ const Team = (props) => (
           Medizin. Fachangestellte
         </p>
       </div>
-      <div>
-        <FaceImage4></FaceImage4>
-        <p>
-          <strong>Anja Rettkowski</strong>
-          <br />
-          exam. Krankenschwester
-        </p>
-      </div>
     </ContentContainer>
   </StyledSection>
 )
