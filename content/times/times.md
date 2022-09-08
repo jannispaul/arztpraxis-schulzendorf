@@ -8,4 +8,4 @@ friday: '8:00 - 12:00'
 ---
 Urlaubsplan 2022
 
-Bürotag:30.9.22//Herbstferien:24.10.-28.10.// Weihnachtsferien:21.12.-31.12.22
+Bürotag:30.9.22// 25.11.22 //Herbstferien:24.10.-28.10.// Weihnachtsferien:21.12.-31.12.22
