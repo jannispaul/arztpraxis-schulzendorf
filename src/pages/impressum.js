@@ -41,7 +41,7 @@ const Impressum = () => (
           </Link>{' '}
         </li>
         <li>Telefon: 033762 48550</li>
-        <li>Fax: 033752 48552</li>
+        <li>Fax: 033762 48552</li>
       </ul>
       <br />
       <br />
