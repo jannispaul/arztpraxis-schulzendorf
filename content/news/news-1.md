@@ -2,4 +2,14 @@
 title: News
 date: 2023-01-19T07:16:09.122Z
 ---
-Liebe Patienten! Am Donnerstag den 19.1.23 und am Freitag den 20.1.23 fällt die Sprechstunde wegen Krankheit aus! Tanja und Cindy sind aber zu den Sprechzeiten in der Praxis und helfen Ihnen weiter!
+Winterferien: 30.1.23 - 3.2.23
+
+Vertretung: 
+
+Fr. Dr. Schimmelpfennig Tel. 03063313023 in Waltersdorf
+
+Fr. Dr. Groß Tel. 030/67895838 Eichwalde
+
+Hr. Dr. Pabst-Thuro Tel. 030/6758133 Eichwalde
+
+!!!!  BITTE vorher anrufen  !!!
