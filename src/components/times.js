@@ -84,6 +84,15 @@ const Times = (props) => (
   </StyledSection>
 )
 
+Times.defaultProps = {
+  h3: 'Öffnungszeiten',
+  monday: 'Montag',
+  tuesday: 'Dienstag',
+  wednesday: 'Mittwoch',
+  thursday: 'Donnerstag',
+  friday: 'Freitag',
+}
+
 export default (props) => (
   <StaticQuery
     query={graphql`

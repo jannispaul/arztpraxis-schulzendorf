@@ -49,32 +49,10 @@ const Contact = (props) => (
     </ContentCard>
   </StyledSection>
 )
-export default Contact
-// export default (props) => (
-//   <StaticQuery
-//     query={graphql`
-//       query {
-//         imageOne: file(relativePath: { eq: "images/contact.jpg" }) {
-//           childImageSharp {
-//             fluid(maxWidth: 1000) {
-//               ...GatsbyImageSharpFluid_withWebp
-//             }
-//           }
-//         }
-//       }
-//     `}
-//     render={(data) => <Contact data={data} {...props} />}
-//   />
-// )
 
-// export const pageQuery = graphql`
-//   query {
-//     imageOne: file(relativePath: { eq: "images/testimage.png" }) {
-//       childImageSharp {
-//         fluid(maxWidth: 1000) {
-//           ...GatsbyImageSharpFluid
-//         }
-//       }
-//     }
-//   }
-// `
+Contact.defaultProps = {
+  h2: 'Kontakt',
+  p:
+    'Wir freuen uns auf Ihren Anruf und Besuch und helfen Ihnen bei Fragen gerne weiter! Sie finden uns in der',
+}
+export default Contact

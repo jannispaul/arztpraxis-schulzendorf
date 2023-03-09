@@ -67,4 +67,9 @@ const RezeptCard = (props) => (
   </StyledSection>
 )
 
+RezeptCard.defaultProps = {
+  h2: 'Jetzt Online<br/>Folgerezept anfordern',
+  p: 'Sie können auch ganz einfach online ein Folgerezept anfordern.',
+  button: 'Online-Rezept',
+}
 export default RezeptCard

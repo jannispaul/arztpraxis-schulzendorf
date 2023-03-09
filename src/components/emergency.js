@@ -26,32 +26,20 @@ const Emergency = (props) => (
       <EmergencyImage></EmergencyImage>
       <StyledContent>
         <h2>{props.h2}</h2>
-        <p>
-          {props.p1}
-        </p>
+        <p>{props.p1}</p>
         {/* <ButtonPrimary link="tel:+493375288231">Tel: 03375 288231</ButtonPrimary> */}
-        <p>
-              {props.p2}
-        </p>
+        <p>{props.p2}</p>
         <ButtonPrimary link="tel:116117 ">Tel: 116117 </ButtonPrimary>
       </StyledContent>
     </ContentCard>
   </StyledSection>
 )
+Emergency.defaultProps = {
+  h2: 'Notdienst',
+  p1:
+    'Falls wir nicht erreichbar sind, wenden Sie sich bei allgemeinmedizinischen Erkrankungen an die hausärztliche Notfallpraxis im Aachenbach Krankenhaus in Königs Wusterhausen.',
+  p2:
+    'Wenn ein Hausbesuch notwendig ist, erreichen Sie den telefonischen hausärztlichen Notdienst Ihrer Umgebung unter',
+}
+
 export default Emergency
-// export default (props) => (
-//   <StaticQuery
-//     query={graphql`
-//       query {
-//         imageOne: file(relativePath: { eq: "images/emergency.jpg" }) {
-//           childImageSharp {
-//             fluid(maxWidth: 1000) {
-//               ...GatsbyImageSharpFluid_withWebp
-//             }
-//           }
-//         }
-//       }
-//     `}
-//     render={(data) => <Emergency data={data} {...props} />}
-//   />
-// )

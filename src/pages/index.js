@@ -65,14 +65,7 @@ class RedirectIndex extends React.PureComponent {
           button="Online Termin buchen"
           anchor="Unsere Öffnungszeiten"
         ></Hero>
-        <Times
-          h3="Öffnungszeiten"
-          monday="Montag"
-          tuesday="Dienstag"
-          wednesday="Mittwoch"
-          thursday="Donnerstag"
-          friday="Freitag"
-        ></Times>
+        <Times></Times>
         <ServicesTeaser
           h2="Unsere Leistungen"
           p="Von akuten Krankheitsymptomen über chronischen Problemen in Ihrer Gesundheit bis Durchführung der Vorsorgerichtlinien oder Planung Ihrer häuslichen Versorgung stehen wir Ihnen gerne beratend zur Seite."
@@ -85,24 +78,9 @@ class RedirectIndex extends React.PureComponent {
           link="/praxis"
           linkText="Mehr erfahren"
         ></HeadlineText>
-        <RezeptCard
-          h2="Jetzt Online<br/>Folgerezept anfordern"
-          p="Sie können auch ganz einfach online ein Folgerezept anfordern."
-          button="Online-Rezept"
-        ></RezeptCard>
-        <Contact
-          h2="Kontakt"
-          p="Wir freuen uns auf Ihren Anruf und Besuch und helfen Ihnen bei Fragen
-          gerne weiter! Sie finden uns in der"
-        ></Contact>
-        <Emergency
-          h2="Notdienst"
-          p1="Falls wir nicht erreichbar sind, wenden Sie sich bei
-          allgemeinmedizinischen Erkrankungen an die hausärztliche Notfallpraxis
-          im Aachenbach Krankenhaus in Königs Wusterhausen."
-          p2="Wenn ein Hausbesuch notwendig ist, erreichen Sie den telefonischen
-          hausärztlichen Notdienst Ihrer Umgebung unter"
-        ></Emergency>
+        <RezeptCard></RezeptCard>
+        <Contact></Contact>
+        <Emergency></Emergency>
       </Layout>
     )
   }
