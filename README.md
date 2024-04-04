@@ -46,3 +46,14 @@ Yarn related errors:
 ## Deploy
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-default)
+
+## Deprecated Code
+
+Run these instead:
+
+```
+node --openssl-legacy-provider node_modules/.bin/gatsby build
+node --openssl-legacy-provider node_modules/.bin/gatsby develop
+```
+
+Source: https://github.com/gatsbyjs/gatsby/discussions/33723#discussioncomment-1553461

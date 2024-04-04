@@ -5,6 +5,7 @@ import Contact from '../components/contact'
 import Times from '../components/times'
 import ServicesTeaser from '../components/ServicesTeaser'
 import HeadlineText from '../components/Layout/HeadlineText'
+import Disclaimer from '../components/disclaimer'
 
 import Emergency from '../components/emergency'
 import RezeptCard from '../components/RezeptCard'
@@ -43,6 +44,25 @@ const IndexPage = () => (
       button="Book an Appointment Online"
       anchor="Opening Hours"
     ></Hero>
+    <Disclaimer
+      h2="Dear patients, due to the numerous phone and digital inquiries, please note the following instructions:"
+      items={[
+        {
+          h3: 'If you wish to extend a sick note:',
+          p: 'Please come to the practice without prior request.',
+        },
+        {
+          h3: 'Are you using the online prescription request?',
+          p:
+            'Kindly refrain from inquiries after submission. Please visit your pharmacy 1 day after the online prescription request. The e-prescription will be stored on your health card.',
+        },
+        {
+          h3: 'Are you ill?',
+          p:
+            'Please refrain from emailing symptom descriptions. Kindly visit our practice during our opening hours. We need to assess your condition to decide whether a sick note is sufficient or if you require further diagnostics.',
+        },
+      ]}
+    ></Disclaimer>
     <Times
       h2="We’re There For You"
       p="We care for you with the latest standards of health diagnostics and know-how. As a team, we value continual professional training and we’re committed to passing on our medical and nursing knowledge to our patients."

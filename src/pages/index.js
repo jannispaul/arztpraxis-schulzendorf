@@ -13,6 +13,7 @@ import Emergency from '../components/emergency'
 // import VaccineNotice from '../components/vaccineNotice'
 import RezeptCard from '../components/RezeptCard'
 import { Helmet } from 'react-helmet'
+import Disclaimer from '../components/disclaimer'
 
 class RedirectIndex extends React.PureComponent {
   constructor(args) {
@@ -65,6 +66,25 @@ class RedirectIndex extends React.PureComponent {
           button="Online Termin buchen"
           anchor="Unsere Öffnungszeiten"
         ></Hero>
+        <Disclaimer
+          h2="Werte Patienten, aufgrund der zahlreichen telefonischen und digitalen Anfragen, beachten Sie bitte folgende Hinweise:"
+          items={[
+            {
+              h3: 'Sie möchten eine Krankschrift verlängern?',
+              p: 'Kommen Sie -ohne Anfrage- in die Praxis.',
+            },
+            {
+              h3: 'Sie nutzen die online Rezeptanfrage?',
+              p:
+                'Bitte sehen Sie von Anfragen nach der Bearbeitung ab.  Bitte gehen Sie 1 Tag nach der online Rezeptanfrage in Ihre Apotheke. Das e Rezept wird auf Ihrer Gesundheitskarte gespeichert sein.',
+            },
+            {
+              h3: 'Sie sind erkrankt?',
+              p:
+                'Bitte sehen Sie von e mails mit Symptombeschreibungen ab. Bitte kommen Sie zu unseren Öffnungszeiten in unsere Praxis. Wir müssen Sie sehen, um zu entscheiden, ob eine Krankschrift ausreicht oder Sie fortführender Diagnostik bedürfen.',
+            },
+          ]}
+        ></Disclaimer>
         <Times></Times>
         <ServicesTeaser
           h2="Unsere Leistungen"
