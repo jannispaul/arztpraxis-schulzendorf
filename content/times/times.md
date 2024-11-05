@@ -8,6 +8,10 @@ friday: 8:00 - 12:00
 ---
 Urlaubsplan 2024
 
- Osterferien:2.4. - 5.4.24// Sommerferien: 12.8. - 30.8.24 // Herbstferien: 28.10. - 1.11.24 / Weihnachtsferien: 23.12./ 27.12. / 30.12.24 // Brückentage 9. und 10.5. / 4.10.24
+Weihnachtsferien: 23.12./ 27.12. / 30.12.24 // 06.12.24 geschlossen
 
-5﻿.7.2024 geschlossen
+U﻿rlaubsplan 2025
+
+0﻿3.02.25 - 07.02.25 / 22.04.25 - 25.04.25 / 11.08.25 - 29.08.25 / 27.10.25 - 30.10.25
+
+Schließtage: 02.05.25 / 30.05.25 / 20.06.25 / 04.07.25
