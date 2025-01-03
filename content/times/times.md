@@ -6,12 +6,14 @@ wednesday: Vorsorge-Tag / Prevention Day
 thursday: 12:00 - 18:00
 friday: 8:00 - 12:00
 ---
-Urlaubsplan 2024
+Urlaubsplan 2025
 
-Weihnachtsferien: 23.12./ 27.12. / 30.12.24 // 06.12.24 geschlossen
+0﻿3.02.2 - 07.02.25 Winterurlaub
 
-U﻿rlaubsplan 2025
+2﻿2.04. - 25.04.25 Osterurlaub
 
-0﻿3.02.25 - 07.02.25 / 22.04.25 - 25.04.25 / 11.08.25 - 29.08.25 / 27.10.25 - 30.10.25
+1﻿1.08. - 29.08.25 Sommerurlaub
 
-Schließtage: 02.05.25 / 30.05.25 / 20.06.25 / 04.07.25
+2﻿7.10. - 30.10.25 Herbsturlaub
+
+S﻿chließtage: 02.05.25 / 20.06.25 / 04.07.25 / 02.01.26
