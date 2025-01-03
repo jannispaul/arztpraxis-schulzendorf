@@ -8,7 +8,7 @@ friday: 8:00 - 12:00
 ---
 Urlaubsplan 2025
 
-0﻿3.02.2 - 07.02.25 Winterurlaub
+0﻿3.02. - 07.02.25 Winterurlaub
 
 2﻿2.04. - 25.04.25 Osterurlaub
 
