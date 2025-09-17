@@ -6,14 +6,20 @@ wednesday: Vorsorge-Tag / Prevention Day
 thursday: 12:00 - 18:00
 friday: 8:00 - 12:00
 ---
-Urlaubsplan 2025    
+G﻿eschlossen: 
 
- 0﻿3.02. - 07.02.25 Winterurlaub     
+2﻿7.10.25 - 30.10.25
 
- 2﻿2.04. - 25.04.25 Osterurlaub       
+U﻿RLAUBSPLAN 2026
 
- 1﻿1.08. - 29.08.25 Sommerurlaub       
+W﻿inter: 02.02.26 - 06.02.26
 
- 2﻿7.10. - 30.10.25 Herbsturlaub        
+O﻿stern: 07.04.26 - 10.04.26
 
- S﻿chließtage: 02.05.25 / 20.06.25 / 04.07.25
+S﻿ommer: 27.07.26 - 14.08.26
+
+H﻿erbst: 26.10.26 - 30.10.26
+
+W﻿eihnachten: 28.12.26-29.12.29
+
+S﻿chließtage/Brückentage:  20.03.26 / 15.05.26 / 19.06.26 / 18.09.26 / 27.11.26
