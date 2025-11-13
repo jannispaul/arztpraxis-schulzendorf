@@ -8,7 +8,7 @@ friday: 8:00 - 12:00
 ---
 G﻿eschlossen: 
 
-2﻿7.10.25 - 30.10.25
+1﻿9.12.25
 
 U﻿RLAUBSPLAN 2026
 
