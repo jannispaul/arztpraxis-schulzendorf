@@ -6,10 +6,6 @@ wednesday: Vorsorge-Tag / Prevention Day
 thursday: 12:00 - 18:00
 friday: 8:00 - 12:00
 ---
-G﻿eschlossen: 
-
-1﻿9.12.25
-
 U﻿RLAUBSPLAN 2026
 
 W﻿inter: 02.02.26 - 06.02.26
