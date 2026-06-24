@@ -3,7 +3,6 @@ import styled from 'styled-components'
 import { device } from '../theme/breakpoints'
 import HeadlineText from '../components/Layout/HeadlineText'
 import FaceImage1 from '../components/Images/FaceImage1'
-import FaceImage2 from '../components/Images/FaceImage2'
 import FaceImage3 from '../components/Images/FaceImage3'
 import FaceImage4 from '../components/Images/FaceImage4'
 
@@ -54,15 +53,6 @@ const Team = (props) => (
           <strong>Peggy von Niederhäusern</strong>
           <br />
           FÄ für Allgemeinmedizin, Praxisinhaberin
-        </p>
-      </div>
-      <div>
-        <FaceImage2></FaceImage2>
-        <p>
-          <strong>Cindy Heinrich</strong>
-          <br />
-          Medizin. Fachangestellte, NäPa (Weiterbildung der KBV /
-          "Gemeindeschwester Agnes")
         </p>
       </div>
       <div>
