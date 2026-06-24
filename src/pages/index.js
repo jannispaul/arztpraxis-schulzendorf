@@ -70,18 +70,18 @@ class RedirectIndex extends React.PureComponent {
           h2="Werte Patienten, aufgrund der zahlreichen telefonischen und digitalen Anfragen, beachten Sie bitte folgende Hinweise:"
           items={[
             {
-              h3: 'Sie möchten eine Krankschrift verlängern?',
-              p: 'Kommen Sie -ohne Anfrage- in die Praxis.',
+              h3: 'Sie möchten eine Krankschreibung verlängern?',
+              p: 'Kommen Sie – ohne Anfrage – in die Praxis.',
             },
             {
-              h3: 'Sie nutzen die online Rezeptanfrage?',
+              h3: 'Sie nutzen die Online-Rezeptanfrage?',
               p:
-                'Bitte sehen Sie von Anfragen nach der Bearbeitung ab.  Bitte gehen Sie 1 Tag nach der online Rezeptanfrage in Ihre Apotheke. Das e Rezept wird auf Ihrer Gesundheitskarte gespeichert sein.',
+                'Bitte sehen Sie von Anfragen nach der Bearbeitung ab. Bitte gehen Sie 1 Tag nach der Online-Rezeptanfrage in Ihre Apotheke. Das E-Rezept wird auf Ihrer Gesundheitskarte gespeichert sein.',
             },
             {
               h3: 'Sie sind erkrankt?',
               p:
-                'Bitte sehen Sie von e mails mit Symptombeschreibungen ab. Bitte kommen Sie zu unseren Öffnungszeiten in unsere Praxis. Wir müssen Sie sehen, um zu entscheiden, ob eine Krankschrift ausreicht oder Sie fortführender Diagnostik bedürfen.',
+                'Bitte sehen Sie von E-Mails mit Symptombeschreibungen ab. Bitte kommen Sie zu unseren Öffnungszeiten in unsere Praxis. Wir müssen Sie sehen, um zu entscheiden, ob eine Krankschreibung ausreicht oder Sie weiterführender Diagnostik bedürfen.',
             },
           ]}
         ></Disclaimer>
