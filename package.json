@@ -12,7 +12,7 @@
     "gatsby-plugin-css-customs": "^0.4.0",
     "gatsby-plugin-i18n": "^1.0.1",
     "gatsby-plugin-manifest": "^2.10.0",
-    "gatsby-plugin-netlify-cms": "^4.8.0",
+    "gatsby-plugin-netlify-cms": "^7.3.0",
     "gatsby-plugin-offline": "^3.8.0",
     "gatsby-plugin-postcss": "^2.3.1",
     "gatsby-plugin-preact": "^4.5.0",
